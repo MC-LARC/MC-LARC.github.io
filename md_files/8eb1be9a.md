@@ -16,6 +16,9 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/8eb1be9a.png" alt="Task Image">
+</div>
+
+<div style="width: 50%; float: left;">
 
     <p></p>
     <p></p>
