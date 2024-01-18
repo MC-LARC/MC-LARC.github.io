@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MC-LARC</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: transform 0.2s;
+        }
+        #content {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #content .content-image {
+            max-width: 100%;
+            width: 700px;
+            height: auto;
+            cursor: default;
+            pointer-events: none;
+            border: none;
+            box-shadow: none;
+            outline: none;
+        }
+        #navigation {
+            display: none;
+            text-align: center;
+            margin: 20px;
+        }
+        #navigation button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        #file-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 20px;
+        }
+        #file-list h1 {
+            width: 100%;
+            text-align: center;
+            font-size: 32px;
+        }
+        #title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #title h1 {
+            font-size: 36px;
+        }
+        #authors {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #authors a {
+            color: #1367a7;
+            text-decoration: none;
+        }
+        #authors a:hover {
+            color: #208799;
+            text-decoration: underline;
+        }
+        #links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        #links a {
+            margin: 5px;
+            padding: 10px;
+            font-size: 24px;
+            color: #1367a7;
+            text-decoration: none;
+        }
+        #links a:hover {
+            color: #208799;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- New title and buttons -->
+    <div id="title">
+        <h1>MC-LARC, Multiple Choice-Language Abstraction and Reasoning Corpus: <br> Dataset for Evaluating the Reasoning Ability of LLM</h1>
+    </div>
+    <div id="authors">
+        <p><a href="-">Donghyeon Shin</a>, <a href="-">Sanha Hwang</a>, <a href="https://seokkil.github.io/">Seokki Lee</a>, <a href="https://yunhokim.github.io/">Yunho Kim</a>, <a href="https://seungpillee.github.io/">Seungpil Lee</a>, <a href="https://sundongkim.github.io/">Sundong Kim</a></p> <!-- Replace with actual author names -->
+    </div>
+    <div id="links">
+        <!--<a href="https://arxiv.org/abs/2305.18354">[Paper]</a>-->
+        <a href="https://github.com/GIST-DSLab/MC-LARC">[MC-LARC github page]</a>
+        <!--<a href="https://github.com/khalil-research/1D-ARC">[1D-ARC Dataset]</a>-->
+    </div>
+    <div id="file-list">
+        <h1>MC-LARC Dataset Visualizations</h1>
+    </div>
+    <div id="navigation">
+        <button id="previous">Previous</button>
+        <button id="next">Next</button>
+        <button id="back">Back</button>
+    </div>
+    <div id="content"></div>
+
+
+    <script>
+        var converter = new showdown.Converter();
+        var fileList = [
+            '007bbfb7.md', '00d62c1b.md', '017c7c7b.md', '025d127b.md', '045e512c.md', 
+            '0520fde7.md', '05269061.md', '05f2a901.md', '06df4c85.md', '08ed6ac7.md',
+            '09629e4f.md', '0962bcdd.md', '0a938d79.md', '0b148d64.md', '0ca9ddb6.md',
+            '0d3d703e.md', '0dfd9992.md', '0e206a2e.md', '10fcaaa3.md', '11852cab.md',
+            '1190e5a7.md', '137eaa0f.md', '150deff5.md', '178fcbfb.md', '1a07d186.md',
+            '1b2d62fb.md', '1b60fb0c.md', '1bfc4729.md', '1c786137.md', '1caeab9d.md',
+            '1cf80156.md', '1e0a9b12.md', '1e32b0e9.md', '1f0c79e5.md', '1f642eb9.md',
+            '1f85a75f.md', '1f876c06.md', '1fad071e.md', '2013d3e2.md', '2204b7a8.md',
+            '22168020.md', '22233c11.md', '2281f1f4.md', '228f6490.md', '22eb0ac0.md',
+            '234bbc79.md', '23581191.md', '239be575.md', '23b5c85d.md', '253bf280.md',
+            '25d487eb.md', '25d8a9c8.md', '25ff71a9.md', '264363fd.md', '272f95fa.md',
+            '27a28665.md', '28bf18c6.md', '28e73c20.md', '29623171.md', '29c11459.md',
+            '29ec7d0e.md', '2bcee788.md', '2bee17df.md', '2c608aff.md', '2dc579da.md',
+            '2dd70a9a.md', '2dee498d.md', '31aa019c.md', '321b1fc6.md', '32597951.md',
+            '3345333e.md', '3428a4f5.md', '3618c87e.md', '3631a71a.md', '363442ee.md',
+            '36d67576.md', '36fdfd69.md', '3906de3d.md', '39a8645d.md', '39e1d7f9.md',
+            '3aa6fb7a.md', '3ac3eb23.md', '3af2c5a8.md', '3bd67248.md', '3bdb4ada.md',
+            '3befdf3e.md', '3c9b0459.md', '3de23699.md', '3e980e27.md', '3eda0437.md',
+            '3f7978a0.md', '40853293.md', '4093f84a.md', '41e4d17e.md', '4258a5f9.md',
+            '4290ef0e.md', '42a50994.md', '4347f46a.md', '444801d8.md', '445eab21.md',
+            '447fd412.md', '44d8ac46.md', '44f52bb0.md', '4522001f.md', '4612dd53.md',
+            '46442a0e.md', '469497ad.md', '46f33fce.md', '47c1f68c.md', '484b58aa.md',
+            '48d8fb45.md', '4938f0c2.md', '496994bd.md', '49d1d64f.md', '4be741c5.md',
+            '4c4377d9.md', '4c5c2cf0.md', '50846271.md', '508bd3b6.md', '50cb2852.md',
+            '5117e062.md', '5168d44c.md', '539a4f51.md', '53b68214.md', '543a7ed5.md',
+            '54d82841.md', '54d9e175.md', '5521c0d9.md', '5582e5ca.md', '5614dbcf.md',
+            '56dc2b01.md', '56ff96f3.md', '57aa92db.md', '5ad4f10b.md', '5bd6f4ac.md',
+            '5c0a986e.md', '5c2c9af4.md', '5daaa586.md', '60b61512.md', '6150a2bd.md',
+            '623ea044.md', '62c24649.md', '63613498.md', '6430c8c4.md', '6455b5f5.md',
+            '662c240a.md', '67385a82.md', '673ef223.md', '6773b310.md', '67a3c6ac.md',
+            '67a423a3.md', '67e8384a.md', '681b3aeb.md', '6855a6e4.md', '68b16354.md',
+            '694f12f3.md', '6a1e5592.md', '6aa20dc0.md', '6b9890af.md', '6c434453.md',
+            '6cdd2623.md', '6cf79266.md', '6d0160f0.md', '6d0aefbc.md', '6d58a25d.md',
+            '6d75e8bb.md', '6e02f1e3.md', '6e19193c.md', '6e82a1ae.md', '6ecd11f4.md',
+            '6f8cd79b.md', '6fa7a44f.md', '72322fa7.md', '72ca375d.md', '73251a56.md',
+            '7447852a.md', '7468f01a.md', '746b3537.md', '74dd1130.md', '75b8110e.md',
+            '760b3cac.md', '776ffc46.md', '77fdfe62.md', '780d0b14.md', '7837ac64.md',
+            '794b24be.md', '7b6016b9.md', '7b7f7511.md', '7c008303.md', '7ddcd7ec.md',
+            '7df24a62.md', '7e0986d6.md', '7f4411dc.md', '7fe24cdd.md', '80af3007.md',
+            '810b9b61.md', '82819916.md', '83302e8f.md', '834ec97d.md', '8403a5d5.md',
+            '846bdb03.md', '855e0971.md', '85c4e7cd.md', '868de0fa.md', '8731374e.md',
+            '88a10436.md', '88a62173.md', '890034e9.md', '8a004b2b.md', '8be77c9e.md',
+            '8d5021e8.md', '8d510a79.md', '8e1813be.md', '8e5a5113.md', '8eb1be9a.md',
+            '8efcae92.md', '8f2ea7aa.md', '90c28cc7.md', '90f3ed37.md', '913fb3ed.md',
+            '91413438.md', '91714a58.md', '9172f3a0.md', '928ad970.md', '93b581b8.md',
+            '941d9a10.md', '94f9d214.md', '952a094c.md', '9565186b.md', '95990924.md',
+            '963e52fc.md', '97999447.md', '97a05b5b.md', '98cf29f8.md', '995c5fa3.md',
+            '99b1bc43.md', '99fa7670.md', '9aec4887.md', '9af7a82c.md', '9d9215db.md',
+            '9dfd6313.md', '9ecd008a.md', '9edfc990.md', '9f236235.md', 'a1570a43.md',
+            'a2fd1cf0.md', 'a3325580.md', 'a3df8b1e.md', 'a416b8f3.md', 'a48eeaf7.md',
+            'a5313dff.md', 'a5f85a15.md', 'a61ba2ce.md', 'a61f2674.md', 'a64e4611.md',
+            'a65b410d.md', 'a68b268e.md', 'a699fb00.md', 'a740d043.md', 'a78176bb.md',
+            'a79310a0.md', 'a85d4709.md', 'a87f7484.md', 'a8c38be5.md', 'a8d7556c.md',
+            'a9f96cdd.md', 'aabf363d.md', 'aba27056.md', 'ac0a08a4.md', 'ae3edfdc.md',
+            'ae4f1146.md', 'aedd82e4.md', 'af902bf9.md', 'b0c4d837.md', 'b190f7f5.md',
+            'b1948b0a.md', 'b230c067.md', 'b27ca6d3.md', 'b2862040.md', 'b527c5c6.md', 
+            'b548a754.md', 'b60334d2.md', 'b6afb2da.md', 'b7249182.md', 'b775ac94.md',
+            'b782dc8a.md', 'b8825c91.md', 'b8cdaf2b.md', 'b91ae062.md', 'b94a9452.md',
+            'b9b7f026.md', 'ba26e723.md', 'ba97ae07.md', 'bb43febb.md', 'bbc9ae5d.md',
+            'bc1d5164.md', 'bd4472b8.md', 'bda2d7a6.md', 'bdad9b1f.md', 'be94b721.md',
+            'beb8660c.md', 'c0f76784.md', 'c1d99e64.md', 'c3e719e8.md', 'c3f564a4.md',
+            'c444b776.md', 'c59eb873.md', 'c8cbb738.md', 'c8f0f002.md', 'c909285e.md',
+            'c9e6f938.md', 'c9f8e694.md', 'caa06a1f.md', 'cbded52d.md', 'cce03e0d.md',
+            'cdecee7f.md', 'ce22a75a.md', 'ce4f8723.md', 'ce602527.md', 'ce9e57f2.md',
+            'cf98881b.md', 'd037b0a7.md', 'd06dbe63.md', 'd07ae81c.md', 'd0f5fe59.md',
+            'd10ecb37.md', 'd13f3404.md', 'd22278a0.md', 'd23f8c26.md', 'd2abd087.md',
+            'd364b489.md', 'd406998b.md', 'd43fd935.md', 'd4469b4b.md', 'd4a91cb9.md',
+            'd4f3cd78.md', 'd511f180.md', 'd5d6de2d.md', 'd631b094.md', 'd687bc17.md',
+            'd6ad076f.md', 'd89b689b.md', 'd8c310e9.md', 'd90796e8.md', 'd9f24cd1.md',
+            'd9fac9be.md', 'dae9d2b5.md', 'db3e9e38.md', 'db93a21d.md', 'dbc1a6ce.md',
+            'dc0a314f.md', 'dc1df850.md', 'dc433765.md', 'ddf7fa4f.md', 'de1cd16c.md',
+            'ded97339.md', 'e179c5f4.md', 'e21d9049.md', 'e26a3af2.md', 'e3497940.md',
+            'e40b9e2f.md', 'e48d4e1a.md', 'e5062a87.md', 'e509e548.md', 'e50d258f.md',
+            'e6721834.md', 'e73095fd.md', 'e76a88a6.md', 'e8593010.md', 'e8dc4411.md',
+            'e9614598.md', 'e98196ab.md', 'e9afcf9a.md', 'ea32f347.md', 'ea786f4a.md',
+            'eb281b96.md', 'eb5a1d5d.md', 'ec883f72.md', 'ecdecbb3.md', 'ed36ccf7.md',
+            'ef135b50.md', 'f15e1fac.md', 'f1cefba8.md', 'f25fbde4.md', 'f25ffba3.md',
+            'f2829549.md', 'f35d900a.md', 'f5b8619d.md', 'f76d97a5.md', 'f8a8fe49.md',
+            'f8b3ba0a.md', 'f8c80d96.md', 'f8ff0b80.md', 'f9012d9b.md', 'fafffa47.md',
+            'fcb5c309.md', 'fcc82909.md', 'feca6190.md', 'ff28f65a.md', 'ff805c23.md'
+];
+        
+
+
+        fileList.forEach(function(filename) {
+            var imgName = filename.split('.md')[0] + '.png'; // Assuming jpg images. Adjust as per actual image type
+            $('#file-list').append('<img src="./images/thumbnails/' + imgName + '" data-mdfile="' + filename + '">');
+        });
+
+        $('#file-list img').click(function() {
+            var filename = $(this).attr('data-mdfile');
+            $('#file-list').hide();
+            $('#navigation').show();
+            loadMarkdown(filename);
+        });
+
+        function loadMarkdown(filename) {
+            $.ajax({
+                url: './md_files/' + filename,
+                dataType: 'text',
+                success: function(data) {
+                    var html = converter.makeHtml(data);
+                    var $html = $(html);
+                    $html.find('img').addClass('content-image');
+                    $('#content').html($html);
+                    $('#content').attr('data-currentfile', filename);
+                    // Prettify JSON
+                    try {
+                        var jsonStr = $('#content').text();
+                        var jsonObj = JSON.parse(jsonStr);
+                        $('#content').jsonView(jsonObj);
+                    } catch(e) {}
+                }
+            });
+        }
+
+        $('#previous').click(function() {
+            var currentFile = $('#content').attr('data-currentfile');
+            var index = fileList.indexOf(currentFile);
+            if (index > 0) {
+                loadMarkdown(fileList[index - 1]);
+            }
+        });
+
+        $('#next').click(function() {
+            var currentFile = $('#content').attr('data-currentfile');
+            var index = fileList.indexOf(currentFile);
+            if (index < fileList.length - 1) {
+                loadMarkdown(fileList[index + 1]);
+            }
+        });
+
+        $('#back').click(function() {
+            $('#file-list').show();
+            $('#navigation').hide();
+            $('#content').empty();
+        });
+
+        $('#file-list img').click(function() {
+            var filename = $(this).attr('data-mdfile');
+            $('#file-list').hide();
+            $('#navigation').show();
+            $('#title').hide();
+            $('#authors').hide();
+            $('#links').hide();
+            loadMarkdown(filename);
+        });
+
+        $('#back').click(function() {
+            $('#file-list').show();
+            $('#navigation').hide();
+            $('#content').empty();
+            $('#title').show();
+            $('#authors').show();
+            $('#links').show();
+        });
+    </script>
+    </script>
+</body>
+</html>
