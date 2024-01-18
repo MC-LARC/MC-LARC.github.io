@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to HTML</title>
+</head>
+<body>
+
+<div style="width: 50%; float: left;">
+    <h1>Task bda2d7a6</h1>
+
+    <h2>Task Information</h2>
+    
+    <img src="images/tasks/bda2d7a6.png" alt="Task Image">
+
+    <p></p>
+    <p></p>
+    
+    <h2>MC-LARC options</h2>
+
+    <ul>
+        <li>To make the output, you have to...keep all colors the same and swap the placement of 2x2 grid and 4x4 grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...invert the colors of all grids instead of swapping them.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...replace the color of the outer 6x6 grid with the color of the center 2x2 grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color</li>
+        <p></p>
+        
+        <li>To make the output, you have to...resize all grids to 4x4 and paint them with the original 2x2 grid color.</li>
+    </ul>
+</div>
+
+</body>
+</html>
