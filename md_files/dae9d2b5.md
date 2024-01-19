@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/dae9d2b5.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see... a 6x3 grid with a yellow pattern on the left 3x3 grid and a green pattern on the right 3x3 grid.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

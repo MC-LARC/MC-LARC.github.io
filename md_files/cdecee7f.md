@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/cdecee7f.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...colored pixels that are scattered across the grid.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">
