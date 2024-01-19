@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/ae3edfdc.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a single red box and a single blue box. You can see green pixels on the same line as the red pixel, and orange pixels on the same line as the blue pixel.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

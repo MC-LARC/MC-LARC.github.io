@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/a9f96cdd.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a single red colored pixel on black background.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

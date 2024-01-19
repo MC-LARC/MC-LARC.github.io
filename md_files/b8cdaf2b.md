@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/b8cdaf2b.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a pattern that is symmetrical, attached to the bottom, with a different colored pixels in the center of the bottom. Additionally, there is a single pixel or a layer of original colored pixels stacked on top of it.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

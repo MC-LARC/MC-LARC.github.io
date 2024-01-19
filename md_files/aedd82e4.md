@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/aedd82e4.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...shapes made up of multiple pixels and shapes made up of only one pixel.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

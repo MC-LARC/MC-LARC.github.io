@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/bbc9ae5d.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a single row that has a certain number of colored pixels from the left end.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

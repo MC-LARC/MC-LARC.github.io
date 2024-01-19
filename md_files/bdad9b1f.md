@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/bdad9b1f.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a 2-pixel light blue vertical line attached above and a 2-pixel red horizontal line attached the right or left.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">
