@@ -25,6 +25,28 @@
             transform: scale(1.05);
             transition: transform 0.2s;
         }
+
+            .thumbnail-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .thumbnail-container img {
+        width: 200px;
+        height: 140px;
+        object-fit: contain;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 5px;
+    }
+    .thumbnail-container p {
+        font-size: 14px;
+        margin: 0;
+    }
+        
         #content {
             background-color: white;
             padding: 20px;
@@ -214,8 +236,10 @@
 
 
         fileList.forEach(function(filename) {
-            var imgName = filename.split('.md')[0] + '.png'; // Assuming jpg images. Adjust as per actual image type
-            $('#file-list').append('<img src="./images/thumbnails/' + imgName + '" data-mdfile="' + filename + '">');
+            var imgName = filename.split('.md')[0] + '.png';
+            var imgSrc = './images/thumbnails/' + imgName;
+            var text = imgName.replace('.png', ''); // .png 확장자 제거
+            $('#file-list').append('<div class="thumbnail-container"><img src="' + imgSrc + '" data-mdfile="' + filename + '"><p>' + text + '</p></div>');
         });
 
         $('#file-list img').click(function() {
