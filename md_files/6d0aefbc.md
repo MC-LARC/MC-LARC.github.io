@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/6d0aefbc.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a 3 by 3 grid with random color pattern.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

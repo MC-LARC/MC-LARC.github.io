@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/1caeab9d.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see... 3 objects with the same shapes of blue, red, and yellow colors.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

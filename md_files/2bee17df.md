@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/2bee17df.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...the boundary of the grid filled with continuous light blue or red pixels, while the central part is empty with a black background.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">

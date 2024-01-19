@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/8efcae92.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...several blue rectangles on a black background. Inside of the blue rectangles, you can see the red pixels. The red pixels are separated from each other.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">
