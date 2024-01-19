@@ -16,6 +16,12 @@
     <h2>Task Information</h2>
     
     <img src="images/tasks/178fcbfb.png" alt="Task Image">
+    
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a grid with red, blue, and green squares.</p>
+    
+    
 </div>
 
 <div style="width: 50%; float: left;">
