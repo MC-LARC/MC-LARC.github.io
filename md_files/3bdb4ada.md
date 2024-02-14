@@ -17,16 +17,15 @@
     
     <img src="images/tasks/3bdb4ada.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...two large rectangle shapes with different colors.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...two large rectangle shapes with different colors.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

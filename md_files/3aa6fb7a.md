@@ -17,16 +17,15 @@
     
     <img src="images/tasks/3aa6fb7a.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...several 2x2 objects with one pixel of them is black.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...several 2x2 objects with one pixel of them is black.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

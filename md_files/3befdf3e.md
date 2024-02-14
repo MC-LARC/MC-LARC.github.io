@@ -17,16 +17,15 @@
     
     <img src="images/tasks/3befdf3e.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...a square with one color and filled with another color.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a square with one color and filled with another color.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

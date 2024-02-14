@@ -17,16 +17,15 @@
     
     <img src="images/tasks/7fe24cdd.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see... a pattern with various colors on a 3x3 grid.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see... a pattern with various colors on a 3x3 grid.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

@@ -17,16 +17,15 @@
     
     <img src="images/tasks/8eb1be9a.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...a pattern of one color with the same shape repeating.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a pattern of one color with the same shape repeating.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>
