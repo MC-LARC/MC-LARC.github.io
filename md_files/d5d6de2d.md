@@ -17,16 +17,15 @@
     
     <img src="images/tasks/d5d6de2d.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...a red rectangles with an empty interior and some other rectangles that are not empty.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a red rectangles with an empty interior and some other rectangles that are not empty.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

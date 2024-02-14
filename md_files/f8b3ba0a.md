@@ -17,16 +17,15 @@
     
     <img src="images/tasks/f8b3ba0a.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...multiple color 1x2 boxes are shown on black background. There are four kinds of colors.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...multiple color 1x2 boxes are shown on black background. There are four kinds of colors.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

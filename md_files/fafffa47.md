@@ -17,16 +17,15 @@
     
     <img src="images/tasks/fafffa47.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

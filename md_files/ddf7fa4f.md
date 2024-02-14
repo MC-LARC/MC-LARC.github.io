@@ -17,16 +17,15 @@
     
     <img src="images/tasks/ddf7fa4f.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...three colored single pixels in the first row; and three gray rectangles below.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...three colored single pixels in the first row; and three gray rectangles below.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

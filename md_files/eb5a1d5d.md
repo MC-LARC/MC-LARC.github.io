@@ -17,16 +17,15 @@
     
     <img src="images/tasks/eb5a1d5d.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see... multiple color of frames.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see... multiple color of frames.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

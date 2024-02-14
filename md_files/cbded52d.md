@@ -17,16 +17,15 @@
     
     <img src="images/tasks/cbded52d.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...nine 2x2 blue sections made up of black horizontal and vertical lines. Some of the 2x2 blue grids contain pixels of different colors.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...nine 2x2 blue sections made up of black horizontal and vertical lines. Some of the 2x2 blue grids contain pixels of different colors.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

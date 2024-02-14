@@ -17,16 +17,15 @@
     
     <img src="images/tasks/caa06a1f.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...a checker pattern with two colors. And right and below part has a solid single color grid.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a checker pattern with two colors. And right and below part has a solid single color grid.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

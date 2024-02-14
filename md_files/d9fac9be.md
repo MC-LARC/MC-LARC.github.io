@@ -17,16 +17,15 @@
     
     <img src="images/tasks/d9fac9be.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...a 3x3 square completely surrounded by pixels of different colors. Around it, pixels of the same color are scattered randomly.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...a 3x3 square completely surrounded by pixels of different colors. Around it, pixels of the same color are scattered randomly.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>

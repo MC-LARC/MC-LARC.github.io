@@ -17,16 +17,15 @@
     
     <img src="images/tasks/de1cd16c.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...the grid divided into rectangles of various colors. And there are single pixels of one color scattered randomly.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...the grid divided into rectangles of various colors. And there are single pixels of one color scattered randomly.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>
