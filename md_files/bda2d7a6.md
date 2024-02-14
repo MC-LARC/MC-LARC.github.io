@@ -17,16 +17,15 @@
     
     <img src="images/tasks/bda2d7a6.png" alt="Task Image">
     
-    <h2>Input Image Explanation</h2>
-    
-    <p>In the input, you should see...squares of different sizes and colors. They overlap in order from the largest square to the smallest sqaure.</p>
-    
-    
 </div>
 
 <div style="width: 50%; float: left;">
 
-    <p></p>
+
+    <h2>Input Image Explanation</h2>
+    
+    <p>In the input, you should see...squares of different sizes and colors. They overlap in order from the largest square to the smallest sqaure.</p>
+
     <p></p>
     
     <h2>MC-LARC options</h2>
