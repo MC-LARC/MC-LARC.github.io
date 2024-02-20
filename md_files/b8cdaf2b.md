@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a pattern that is symmetrical, attached to the bottom, with a different colored pixels in the center of the bottom. Additionally, there is a single pixel or a layer of original colored pixels stacked on top of it.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a pattern that is symmetrical, attached to the bottom, with a different colored pixels in the center of the bottom. Additionally, there is a single pixel or a layer of original colored pixels stacked on top of it.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

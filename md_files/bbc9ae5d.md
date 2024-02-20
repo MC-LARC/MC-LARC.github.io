@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a single row that has a certain number of colored pixels from the left end.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a single row that has a certain number of colored pixels from the left end.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

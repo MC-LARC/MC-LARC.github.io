@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...four patterns, each composed of three pixels of different colors, but they have the same shape when rotated.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...four patterns, each composed of three pixels of different colors, but they have the same shape when rotated.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

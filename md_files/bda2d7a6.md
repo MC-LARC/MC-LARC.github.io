@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...squares of different sizes and colors. They overlap in order from the largest square to the smallest sqaure.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...squares of different sizes and colors. They overlap in order from the largest square to the smallest sqaure.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

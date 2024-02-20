@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a 2x2 red square with some gray pixelsblocks far from it.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a 2x2 red square with some gray pixelsblocks far from it.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

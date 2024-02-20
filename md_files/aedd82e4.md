@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...shapes made up of multiple pixels and shapes made up of only one pixel.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...shapes made up of multiple pixels and shapes made up of only one pixel.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 
