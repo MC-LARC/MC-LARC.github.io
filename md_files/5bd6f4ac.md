@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...random pattern with random color.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...random pattern with random color.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

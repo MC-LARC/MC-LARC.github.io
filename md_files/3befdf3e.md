@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a square with one color and filled with another color.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a square with one color and filled with another color.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

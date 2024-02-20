@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...2x2 grid square. In some corners of this square, there may be pixels of the same color.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...2x2 grid square. In some corners of this square, there may be pixels of the same color.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

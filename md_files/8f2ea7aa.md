@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a single color of 3x3 grid pattern on a 9x9 black grid.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a single color of 3x3 grid pattern on a 9x9 black grid.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

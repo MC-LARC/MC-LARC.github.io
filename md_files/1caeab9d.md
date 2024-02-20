@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see... 3 objects with the same shapes of blue, red, and yellow colors.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see... 3 objects with the same shapes of blue, red, and yellow colors.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

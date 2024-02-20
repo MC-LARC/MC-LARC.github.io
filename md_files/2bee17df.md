@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...the boundary of the grid filled with continuous light blue or red pixels, while the central part is empty with a black background.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...the boundary of the grid filled with continuous light blue or red pixels, while the central part is empty with a black background.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 
