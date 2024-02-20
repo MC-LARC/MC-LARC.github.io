@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...nine 2x2 blue sections made up of black horizontal and vertical lines. Some of the 2x2 blue grids contain pixels of different colors.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...nine 2x2 blue sections made up of black horizontal and vertical lines. Some of the 2x2 blue grids contain pixels of different colors.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

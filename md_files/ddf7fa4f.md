@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...three colored single pixels in the first row; and three gray rectangles below.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...three colored single pixels in the first row; and three gray rectangles below.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

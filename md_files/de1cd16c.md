@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...the grid divided into rectangles of various colors. And there are single pixels of one color scattered randomly.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...the grid divided into rectangles of various colors. And there are single pixels of one color scattered randomly.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

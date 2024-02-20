@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

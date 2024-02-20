@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...multiple color 1x2 boxes are shown on black background. There are four kinds of colors.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...multiple color 1x2 boxes are shown on black background. There are four kinds of colors.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

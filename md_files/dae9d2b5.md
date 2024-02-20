@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see... a 6x3 grid with a yellow pattern on the left 3x3 grid and a green pattern on the right 3x3 grid.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see... a 6x3 grid with a yellow pattern on the left 3x3 grid and a green pattern on the right 3x3 grid.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

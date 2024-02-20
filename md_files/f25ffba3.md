@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...a black grid with a color pattern at the bottom on the 10x4 grid.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...a black grid with a color pattern at the bottom on the 10x4 grid.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 

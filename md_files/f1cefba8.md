@@ -24,9 +24,11 @@
 
     <h2>Input Image Explanation</h2>
     
-    <p>In the input, you should see...squares with different colors inside and outside, and there are singular outstanding pixels around the inner squares.</p>
-
-    <p></p>
+    <ul>
+        <li>In the input, you should see...squares with different colors inside and outside, and there are singular outstanding pixels around the inner squares.</li>
+        <p></p>
+    </ul>
+    <br><br>
     
     <h2>MC-LARC options</h2>
 
