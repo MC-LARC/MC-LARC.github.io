@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...downsize the grid to match the shape, but the colors don't need to be the same.</li>
+        <li>To make the output, you have to...reshape the grid to a circle the same size as the shape and use only one color present in the shape.</li>
         <p></p>
         
-        <li>To make the output, you have to...reset the grid's settings and the two colors are different from the shape.</li>
+        <li>To make the output, you have to...make the grid a different size from the shape and the two colors are just like in the shape.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...make the grid twice the size of the shape with additional colors not present in the shape.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...make the grid the same size as the shape, but with additional colors not present in the shape.</li>
         <p></p>
         
         <li>To make the output, you have to...make the grid the same size as the shape and the two colors are just like in the shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...alter the shape's size to the grid's size and maintain the original colors.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...ensure the shape is smaller than the grid and mix up the two colors.</li>
     </ul>
 </div>
 

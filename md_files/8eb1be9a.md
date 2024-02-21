@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... turn the input grid upside down, then utilize an opposing scheme to fill in the whole black background.</li>
+        <li>To make the output, you have to...change the input grid, then copy the exact same pattern to fill in the whole black background.</li>
         <p></p>
         
-        <li>To make the output, you have to... change the color of the input grid, then design a different pattern to fill in the whole black background.</li>
+        <li>To make the output, you have to...duplicate the input grid, then paste the exact same pattern to fill in the whole black background.</li>
         <p></p>
         
-        <li>To make the output, you have to... delete the input grid, then remove everything to fill in the whole black background.</li>
+        <li>To make the output, you have to...copy the input grid, then copy the exact same pattern to fill in the whole black background.</li>
         <p></p>
         
-        <li>To make the output, you have to... copy the input grid, then copy the exact same pattern to fill in the whole black background.</li>
+        <li>To make the output, you have to...copy the input grid, then copy the different pattern to fill in the whole black background.</li>
         <p></p>
         
-        <li>To make the output, you have to... ignore the input grid, then randomly distribute objects to fill in the whole black background.</li>
+        <li>To make the output, you have to...copy the input grid, then copy the exact same pattern to fill in only a quarter of the black background.</li>
     </ul>
 </div>
 

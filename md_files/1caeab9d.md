@@ -25,7 +25,7 @@
     <h2>Input Image Explanation</h2>
     
     <ul>
-        <li>In the input, you should see... 3 objects with the same shapes of blue, red, and yellow colors.</li>
+        <li>In the input, you should see...3 objects with the same shapes of blue, red, and yellow colors.</li>
         <p></p>
     </ul>
     <br><br>
@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...push all three shapes together so they form one solid shape.</li>
-        <p></p>
-        
         <li>To make the output, you have to...keep the blue shape where it is, and move the red and yellow shapes up or down so that they are at the same level as the blue-colored shape.</li>
         <p></p>
         
-        <li>To make the output, you have to...switch the positions of the red and yellow shapes, but leave the blue shape in its original place.</li>
+        <li>To make the output, you have to...keep the blue shape where it is, and move the red and yellow shapes left or right so that they are at the same level as the blue-colored shape. </li>
         <p></p>
         
-        <li>To make the output, you have to...remove the blue shape entirely and adjust the red and yellow shapes so they occupy its former position.</li>
+        <li>To make the output, you have to...keep the blue shape where it is, and move the green and pink shapes up or down so that they are at the same level as the blue-colored shape. </li>
         <p></p>
         
-        <li>To make the output, you have to...tilt the blue shape at a 45 degree angle, and shift the red and yellow shapes to the right.</li>
+        <li>To make the output, you have to...move the blue shape down instead, and move the red and yellow shapes up or down so that they are at the same level as the green-colored shape. </li>
+        <p></p>
+        
+        <li>To make the output, you have to...move the blue shape where it is, and move the red and brown shapes up or down so that they are at the same elevation as the blue-colored shape.</li>
     </ul>
 </div>
 

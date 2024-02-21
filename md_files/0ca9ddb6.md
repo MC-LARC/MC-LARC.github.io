@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...mimic the image. Where there's a yellow circle, place red circles around it (5 total). Where there's a light green rhombus, put purple triangles next to it (4 total). Ignore the beige and grey lines.</li>
+        <li>To make the output, you have to...copy image exactly. Where there's a red square, put yellow squares at it's corners (4 total). Where there's a blue square, put orange squares directly above and below it (4 total). Do nothing with light blue or pink squares.</li>
         <p></p>
         
-        <li>To make the output, you have to...mirror the graphic. Where there's a blue circle, set green circles inside it (4 total). Where there's a bright yellow triangle, place dark red triangles around it (6 total). Leave alone the violet or turquoise hexagons.</li>
+        <li>To make the output, you have to...copy image exactly. Where there's a red square, put gray squares at its corners (4 total). Where there's a blue square, put brown squares directly above and below it (4 total). Do nothing with green or brown squares.</li>
         <p></p>
         
-        <li>To make the output, you have to...copy image exactly. Where there's a red square, put yellow squares at it's corners (4 total). Where there's a dark blue square, put orange squares directly above and below it (4 total). Do nothing with light blue or magenta squares</li>
+        <li>To make the output, you have to...copy image exactly. Where there's a blue square, put yellow squares at its corners (4 total). Where there's a pink square, put orange squares directly above and below it (4 total). Do nothing with light blue or red squares.</li>
         <p></p>
         
-        <li>To make the output, you have to...draft the picture. Where there's a green triangle, position pink triangles at its vertices (3 total). Where there's a black rectangle, place teal rectangles to the left and right of it (2 total). Do nothing with white or magenta circles.</li>
+        <li>To make the output, you have to...copy image exactly. Where there's a gray square, put yellow squares at its corners (4 total). Where there's a green square, put orange squares directly above and below it (4 total). Do everything with red or light blue squares.</li>
         <p></p>
         
-        <li>To make the output, you have to...replicate the illustration. Where there's a fuschia hexagon, place lime hexagons on its sides (6 total). Where there's a taupe circle, put brown circles on its corners (8 total). Do nothing with cyan or indigo stars.</li>
+        <li>To make the output, you have to...copy image exactly. Where there's a green square, put yellow squares at its corners (4 total). Where there's a yellow square, put orange squares directly above and below it (4 total). Do everything with light blue or pink squares.</li>
     </ul>
 </div>
 

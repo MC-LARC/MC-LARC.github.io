@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...copy the pattern in the 3x3 grid to directly adjacent blocks in the 9x9 grid, creating a checkerboard pattern. Alternate the pattern between the original input and the empty space.</li>
+        <li>To make the output, you have to... imagine the original pattern is a 3x3 grid. What you need to do is shift the pattern in the 3x3 to the 6x6 grid. So you have 4 3x3 grid inside of the bigger grid (Top left, top right, bottom left, bottom right). For example if the input pattern is a triangle, you would only copy this to the bottom left, middle and top right grid.</li>
         <p></p>
         
-        <li>To make the output, you have to...divide the original pattern diagonally and place each half separately on the 9x9 grid. One half should be placed at the top right corner and the other at the bottom left corner.</li>
+        <li>To make the output, you have to... imagine the original pattern is a 4x4 grid. What you need to do is mirror the pattern in the 4x4 to the 8x8 grid. So you have 4 4x4 grid inside of the bigger grid (Top left, top right, bottom left, bottom right). For example if the input pattern is a curved line, you would only copy this to the top left, middle right and bottom right grid.</li>
         <p></p>
         
-        <li>To make the output, you have to...transform the original pattern into a 3x3 grid and then overlap it onto the 9x9 grid. The new arranged pattern is then distributed evenly across the entire area of the larger grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...rotate the 3x3 pattern before copying it onto the 9x9 grid. The rotation should be done clockwise by 90 degrees for each subsequent placement.</li>
+        <li>To make the output, you have to... imagine the original pattern is a 2x2 grid. What you need to do is copy the pattern in the 2x2 to the 6x6 grid. So you have 9 2x2 grid inside of the bigger grid (Top left, top middle, top right, middle left, middle, middle right, bottom left, bottom middle, bottom right). For example if the input pattern is a square, you would only copy this across the entire grid.</li>
         <p></p>
         
         <li>To make the output, you have to...imagine the original pattern is a 3x3 grid. What you need to do is copy the pattern in the 3x3 to the 9x9 grid. So you have 9 3x3 grid inside of the bigger grid(Top left, top middle, top right, middle left, middle, middle right, bottom left, bottom middle, bottom right). For example if the input pattern is a l shape you would only copy this to the top middle, middle and bottom middle grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... imagine the original pattern is a 3x3 grid. What you need to do is rearrange the pattern in the 3x3 to the 6x6 grid. So you have 4 3x3 grid inside of the bigger grid (Top left, top right, bottom left, bottom right). For example if the input pattern is a straight line, you would only copy this to the top middle, middle and bottom middle grid.</li>
     </ul>
 </div>
 

@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...invert the colors of all squares that are one square deep, creating an outline along the grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...color all the squares that are only two deep from the outside edge using pink color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...immediately draw a diagonal line across the grid connecting the corners.</li>
-        <p></p>
-        
         <li>To make the output, you have to...copy the input grid into the output. Around the outside of the grid, you will notice some squares are only one square deep around. Take note of these squares. Using green, draw straight lines horizontally and vertically from these squares that are only one deep around the outside, connecting them only to squares on the other side of the grid that also are only one square deep.</li>
         <p></p>
         
-        <li>To make the output, you have to...remove all squares that are one square deep and place them in a circular pattern.</li>
+        <li>To make the output, you have to...shift the input grid for the output. At the boundary of the grid, you will see that some squares are four squares deep. Take note of these squares. Using brown, draw wavy lines horizontally and vertically from these squares, connecting them to squares on the different side of the grid. </li>
+        <p></p>
+        
+        <li>To make the output, you have to...inversely copy the input grid into the output. Around the outside of the grid, consider squares which are five squares deep around. Carefully note these squares. With yellow, draw round lines horizontally and vertically from these squares that extend to squares on the other side of the grid that are also five squares deep.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...rotate the input grid for the output. Around the edge of the grid, you will realize that some squares are only two squares deep. Pay attention to these squares. Using grey, draw curved lines diagonally from these squares, connecting them only to squares on the other side of the grid. </li>
+        <p></p>
+        
+        <li>To make the output, you have to...mirror the input grid for the output. At the exterior of the grid, some squares are exactly three squares deep. Keep these squares in mind. Using blue, draw zigzag lines diagonally, linking these squares to the squares on the opposite side of the grid that also are three squares deep. </li>
     </ul>
 </div>
 

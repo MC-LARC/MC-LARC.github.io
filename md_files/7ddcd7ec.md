@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...switch the blocks with another one of a different color.</li>
+        <li>To make the output, you have to...extend pixels of the same color diagonally from the 2x2 square, continuing to the edge.</li>
         <p></p>
         
-        <li>To make the output, you have to...continue the single block diagonally to the edge with the same color.</li>
+        <li>To make the output, you have to...extend pixels of the same color vertically from the 2x2 square, stopping halfway.</li>
         <p></p>
         
-        <li>To make the output, you have to...flip the block upside down.</li>
+        <li>To make the output, you have to...extend pixels of different colors diagonally from the 2x2 square, continuing to the edge.</li>
         <p></p>
         
-        <li>To make the output, you have to...place multiple blocks along the edge.</li>
+        <li>To make the output, you have to...extend pixels of the same color horizontally from the 2x2 square, continuing to the edge.</li>
         <p></p>
         
-        <li>To make the output, you have to...rotate the block clockwise until it matches the color on the edge.</li>
+        <li>To make the output, you have to...extend pixels of the same color diagonally from the 2x2 square, but changing direction midway.</li>
     </ul>
 </div>
 

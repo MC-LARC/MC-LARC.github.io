@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...fill the entire grid. Replicate this part into output grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...fill the top left corner, 3x3 grid - the top third and left third of the grid. Replicate this part into output grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...fill the bottom left corner, 3x3 grid - the bottom third and left third of the grid. Replicate this part into output grid.</li>
+        <p></p>
+        
         <li>To make the output, you have to...want the top right corner, 3x3 grid - the top third and right third of the grid. Replicate this part into output grid.</li>
         <p></p>
         
-        <li>To make the output, you have to...rearrange the entire 3x3 grid without focusing on specific corners. Replicate this pattern into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...remove the top right corner, 3x3 grid - the top third and right third of the grid. Discard this part from output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...rotate the 3x3 grid in a clockwise direction. Replicate this modified version into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...cut out the bottom left corner, 3x3 grid - the bottom third and left third of the grid. Replicate this part into output grid.</li>
+        <li>To make the output, you have to...fill the middle, 3x3 grid - the center third of the grid. Replicate this part into output grid.</li>
     </ul>
 </div>
 

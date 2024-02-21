@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...cover the middle section with a red hexagon.</li>
+        <li>To make the output, you have to...fill in the middle part with a yellow square.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...overlap the middle part with a green square.</li>
         <p></p>
         
         <li>To make the output, you have to...fill in the missing corners with a blue square.</li>
         <p></p>
         
-        <li>To make the output, you have to...mark the edges using a green circle.</li>
+        <li>To make the output, you have to...outline the edges with a red square.</li>
         <p></p>
         
-        <li>To make the output, you have to...shape the entire piece with a yellow triangle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...outline the borders with a white rectangle.</li>
+        <li>To make the output, you have to...fill all the empty spaces with a brown square.</li>
     </ul>
 </div>
 

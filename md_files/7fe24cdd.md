@@ -25,7 +25,7 @@
     <h2>Input Image Explanation</h2>
     
     <ul>
-        <li>In the input, you should see... a pattern with various colors on a 3x3 grid.</li>
+        <li>In the input, you should see...a pattern with various colors on a 3x3 grid.</li>
         <p></p>
     </ul>
     <br><br>
@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... divide the 6x6 output grid into four squares, then scale down the input pattern and place it onto the top right and bottom left square.</li>
+        <li>To make the output, you have to...imagine the 6x6 output grid is split into four squares. Copy the input pattern onto the bottom left square, rotate 90 degrees to the left for the bottom right square, rotate again for the top right, then again for the top left.</li>
         <p></p>
         
-        <li>To make the output, you have to... imagine the 6x6 output grid is split into four squares. Copy the input pattern onto the top left square, rotate 90 degrees to the right for the top right square, rotate again for the bottom right, then again for the bottom left.</li>
+        <li>To make the output, you have to...imagine the 6x6 output grid is split into two squares. Copy the input pattern onto the top square, rotate 90 degrees to the right for the bottom square.</li>
         <p></p>
         
-        <li>To make the output, you have to... divide the output grid into 4x4 squares and reproduce the input pattern in a clockwise spiral.</li>
+        <li>To make the output, you have to...imagine the 6x6 output grid is split into four squares. Copy the input pattern onto the top left square, rotate 180 degrees to the right for the top right square, rotate again for the bottom right, then again for the bottom left.</li>
         <p></p>
         
-        <li>To make the output, you have to... split the 8x8 output grid into four quadrants and reflect the input pattern across the vertical and horizontal axis.</li>
+        <li>To make the output, you have to...imagine the 6x6 output grid is split into four squares. Copy the input pattern onto the top right square, rotate 90 degrees to the right for the top left square, rotate again for the bottom left, then again for the bottom right.</li>
         <p></p>
         
-        <li>To make the output, you have to... replicate the input pattern four times across different corners of the 6x6 output grid without any rotation or shift.</li>
+        <li>To make the output, you have to...imagine the 6x6 output grid is split into four squares. Copy the input pattern onto the top left square, rotate 90 degrees to the right for the top right square, rotate again for the bottom right, then again for the bottom left.</li>
     </ul>
 </div>
 

@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...invert the entire grid.</li>
+        <li>To make the output, you have to...copy the grid and rotate it 180 degrees.</li>
         <p></p>
         
         <li>To make the output, you have to...copy the grid and reflect it on the other half.</li>
         <p></p>
         
-        <li>To make the output, you have to...shrink the grid to half its size.</li>
+        <li>To make the output, you have to...copy the grid and shift it to the other side.</li>
         <p></p>
         
-        <li>To make the output, you have to...paint over the grid.</li>
+        <li>To make the output, you have to...copy the grid and minimize it on the other side.</li>
         <p></p>
         
-        <li>To make the output, you have to...rotate the grid by 90 degrees.</li>
+        <li>To make the output, you have to...invert the grid and duplicate it on the other side.</li>
     </ul>
 </div>
 
