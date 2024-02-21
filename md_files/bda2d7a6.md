@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...keep all colors the same and swap the placement of 2x2 grid and 4x4 grid.</li>
+        <li>To make the output, you have to...change the color of center green 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li>
         <p></p>
         
-        <li>To make the output, you have to...invert the colors of all grids instead of swapping them.</li>
+        <li>To make the output, you have to...change the color of center black 2x3 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li>
         <p></p>
         
-        <li>To make the output, you have to...replace the color of the outer 6x6 grid with the color of the center 2x2 grid.</li>
+        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 6X6 grid color, 4X4 change to 2X2 color, and 6X6 change to old 4X4 color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 4X4 grid color, 4X4 change to 6X7 color, and 6X6 change to old 2X2 color.</li>
         <p></p>
         
         <li>To make the output, you have to...change the color of center black 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color</li>
-        <p></p>
-        
-        <li>To make the output, you have to...resize all grids to 4x4 and paint them with the original 2x2 grid color.</li>
     </ul>
 </div>
 

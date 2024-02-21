@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... rotate the shapes 45 degrees to the right.</li>
+        <li>To make the output, you have to... erase red part and expose the intact underneath surface.</li>
         <p></p>
         
-        <li>To make the output, you have to... convert both shapes into 3D objects.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... reduce the opacity of both shapes to 50%.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... select all elements and apply blue hue.</li>
+        <li>To make the output, you have to... fill the outside of both shapes with red sacrificing the original color on the boundary.</li>
         <p></p>
         
         <li>To make the output, you have to... fill the inside of both shapes with red leaving a border the same color as original.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... fill the inside of both shapes with blue, totally missing the border.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... fill the inside of first shape with red and second shape with green also missing a border.</li>
     </ul>
 </div>
 

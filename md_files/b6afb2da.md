@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...rotate the squares by 90 degrees and change their color. The corner becomes purple. The middle becomes blue. The edge between the corners turns green.</li>
+        <li>To make the output, you have to...stay the squares in the same place but change color. The corner become blue. The middle become red. The edge between the corner become yellow.</li>
         <p></p>
         
-        <li>To make the output, you have to...stay the squares in the same place but change color. The corner become dark blue. The middle become red. The edge between the corner become yellow.</li>
+        <li>To make the output, you have to...rotate the squares in the same place but change color. The corner becomes pink. The middle becomes green. The edge between the corner becomes brown.</li>
         <p></p>
         
-        <li>To make the output, you have to...invert the squares and alter their color. The corners transition to green. The center switches to yellow. The boundary between the corners switches to red.</li>
+        <li>To make the output, you have to...move the squares to the corner and change color. The corner becomes green. The middle becomes blue. The edge between the corner becomes red.</li>
         <p></p>
         
-        <li>To make the output, you have to...shift the squares diagonally and modify their shades. The angles turn into yellow. The nucleus alters to blue. The brink connecting the corners changes to green.</li>
+        <li>To make the output, you have to...flip the squares in the same place but change color. The corner becomes gray. The middle becomes light blue. The edge between the corner becomes black.</li>
         <p></p>
         
-        <li>To make the output, you have to...resize the squares and adjust their hues. The corners transform into red. The middle morphs into green. The rim between the corners change to blue.</li>
+        <li>To make the output, you have to...swap the squares in the same place but change color. The corner becomes red. The middle becomes yellow. The edge between the corner becomes blue.</li>
     </ul>
 </div>
 

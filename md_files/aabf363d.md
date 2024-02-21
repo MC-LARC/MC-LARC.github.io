@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...change the color of the object at the center to match the color of the box at the upper left corner</li>
+        <li>To make the output, you have to...make the box at the top right corner black and the colored object at the center the color of the box at the top right corner.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...color all the boxes in the center and the bottom left corner brown.</li>
         <p></p>
         
         <li>To make the output, you have to...make the box at the bottom left corner black and the colored object at the center the color of the box at the bottom left corner</li>
         <p></p>
         
-        <li>To make the output, you have to...color both the box at the bottom left corner and center object as white.</li>
+        <li>To make the output, you have to...draw a line from the bottom left corner to the center in the color of the bottom left box.</li>
         <p></p>
         
-        <li>To make the output, you have to...make the box at the top right corner black and the object at the center the color of the box at the bottom right corner</li>
-        <p></p>
-        
-        <li>To make the output, you have to...keep the box at the bottom left corner white and make the object at the center the color of the box at the top right corner</li>
+        <li>To make the output, you have to...make the box at the center black and the colored object at the bottom left corner the color of the box in the center.</li>
     </ul>
 </div>
 

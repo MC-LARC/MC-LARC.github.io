@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...create a diagonal line from the top to the sides with the most majority color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...create a straight line from the top to the bottom with the less majority color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...create a diagonal line from the sides to the top with the less majority color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...fill the entire grid with the less majority color.</li>
+        <p></p>
+        
         <li>To make the output, you have to...create a diagonal line from the top to the sides with the less majority color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...paint the entire canvas with the most dominant color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the entire sides with the more dominant color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a circle in the center with the prevalent color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...leave the canvas completely blank.</li>
     </ul>
 </div>
 

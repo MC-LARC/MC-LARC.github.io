@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...place the blocks in alphabetical order.</li>
+        <li>To make the output, you have to...move the circles until they touch the red square on the same line.</li>
         <p></p>
         
-        <li>To make the output, you have to...stack the blocks to reach a specified height.</li>
+        <li>To make the output, you have to...rotate the blocks until they touch the red square on the same line.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...move the blocks until they touch the blue square on the same line.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...move the blocks until they touch the green square on the same line.</li>
         <p></p>
         
         <li>To make the output, you have to...move the blocks until they touch the red square on the same line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...rearrange the blocks so they form a circle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...paint the blocks in primary colors.</li>
     </ul>
 </div>
 

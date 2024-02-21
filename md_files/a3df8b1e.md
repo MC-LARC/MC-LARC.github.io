@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...draw a green dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a green dot one to the left and one up until you reach the other side, repeat until you reach the top.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...draw a red dot one to the left and one down from the original one, follow that pattern until you reach the side, then draw a red dot one to the right and one down until you reach the other side, repeat until you reach the bottom.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...draw a blue dot one to the left and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the right and one up until you reach the other side, repeat until you reach the top.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...draw a yellow dot one to the right and one down from the original one, follow that pattern until you reach the side, then draw a yellow dot one to the left and one down until you reach the other side, repeat until you reach the bottom.</li>
+        <p></p>
+        
         <li>To make the output, you have to...draw a blue dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the left and one up until you reach the other side, repeat until you reach the top.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a pink dot one to the right and one down from the original one, follow this pattern until the center, then scatter pink dots throughout the remaining area.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a green dot in the middle, draw green dots diagonally down to the right until the edge, then draw green dots horizontally to the left until the other side, repeat until the bottom is reached.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...start by drawing a red dot in the center, then draw two red dots to the right and two down, continue this pattern until the bottom right corner is reached.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a yellow dot two to the left and two down from the original one, then mirror this shape on the right hand side, repeat until you reach the bottom.</li>
     </ul>
 </div>
 

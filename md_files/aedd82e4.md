@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... replicate the input grid, color all the single squares blue, and double squares gray.</li>
+        <li>To make the output, you have to... copy the input grid. Any shapes which only contain two single squares should be colored blue.</li>
         <p></p>
         
-        <li>To make the output, you have to... mirror the input grid and color the single squares red.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... copy the input grid, and color all the single squares yellow.</li>
+        <li>To make the output, you have to... mirror the input grid. Any shapes which only contain one single square should be colored blue.</li>
         <p></p>
         
         <li>To make the output, you have to... copy the input grid. Any shapes which only contain one single square should be colored blue.</li>
         <p></p>
         
-        <li>To make the output, you have to... rotate the input grid 90 degrees and color the single squares green.</li>
+        <li>To make the output, you have to... copy the input grid. Any shapes which only contain one single square should be colored red.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... rotate the input grid. Any shapes which only contain one single square should be colored blue.</li>
     </ul>
 </div>
 

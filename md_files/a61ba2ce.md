@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...use the grayscale pattern and put them in random positions. Then fill in the middle 4 squares with white.</li>
+        <li>To make the output, you have to...follow the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with blue.</li>
         <p></p>
         
-        <li>To make the output, you have to...follow an inverted version of the colored pattern, placing it on the sides. Then color the middle square with black.</li>
+        <li>To make the output, you have to...change the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with black.</li>
         <p></p>
         
-        <li>To make the output, you have to...scatter the colors without any pattern, placing them in the center. Then color the 4 corner squares with black.</li>
+        <li>To make the output, you have to...follow the colored pattern and put them on all the corners in reverse. Then fill in the middle 4 squares with black.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...follow the colored pattern and put them on all the sides exactly how the pattern is placed. Then fill in the middle 4 squares with green.</li>
         <p></p>
         
         <li>To make the output, you have to...follow the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with black.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...ignore the colored pattern and put them on all the corners however you like. Then leave the middle 4 squares empty.</li>
     </ul>
 </div>
 

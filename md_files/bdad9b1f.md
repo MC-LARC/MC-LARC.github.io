@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... count the blue squares diagonally and the red squares vertically, leaving the square where they intersect as white.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... locate the horizontal red line and the vertical blue line from the middle, paint the cross section purple.</li>
+        <li>To make the output, you have to... continue the pattern of black squares vertical and continue the brown squares horizontal to reach the edge of the grid. On the square that black and brown squares crosses, color that one gray.</li>
         <p></p>
         
         <li>To make the output, you have to... continue the pattern of red squares horizontal and continue the blue squares vertical to reach the edge of the grid. On the square that blue and red squares crosses, color that one yellow.</li>
         <p></p>
         
-        <li>To make the output, you have to... put a red square at the point where a horizontal blue square and a vertical red square meet, leaving the surrounding four squares white.</li>
+        <li>To make the output, you have to... continue the pattern of green squares horizontal and continue the pink squares vertical to reach the edge of the grid. On the square that green and pink squares crosses, color that one yellow. </li>
         <p></p>
         
-        <li>To make the output, you have to... draw a line from the centre to the right edge for the red squares and from the top to the bottom for the blue squares, keeping the overlapping section black.</li>
+        <li>To make the output, you have to... stop the pattern of red squares halfway and continue the blue squares vertical to reach the edge of the grid. On the square that blue and red squares crosses, color that one yellow.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... continue the pattern of blue squares horizontal and continue the red squares vertical, not reaching the edge of the grid. On the square that blue and red squares crosses, color that one green.</li>
     </ul>
 </div>
 

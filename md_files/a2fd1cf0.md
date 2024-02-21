@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... fill the entire grid with light blue squares, except for the areas occupied by the red and green squares.</li>
+        <li>To make the output, you have to...create a road of pink squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li>
         <p></p>
         
-        <li>To make the output, you have to... create a road of light blue squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li>
+        <li>To make the output, you have to...create a road of light blue squares between the red and green squares. The road should go in a diagonal from the green square to the red square.</li>
         <p></p>
         
-        <li>To make the output, you have to... create a circle of yellow squares around the red and green squares, ensuring they do not touch.</li>
+        <li>To make the output, you have to...create a road of light blue squares between the green and blue squares. The road should travel up or down from the blue square and left or right from the green square until the two meet.</li>
         <p></p>
         
-        <li>To make the output, you have to... draw a diagonal line of purple squares from the green square to the bottom right corner, bypassing the red square.</li>
+        <li>To make the output, you have to...create a road of light blue squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li>
         <p></p>
         
-        <li>To make the output, you have to... surround the green square with dark blue squares and avoid contact with the red square.</li>
+        <li>To make the output, you have to...create a road of light blue squares between the yellow and gray squares. The road should travel up or down from the gray square and left or right from the yellow square until the two meet.</li>
     </ul>
 </div>
 
