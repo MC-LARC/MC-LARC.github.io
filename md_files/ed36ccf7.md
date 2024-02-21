@@ -25,7 +25,7 @@
     <h2>Input Image Explanation</h2>
     
     <ul>
-        <li>In the input, you should see...A 3x3 pattern of squares made of black and another color</li>
+        <li>In the input, you should see...a 3x3 pattern of squares made of black and another color.</li>
         <p></p>
     </ul>
     <br><br>
@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...flip the pattern in the input grid horizontally.</li>
+        <li>To make the output, you have to...turn the pattern in the input grid clockwise.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...flip the pattern in the input grid diagonally.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...reverse the pattern in the input grid horizontally.</li>
         <p></p>
         
         <li>To make the output, you have to...turn the pattern in the input grid counter-clockwise.</li>
         <p></p>
         
-        <li>To make the output, you have to...rotate the pattern in the input grid clockwise.</li>
-        <p></p>
-        
         <li>To make the output, you have to...invert the pattern in the input grid vertically.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...shift the pattern in the input grid to the right side.</li>
     </ul>
 </div>
 

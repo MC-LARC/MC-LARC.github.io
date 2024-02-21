@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...crop the grid into small pieces and randomly rearrange. The outcome must result in a mosaic.</li>
+        <li>To make the output, you have to... triple the entire grid, then fill in the solid color to exactly match the square pattern. Finally result should be entirely square patterned.</li>
         <p></p>
         
-        <li>To make the output, you have to...invert the colors of the grid and leave it empty. Concluding task involves the grid remaining untouched.</li>
+        <li>To make the output, you have to...duplicate the entire grid, then fill in the solid color to exactly match dot pattern. Finally result should be entirely dot patterned.</li>
         <p></p>
         
         <li>To make the output, you have to...duplicate the entire grid, then fill in the solid color to exactly match the checker pattern. Finally result should be entirely checker patterned.</li>
         <p></p>
         
-        <li>To make the output, you have to...paint patches of different colors on the grid. By the end, the product should represent a field of flowers.</li>
+        <li>To make the output, you have to... duplicate the entire grid, then fill in the solid color to exactly match the stripe pattern. Finally result should be entirely stripe patterned.</li>
         <p></p>
         
-        <li>To make the output, you have to...delete the entire grid, then sketch a freehand drawing. Final image should be abstract art.</li>
+        <li>To make the output, you have to... duplicate the entire grid, then remove the solid color to exactly match the checker pattern. Finally result should be entirely checker patterned.</li>
     </ul>
 </div>
 

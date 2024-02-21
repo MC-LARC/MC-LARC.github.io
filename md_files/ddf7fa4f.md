@@ -36,16 +36,16 @@
         <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the first row.</li>
         <p></p>
         
-        <li>To make the output, you have to...shade the numbered squares in shades of grey.</li>
+        <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the third row.</li>
         <p></p>
         
-        <li>To make the output, you have to...completely fill the grid with a single colour.</li>
+        <li>To make the output, you have to...fill the whole grid part with all the colors.</li>
         <p></p>
         
-        <li>To make the output, you have to...leave the gray area as it is and colour the edges instead.</li>
+        <li>To make the output, you have to...fill the blue area with the colors corresponding with the colored block in the first row.</li>
         <p></p>
         
-        <li>To make the output, you have to...remove all colours and leave the field in grayscale.</li>
+        <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the first column.</li>
     </ul>
 </div>
 

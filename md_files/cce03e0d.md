@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...visualize the output grid as nine 3x3 blocks. The yellow squares on your input indicate which 'blocks' in your 9x9 grid you should work in. Copy the 3x3 input pattern to the 'blocks' indicated by the location of the yellow squares.</li>
+        <p></p>
+        
         <li>To make the output, you have to...visualize the output grid as nine 3x3 blocks. The red squares on your input indicate which 'blocks' in your 9x9 grid you should work in. Copy the 3x3 input pattern to the 'blocks' indicated by the location of the red squares.</li>
         <p></p>
         
-        <li>To make the output, you have to... consider each 3x3 input pattern as a separate 9x9 grid. Only focus on the red squares and ignore the arrangement pattern.</li>
+        <li>To make the output, you have to...visualize the output grid as nine 3x3 blocks. The blue squares on your input indicate which 'blocks' in your 9x9 grid you should work in. Copy the 3x3 input pattern to the 'blocks' indicated by the location of the blue squares.</li>
         <p></p>
         
-        <li>To make the output, you have to... disregard the red squares in your input as irrelevant. Then, arrange the 3x3 pattern randomly in the 9x9 grid.</li>
+        <li>To make the output, you have to...visualize the output grid as nine 3x3 blocks. The green squares on your input indicate which 'blocks' in your 9x9 grid you should work in. Copy the 3x3 input pattern to the 'blocks' indicated by the location of the green squares.</li>
         <p></p>
         
-        <li>To make the output, you have to... iterate each 3x3 block with blue squares instead. Ignore the location indicated by the red squares.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... enlarge the input pattern to fill the entire 9x9 grid, treating each individual cell as a new 3x3 block.</li>
+        <li>To make the output, you have to...visualize the output grid as four 4x4 blocks. The red squares on your input indicate which 'blocks' in your 4x4 grid you should work in. Copy the 4x4 input pattern to the 'blocks' indicated by the location of the red squares.</li>
     </ul>
 </div>
 

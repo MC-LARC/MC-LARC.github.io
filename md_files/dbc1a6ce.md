@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...study the white circle that is found on the same column but different rows. Illustrate a disjointed purple circle beside the white circle at the same column and different rows.</li>
+        <li>To make the output, you have to...check the blue grid which is at the same row and same line. draw a connected light blue grid between the blue grid at the same row and line.</li>
         <p></p>
         
-        <li>To make the output, you have to...scrutinize the red hexagon residing in the same row but different line. Trace a detached gray hexagon next to the red hexagon at the same row and different line.</li>
+        <li>To make the output, you have to...check the black grid which is in a different row and line. draw a connected light blue grid between the black grid in a different row and line.</li>
         <p></p>
         
-        <li>To make the output, you have to...examine the yellow triangle positioned in varied lines and columns. Design an isolated orange triangle enclosing the yellow triangle at varied lines and columns.</li>
+        <li>To make the output, you have to...check the brown grid which is at the same row and same line. draw a connected gray grid between the brown grid at the same row and line.</li>
         <p></p>
         
-        <li>To make the output, you have to...inspect the pink cube located in different rows and lines. Sketch a separated green cube around the pink cube in different lines and rows.</li>
+        <li>To make the output, you have to...check the gray grid which is in a different row and line. draw a connected blue grid between the gray grid in a different row and line.</li>
         <p></p>
         
-        <li>To make the output, you have to...check the dark blue grid which is at the same row and same line. draw a connected light blue grid between the dark blue grid at the same row and line.</li>
+        <li>To make the output, you have to...check the yellow grid which is at the same row and same line. draw a connected red grid between the yellow grid at the same row and line.</li>
     </ul>
 </div>
 

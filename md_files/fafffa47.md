@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... first, plant the tomato seeds in a container with fertile soil. Next, water the seeds daily in the morning. Then, apply organic fertilizer to the soil. After that, harvest the tomatoes when they turn red.</li>
+        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the yellow pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and yellow squares with black color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the green pattern to the 3x3 grid. Then, copy the blue pattern on top of the green pattern. After that, fill in the black squares with red color and fill in all the green and blue squares with black color.</li>
         <p></p>
         
         <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li>
         <p></p>
         
-        <li>To make the output, you have to... first, roll out the dough into a 9x9 inch square. Then, spread the tomato sauce evenly over the dough. After that, add cheese and your favorite toppings.</li>
+        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with green color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the green squares with red color and fill in all the brown and blue squares with black color.</li>
         <p></p>
         
-        <li>To make the output, you have to... first, sweep the floor and clean it with water. Then, arrange the furniture according to Feng Shui. After that, paint the walls with a light blue color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... first, put the fabric on a flat surface. Then, cut the fabric according to the pattern. Next, sew the pieces together following the instructions. After that, iron the finished garment to remove any wrinkles.</li>
+        <li>To make the output, you have to... first, create a 4x4 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li>
     </ul>
 </div>
 

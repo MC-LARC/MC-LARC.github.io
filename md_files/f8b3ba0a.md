@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... design the garden layout. learn a foreign language. </li>
+        <li>To make the output, you have to...order the color boxes. seek a large number of the color box.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...disorder the color boxes. seek a large number of the color box.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...order the color boxes. avoid a large number of the black box.</li>
         <p></p>
         
         <li>To make the output, you have to...order the color boxes. avoid a large number of the color box.</li>
         <p></p>
         
-        <li>To make the output, you have to... decrease the quantity of paint used. bank on your luck. </li>
-        <p></p>
-        
-        <li>To make the output, you have to... arrange the dinner table. count on a good weather. </li>
-        <p></p>
-        
-        <li>To make the output, you have to... solve the mathematic equations. count the number of apples.</li>
+        <li>To make the output, you have to...disorder the color boxes. avoid a small number of the color box.</li>
     </ul>
 </div>
 

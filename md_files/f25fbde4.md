@@ -33,16 +33,16 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...increase the pattern by a factor of three and fit the resulting pattern to scale. If it's 1x5 the result should be 3x15.</li>
+        <li>To make the output, you have to...halve the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
         <p></p>
         
-        <li>To make the output, you have to...leave the pattern as it is and fit the resulting pattern to scale. If it's 1x5 the result should remain 1x5.</li>
+        <li>To make the output, you have to...rotate the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
         <p></p>
         
-        <li>To make the output, you have to...halve the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 0.5x2.5.</li>
+        <li>To make the output, you have to...skew the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
         <p></p>
         
-        <li>To make the output, you have to...decrease the pattern by a factor of four and fit the resulting pattern to scale. If it's 1x5 the result should be 0.25x1.25.</li>
+        <li>To make the output, you have to...flip the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
         <p></p>
         
         <li>To make the output, you have to...double pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>

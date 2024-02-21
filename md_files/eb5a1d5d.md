@@ -25,7 +25,7 @@
     <h2>Input Image Explanation</h2>
     
     <ul>
-        <li>In the input, you should see... multiple color of frames.</li>
+        <li>In the input, you should see...multiple color of frames.</li>
         <p></p>
     </ul>
     <br><br>
@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to... fix center sphere color in 1x1, outer sphere color in 4x4, then 6x6, then 8x8 and beyond. </li>
+        <li>To make the output, you have to... put outside box color in 1x1, center box color in 3x3, then 5x5, then 7x7 and so on.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... start with triangle shape, put center box color in 1x1, outside box color in 3x3, then 5x5, then 7x7 and so on.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... put center box color in 1x1, circle color in 3x3, then 5x5, then 7x7 and so on.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... put center box color in 1x1, outside box color in 4x4, then 6x6, then 8x8 and so on.</li>
         <p></p>
         
         <li>To make the output, you have to... put center box color in 1x1, outside box color in 3x3, then 5x5, then 7x7 and so on.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... settle middle circle shade in 3x3, surrounding circle shade in 5x5, then 7x7, then 9x9 and so forth.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... place corner box color in 2x2, outside box color in 4x4, then 6x6, then 8x8 and onwards. </li>
-        <p></p>
-        
-        <li>To make the output, you have to... lay edge box tint in 3x3, internal box tint in 5x5, then 7x7, then 9x9 and upwards. </li>
     </ul>
 </div>
 

@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...stitch patterns onto the boxes, then cover the entire box with clear tape.</li>
+        <li>To make the output, you have to...black out the holes of the boxes with green, then fill in the outlines of the boxes.</li>
         <p></p>
         
-        <li>To make the output, you have to...paint the corners of the boxes in red, then blur the outlines of the boxes.</li>
+        <li>To make the output, you have to...black in the outlines of the boxes with green, then fill out the holes of the boxes.</li>
         <p></p>
         
         <li>To make the output, you have to...fill in the holes of the boxes with green, then black out the outlines of the boxes.</li>
         <p></p>
         
-        <li>To make the output, you have to...write numbers inside the boxes, then erase around the edges of the boxes.</li>
+        <li>To make the output, you have to...fill in the holes of the boxes with black, then green out the outlines of the boxes.</li>
         <p></p>
         
-        <li>To make the output, you have to...cut out the circles on the boxes, then draw over the lines with blue.</li>
+        <li>To make the output, you have to...fill in the outlines of the boxes with green, then black out the holes of the boxes.</li>
     </ul>
 </div>
 

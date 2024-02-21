@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...extract the border blocks of the input grid and color them differently.</li>
+        <li>To make the output, you have to...rotate the different colored center block from the input grid and make it the only colored block.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...invert colors of the different colored center block from the input grid and make it the only colored block. </li>
         <p></p>
         
         <li>To make the output, you have to...zoom into the different colored center block from the input grid and make it the only colored block.</li>
         <p></p>
         
-        <li>To make the output, you have to...turn the center block of the input grid into the only gray block.</li>
+        <li>To make the output, you have to...move the different colored center block from the input grid to the corner and make it the only colored block.</li>
         <p></p>
         
-        <li>To make the output, you have to...change all the colors of the blocks in the input grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...keep the input grid unchanged.</li>
+        <li>To make the output, you have to...zoom out from the same colored center block of the input grid and make it the only colored block.</li>
     </ul>
 </div>
 

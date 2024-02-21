@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...take the light colored block, move it into the center of the frame and continue the straight line towards the edge. Fill in the frame with the color of the frame.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...leave the outstanding colored block, move it around the frame and don't continue the single line to the edge. Fill within the frame with the color of the frame.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...take the common colored block, move it to the corner of the frame and continue the curved line to the edge. Fill in the frame with the color of a different frame.</li>
+        <p></p>
+        
         <li>To make the output, you have to...take the outstanding colored block, move it to outside the frame and continue the single line to edge. fill in frame with color of frame.</li>
         <p></p>
         
-        <li>To make the output, you have to...snatch the most vibrant checkered block, fling it within the star and extend the twisted line to verge. shade in star with color of star.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...carry the hardly seen square block, move it towards the heart's center and continue the wavy line to end. paint in heart with color of heart.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...pick up the smallest black block, set it inside the circle and pull the dotted line to corner. sketch in circle with color of circle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...grab the least visible striped block, thrust it to the core of the pentagon and unroll the double line to boundary. splash in pentagon with color of pentagon.</li>
+        <li>To make the output, you have to...take the distinctive colored block, move it into the frame and prevent the single line from reaching the edge. Fill out the frame with the color of the outer frame.</li>
     </ul>
 </div>
 

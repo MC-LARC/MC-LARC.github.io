@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to... start with the color that is on the top. Fill in the entire line with that color, beginning with the first square. Fill in every other square on the second line with the same color and alternate with the first color. This should create a pattern similar to a game board. The first color in every line is the color of the input grid.</li>
+        <p></p>
+        
+        <li>To make the output, you have to... start with the color that is on the bottom. Fill in that line with that color every other square, begin with first square. Fill in the rest in that line with the second color. For the next line, start with the color that is already there (the second color) and fill in in the same every other square pattern. It should look like a game board. The first color in every line is the color of the input grid</li>
+        <p></p>
+        
+        <li>To make the output, you have to... start with the color that is on the top. Fill in that line with that color every other square, begin with second square. Fill in the rest in that line with the second color. For the next line, start with the color that is already there (the first color) and fill in in the same every other square pattern. It should look like a game board. The first color in every line is the color of the input grid</li>
+        <p></p>
+        
         <li>To make the output, you have to...start with the color that is on the top. Fill in that line with that color every other square, begin with first square. Fill in the rest in that line with the second color. For the next line, start with the color that is already there (the second color) and fill in in the same every other square pattern. It should look like a game board. The first color in every line is the color of the input grid</li>
         <p></p>
         
-        <li>To make the output, you have to...scramble the colors on the input grid randomly. This would then produce a multicolored and abstract output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...begin with a blank version of the pattern. Pick each color from top, and use that to shade every third square in a diagonal manner.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...start from the bottom-most line with the color that is there and color every other square. Follow the same for all lines until the top.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...begin with the last square of each line and fill every other square with that color. The rest of the squares should then be filled with a color of your choice.</li>
+        <li>To make the output, you have to... start with the color that is on the top. Fill in that line with that color every square, begin with first square. Fill in the rest in that line with the second color. For the next line, start with the color that is already there (the first color) and fill in in the same every other square pattern. It should look like a game board. The first color in every line is the color of the input grid</li>
     </ul>
 </div>
 

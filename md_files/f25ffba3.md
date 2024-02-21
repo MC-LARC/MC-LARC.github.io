@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
+        <li>To make the output, you have to...rotate the pattern 90 degrees to the right.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...reflect the pattern sideways like it was up against a mirror.</li>
+        <p></p>
+        
         <li>To make the output, you have to...reflect the pattern upside down like it was up against a mirror.</li>
         <p></p>
         
-        <li>To make the output, you have to...rotate the pattern 180 degrees in a clockwise direction.</li>
+        <li>To make the output, you have to...scale the pattern down to half its size.</li>
         <p></p>
         
-        <li>To make the output, you have to...fold the pattern in half along the vertical axis.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...invert the color scheme of the pattern.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...stretch the pattern to twice its original size.</li>
+        <li>To make the output, you have to...flip the pattern along the diagonal axis.</li>
     </ul>
 </div>
 

@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...identify the smallest grid and color it completely.</li>
+        <li>To make the output, you have to...look for the colored grid with the smallest number of colored squares and use that color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...look for the colored grid with the largest number of white squares and use that color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...look for the colored grid with the smallest number of white squares and use that color.</li>
+        <p></p>
+        
+        <li>To make the output, you have to...look for the grid with the most variation of colors and use that color.</li>
         <p></p>
         
         <li>To make the output, you have to...look for the colored grid with the largest number of colored squares and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...select the grid with the least number of colored squares and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...count the number of squares in each grid regardless of color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...exclude all colored squares and focus on the uncolored ones.</li>
     </ul>
 </div>
 
