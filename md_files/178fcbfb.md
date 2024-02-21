@@ -33,19 +33,19 @@
     <h2>MC-LARC options</h2>
 
     <ul>
-        <li>To make the output, you have to...draw a horizontal green line through any blue squares. Then paint in circles for any red and green squares. Avoid touching any blue squares from before.</li>
+        <li>To make the output, you have to...draw a vertical red line through any yellow squares. Then draw lines, left to right, for the green and blue squares. Go over any red squares from before.</li>
         <p></p>
         
         <li>To make the output, you have to...draw a vertical red line through any red squares. Then draw lines, left to right, for the green and blue squares. Go over any red squares from before.</li>
         <p></p>
         
-        <li>To make the output, you have to...check for any blue circles. Connect them with a yellow swirl if found. Fill in any green or red circles next. Ignore any blue circles from the initial scan.</li>
+        <li>To make the output, you have to...draw a vertical green line through any green squares. Then draw lines, left to right, for the red and blue squares. Go over any red squares from before.</li>
         <p></p>
         
-        <li>To make the output, you have to...cross any yellow diamonds with a black X. Create a spiral pattern in any red and green hexagons afterward. Bypass any yellow diamonds from the starting point.</li>
+        <li>To make the output, you have to...draw a horizontal red line through any red squares. Then draw lines, top to bottom, for the green and blue squares. Go over any red squares from before.</li>
         <p></p>
         
-        <li>To make the output, you have to...outline any green triangles with a purple line. Then trace a zigzag pattern over the red and blue rectangles. Skip over any green triangles from the start.</li>
+        <li>To make the output, you have to...draw a vertical blue line through any blue squares. Then draw lines, left to right, for the red and green squares. Go over any red squares from before.</li>
     </ul>
 </div>
 
