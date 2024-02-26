@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...draw a vertical red line through any yellow squares. Then draw lines, left to right, for the green and blue squares. Go over any red squares from before.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a vertical red line through any red squares. Then draw lines, left to right, for the green and blue squares. Go over any red squares from before.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a vertical green line through any green squares. Then draw lines, left to right, for the red and blue squares. Go over any red squares from before.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a horizontal red line through any red squares. Then draw lines, top to bottom, for the green and blue squares. Go over any red squares from before.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a vertical blue line through any blue squares. Then draw lines, left to right, for the red and green squares. Go over any red squares from before.</li>
-    </ul>
+    <ul><li>To make the output, you have to...draw a vertical red line through any <span style='color: red;'>red</span> <span style='color: black;'>squares.</span> Then draw lines, left to right, for the green and blue squares. Go over any red squares from before.</li><p></p><li>To make the output, you have to...draw a vertical <span style='color: green;'>green</span> <span style='color: black;'>line</span> through any <span style='color: green;'>green</span> <span style='color: black;'>squares.</span> Then draw lines, left to right, for the <span style='color: green;'>red</span> <span style='color: black;'>and</span> blue squares. Go over any red squares from before.</li><p></p><li>To make the output, you have to...draw a <span style='color: blue;'>horizontal</span> <span style='color: black;'>red</span> line through any <span style='color: blue;'>red</span> <span style='color: black;'>squares.</span> Then draw lines, <span style='color: blue;'>top</span> <span style='color: black;'>to</span> <span style='color: blue;'>bottom,</span> <span style='color: black;'>for</span> the green and blue squares. Go over any red squares from before.</li><p></p><li>To make the output, you have to...draw a vertical <span style='color: purple;'>blue</span> <span style='color: black;'>line</span> through any <span style='color: purple;'>blue</span> <span style='color: black;'>squares.</span> Then draw lines, left to right, for the <span style='color: purple;'>red</span> <span style='color: purple;'>and</span> <span style='color: black;'>green</span> squares. Go over any red squares from before.</li><p></p></ul>
 </div>
 
 </body>
