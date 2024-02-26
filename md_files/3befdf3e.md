@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,9 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...copy the original input and paste it in the output. Then inverse the squares, then add the amount of colors that filled the input square to each side, inverse the color. Do not worry about the corners.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...delete the original input and paste it in the output. Then add the amount of squares that filled the input square to each side, inverse the color. Do not worry about the corners.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the original input and paste it in the output. Leave the colors as they are, then add the amount of squares that filled the input square to each side. Do not worry about the corners.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the original input and paste it in the output. Then add the amount of squares that filled the input square to each side, inverse the color. Do worry about the corners.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the original input and paste it in the output. Then inverse the colors, then add the amount of squares that filled the input square to each side, inverse the color. Do not worry about the corners.</li>
-    </ul>
+    <ul><li>To make the output, you have <span style='color: red;'>to...delete</span> <span style='color: black;'>the</span> original input and paste it in the output. Then add the amount of <span style='color: red;'>squares</span> <span style='color: black;'>that</span> filled the input square to each side, inverse the color. Do not worry about the corners.</li><p></p><li>To make the output, you have to...copy the original input and paste it in the output. <span style='color: green;'>Leave</span> <span style='color: black;'>the</span> <span style='color: green;'>colors</span> <span style='color: green;'>as</span> <span style='color: green;'>they</span> <span style='color: green;'>are,</span> <span style='color: black;'>then</span> add the amount of <span style='color: green;'>squares</span> <span style='color: black;'>that</span> filled the input square to each     ^
+ <span style='color: green;'>side.</span> <span style='color: black;'>    ^
+</span> Do not worry about the corners.</li><p></p><li>To make the output, you have to...copy the original input and paste it in the output. Then add the amount of <span style='color: blue;'>squares</span> <span style='color: black;'>that</span> filled the input square to each side, inverse the color. Do worry about the corners.</li><p></p><li>To make the output, you have to...copy the original input and paste it in the output. Then inverse the <span style='color: purple;'>colors,</span> <span style='color: black;'>then</span> add the amount of <span style='color: purple;'>squares</span> <span style='color: black;'>that</span> filled the input square to each side, inverse the color. Do not worry about the corners.</li><p></p></ul>
 </div>
 
 </body>

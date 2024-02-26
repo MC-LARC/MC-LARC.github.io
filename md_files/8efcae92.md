@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,12 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...reshape the grid to a circle the same size as the shape and use only one color present in the shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the grid a different size from the shape and the two colors are just like in the shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the grid twice the size of the shape with additional colors not present in the shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the grid the same size as the shape, but with additional colors not present in the shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the grid the same size as the shape and the two colors are just like in the shape.</li>
-    </ul>
+    <ul><li>To make the output, you have <span style='color: red;'>to...make</span> <span style='color: black;'>the</span> grid a <span style='color: red;'>different</span> <span style='color: black;'>size</span> <span style='color: red;'>from</span> <span style='color: black;'>the</span> shape and <span style='color: red;'>the</span> <span style='color: red;'>two</span> <span style='color: red;'>colors</span> <span style='color: black;'>     +
+</span> <span style='color: red;'>are</span> <span style='color: red;'>just</span> <span style='color: red;'>like</span> <span style='color: black;'>in</span> the shape.</li><p></p><li>To make the output, you have <span style='color: green;'>to...make</span> <span style='color: black;'>the</span> grid <span style='color: green;'>twice</span> <span style='color: black;'>the</span> size <span style='color: green;'>of</span> <span style='color: black;'>the</span> shape <span style='color: green;'>with</span> <span style='color: green;'>additional</span> <span style='color: green;'>colors</span> <span style='color: black;'>     +
+</span> <span style='color: green;'>not</span> <span style='color: black;'>present</span> in the shape.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...make</span> <span style='color: black;'>the</span> grid the same size as the <span style='color: blue;'>shape,</span> <span style='color: black;'>     +
+</span> <span style='color: blue;'>but</span> <span style='color: blue;'>with</span> <span style='color: blue;'>additional</span> <span style='color: blue;'>colors</span> <span style='color: black;'>     +
+</span> <span style='color: blue;'>not</span> <span style='color: black;'>present</span> in the shape.</li><p></p><li>To make the output, you have <span style='color: purple;'>to...make</span> <span style='color: black;'>the</span> grid the same size as the shape and <span style='color: purple;'>the</span> <span style='color: purple;'>two</span> <span style='color: purple;'>colors</span> <span style='color: black;'>     +
+</span> <span style='color: purple;'>are</span> <span style='color: purple;'>just</span> <span style='color: purple;'>like</span> <span style='color: black;'>in</span> the shape.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,8 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...extend pixels of the same color diagonally from the 2x2 square, continuing to the edge.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...extend pixels of the same color vertically from the 2x2 square, stopping halfway.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...extend pixels of different colors diagonally from the 2x2 square, continuing to the edge.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...extend pixels of the same color horizontally from the 2x2 square, continuing to the edge.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...extend pixels of the same color diagonally from the 2x2 square, but changing direction midway.</li>
-    </ul>
+    <ul><li>To make the output, you have to...extend pixels of the same color <span style='color: red;'>vertically</span> <span style='color: black;'>from</span> the 2x2 square, <span style='color: red;'>stopping</span> <span style='color: red;'>halfway.</span> </span></li><p></p><li>To make the output, you have to...extend pixels of <span style='color: green;'>different</span> <span style='color: green;'>colors</span> <span style='color: black;'>     +
+</span> diagonally from the 2x2 square, continuing to the edge.</li><p></p><li>To make the output, you have to...extend pixels of the same color <span style='color: blue;'>horizontally</span> <span style='color: black;'>from</span> the 2x2 square, continuing to the edge.</li><p></p><li>To make the output, you have to...extend pixels of the same color diagonally from the 2x2 square, <span style='color: purple;'>but</span> <span style='color: purple;'>changing</span> <span style='color: purple;'>direction</span> <span style='color: purple;'>midway.</span> </span></li><p></p></ul>
 </div>
 
 </body>

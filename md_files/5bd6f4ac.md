@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...fill the entire grid. Replicate this part into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the top left corner, 3x3 grid - the top third and left third of the grid. Replicate this part into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the bottom left corner, 3x3 grid - the bottom third and left third of the grid. Replicate this part into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...want the top right corner, 3x3 grid - the top third and right third of the grid. Replicate this part into output grid.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the middle, 3x3 grid - the center third of the grid. Replicate this part into output grid.</li>
-    </ul>
+    <ul><li>To make the output, you have to...fill the <span style='color: red;'>top</span> <span style='color: red;'>left</span> <span style='color: red;'>corner,</span> <span style='color: red;'>3x3</span> <span style='color: red;'>grid</span> <span style='color: red;'>-</span> <span style='color: red;'>the</span> <span style='color: red;'>top</span> <span style='color: red;'>third</span> <span style='color: red;'>and</span> <span style='color: red;'>left</span> <span style='color: red;'>third</span> <span style='color: red;'>of</span> <span style='color: red;'>the</span> <span style='color: black;'>grid.</span> Replicate this part into output grid.</li><p></p><li>To make the output, you have to...fill the <span style='color: green;'>bottom</span> <span style='color: green;'>left</span> <span style='color: green;'>corner,</span> <span style='color: green;'>3x3</span> <span style='color: green;'>grid</span> <span style='color: green;'>-</span> <span style='color: green;'>the</span> <span style='color: green;'>bottom</span> <span style='color: green;'>third</span> <span style='color: green;'>and</span> <span style='color: green;'>left</span> <span style='color: green;'>third</span> <span style='color: green;'>of</span> <span style='color: green;'>the</span> <span style='color: black;'>grid.</span> Replicate this part into output grid.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...want</span> <span style='color: black;'>the</span> <span style='color: blue;'>top</span> <span style='color: blue;'>right</span> <span style='color: blue;'>corner,</span> <span style='color: blue;'>3x3</span> <span style='color: blue;'>grid</span> <span style='color: blue;'>-</span> <span style='color: blue;'>the</span> <span style='color: blue;'>top</span> <span style='color: blue;'>third</span> <span style='color: blue;'>and</span> <span style='color: blue;'>right</span> <span style='color: blue;'>third</span> <span style='color: blue;'>of</span> <span style='color: blue;'>the</span> <span style='color: black;'>grid.</span> Replicate this part into output grid.</li><p></p><li>To make the output, you have to...fill the <span style='color: purple;'>middle,</span> <span style='color: purple;'>3x3</span> <span style='color: purple;'>grid</span> <span style='color: purple;'>-</span> <span style='color: purple;'>the</span> <span style='color: purple;'>center</span> <span style='color: purple;'>third</span> <span style='color: purple;'>of</span> <span style='color: purple;'>the</span> <span style='color: black;'>grid.</span> Replicate this part into output grid.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...keep the blue shape where it is, and move the red and yellow shapes up or down so that they are at the same level as the blue-colored shape.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...keep the blue shape where it is, and move the red and yellow shapes left or right so that they are at the same level as the blue-colored shape. </li>
-        <p></p>
-        
-        <li>To make the output, you have to...keep the blue shape where it is, and move the green and pink shapes up or down so that they are at the same level as the blue-colored shape. </li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the blue shape down instead, and move the red and yellow shapes up or down so that they are at the same level as the green-colored shape. </li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the blue shape where it is, and move the red and brown shapes up or down so that they are at the same elevation as the blue-colored shape.</li>
-    </ul>
+    <ul><li>To make the output, you have to...keep the blue shape where it is, and move the red and yellow shapes <span style='color: red;'>left</span> <span style='color: black;'>or</span> <span style='color: red;'>right</span> <span style='color: black;'>so</span> that they are at the same level as the blue-colored shape.</li><p></p><li>To make the output, you have to...keep the blue shape where it is, and move the <span style='color: green;'>green</span> <span style='color: black;'>and</span> <span style='color: green;'>pink</span> <span style='color: black;'>shapes</span> up or down so that they are at the same level as the blue-colored shape.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...move</span> <span style='color: black;'>the</span> blue shape <span style='color: blue;'>down</span> <span style='color: blue;'>instead,</span> <span style='color: black;'>and</span> move the red and yellow shapes up or down so that they are at the same level as the <span style='color: blue;'>green-colored</span> <span style='color: black;'>shape.</span></li><p></p><li>To make the output, you have <span style='color: purple;'>to...move</span> <span style='color: black;'>the</span> blue shape where it is, and move the red and <span style='color: purple;'>brown</span> <span style='color: black;'>shapes</span> up or down so that they are at the same <span style='color: purple;'>elevation</span> <span style='color: black;'>as</span> the blue-colored shape.</li><p></p></ul>
 </div>
 
 </body>

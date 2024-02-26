@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...change the input grid, then copy the exact same pattern to fill in the whole black background.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...duplicate the input grid, then paste the exact same pattern to fill in the whole black background.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the input grid, then copy the exact same pattern to fill in the whole black background.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the input grid, then copy the different pattern to fill in the whole black background.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the input grid, then copy the exact same pattern to fill in only a quarter of the black background.</li>
-    </ul>
+    <ul><li>To make the output, you have <span style='color: red;'>to...duplicate</span> <span style='color: black;'>the</span> input grid, then <span style='color: red;'>paste</span> <span style='color: black;'>the</span> exact same pattern to fill in the whole black background.</li><p></p><li>To make the output, you have <span style='color: green;'>to...copy</span> <span style='color: black;'>the</span> input grid, then copy the exact same pattern to fill in the whole black background.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...copy</span> <span style='color: black;'>the</span> input grid, then copy the <span style='color: blue;'>different</span> <span style='color: black;'>pattern</span> to fill in the whole black background.</li><p></p><li>To make the output, you have <span style='color: purple;'>to...copy</span> <span style='color: black;'>the</span> input grid, then copy the exact same pattern to fill in <span style='color: purple;'>only</span> <span style='color: purple;'>a</span> <span style='color: purple;'>quarter</span> <span style='color: purple;'>of</span> <span style='color: black;'>the</span> black background.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...put colored squares in the middle of the rectangle shapes so that the pattern is black square, colored square, black square, colored square and so on in the middle of each rectangle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...put black triangles in the middle of the rectangle shapes so that the pattern is colored triangle, black triangle, colored triangle, black triangle and so on in the middle of each rectangle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...put black squares in the middle of the rectangle shapes so that the pattern is colored square, black square, colored square, black square and so on in the middle of each rectangle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...put black squares at the corners of the rectangle shapes so that the pattern is colored square, black square, colored square, black square and so on at the corners of each rectangle.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...put white squares in the middle of the rectangle shapes so that the pattern is colored square, white square, colored square, white square and so on in the middle of each rectangle.</li>
-    </ul>
+    <ul><li>To make the output, you have to...put <span style='color: red;'>black</span> <span style='color: red;'>triangles</span> <span style='color: black;'>in</span> the middle of the rectangle shapes so that the pattern is <span style='color: red;'>colored</span> <span style='color: red;'>triangle,</span> <span style='color: black;'>black</span> <span style='color: red;'>triangle,</span> <span style='color: black;'>colored</span> <span style='color: red;'>triangle,</span> <span style='color: black;'>black</span> <span style='color: red;'>triangle</span> <span style='color: black;'>and</span> so on in the middle of each rectangle.</li><p></p><li>To make the output, you have to...put <span style='color: green;'>black</span> <span style='color: black;'>squares</span> in the middle of the rectangle shapes so that the pattern is <span style='color: green;'>colored</span> <span style='color: green;'>square,</span> <span style='color: black;'>black</span> square, colored square, black square and so on in the middle of each rectangle.</li><p></p><li>To make the output, you have to...put <span style='color: blue;'>black</span> <span style='color: black;'>squares</span> <span style='color: blue;'>at</span> <span style='color: black;'>the</span> <span style='color: blue;'>corners</span> <span style='color: black;'>of</span> the rectangle shapes so that the pattern is <span style='color: blue;'>colored</span> <span style='color: blue;'>square,</span> <span style='color: black;'>black</span> square, colored square, black square and so on <span style='color: blue;'>at</span> <span style='color: black;'>the</span> <span style='color: blue;'>corners</span> <span style='color: black;'>of</span> each rectangle.</li><p></p><li>To make the output, you have to...put <span style='color: purple;'>white</span> <span style='color: black;'>squares</span> in the middle of the rectangle shapes so that the pattern is <span style='color: purple;'>colored</span> <span style='color: purple;'>square,</span> <span style='color: purple;'>white</span> <span style='color: black;'>square,</span> colored square, <span style='color: purple;'>white</span> <span style='color: black;'>square</span> and so on in the middle of each rectangle.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,11 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...copy image exactly. Where there's a red square, put yellow squares at it's corners (4 total). Where there's a blue square, put orange squares directly above and below it (4 total). Do nothing with light blue or pink squares.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy image exactly. Where there's a red square, put gray squares at its corners (4 total). Where there's a blue square, put brown squares directly above and below it (4 total). Do nothing with green or brown squares.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy image exactly. Where there's a blue square, put yellow squares at its corners (4 total). Where there's a pink square, put orange squares directly above and below it (4 total). Do nothing with light blue or red squares.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy image exactly. Where there's a gray square, put yellow squares at its corners (4 total). Where there's a green square, put orange squares directly above and below it (4 total). Do everything with red or light blue squares.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy image exactly. Where there's a green square, put yellow squares at its corners (4 total). Where there's a yellow square, put orange squares directly above and below it (4 total). Do everything with light blue or pink squares.</li>
-    </ul>
+    <ul><li>To make the output, you have to...copy image exactly. Where there's a red square, put <span style='color: red;'>gray</span> <span style='color: black;'>squares</span> at   -
+ <span style='color: red;'>its</span> <span style='color: black;'>corners</span> (4 total). Where there's a blue square, put <span style='color: red;'>brown</span> <span style='color: black;'>squares</span> directly above and below it (4 total). Do nothing with <span style='color: red;'>green</span> <span style='color: black;'>or</span> <span style='color: red;'>brown</span> <span style='color: black;'>squares.</span></li><p></p><li>To make the output, you have to...copy image exactly. Where there's a <span style='color: green;'>blue</span> <span style='color: black;'>square,</span> put yellow squares at   -
+ <span style='color: green;'>its</span> <span style='color: black;'>corners</span> (4 total). Where there's a <span style='color: green;'>pink</span> <span style='color: black;'>square,</span> put orange squares directly above and below it (4 total). Do nothing with light blue or <span style='color: green;'>red</span> <span style='color: black;'>squares.</span></li><p></p><li>To make the output, you have to...copy image exactly. Where there's a <span style='color: blue;'>gray</span> <span style='color: black;'>square,</span> put yellow squares at   -
+ <span style='color: blue;'>its</span> <span style='color: black;'>corners</span> (4 total). Where there's a <span style='color: blue;'>green</span> <span style='color: black;'>square,</span> put orange squares directly above and below it (4 total). Do <span style='color: blue;'>everything</span> <span style='color: black;'>with</span> <span style='color: blue;'>red</span> <span style='color: blue;'>or</span> <span style='color: black;'>light</span> blue squares.</li><p></p><li>To make the output, you have to...copy image exactly. Where there's a <span style='color: purple;'>green</span> <span style='color: black;'>square,</span> put yellow squares at   -
+ <span style='color: purple;'>its</span> <span style='color: black;'>corners</span> (4 total). Where there's a <span style='color: purple;'>yellow</span> <span style='color: black;'>square,</span> put orange squares directly above and below it (4 total). Do <span style='color: purple;'>everything</span> <span style='color: black;'>with</span> light blue or pink squares.</li><p></p></ul>
 </div>
 
 </body>
