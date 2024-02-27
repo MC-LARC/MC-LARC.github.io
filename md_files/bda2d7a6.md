@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...change the color of center green 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...change the color of center black 2x3 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 6X6 grid color, 4X4 change to 2X2 color, and 6X6 change to old 4X4 color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 4X4 grid color, 4X4 change to 6X7 color, and 6X6 change to old 2X2 color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...change the color of center black 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color</li>
-    </ul>
+    <ul><li>To make the output, you have to...change the color of center blue 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li><p><p><li>To make the output, you have to...change the color of center <span style='color: red;'>black</span> <span style='color: red;'>3x3</span> grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 color.</li><p></p><li>To make the output, you have to...change the color of center <span style='color: green;'>black</span> 2x2 grid to that of 4X4 grid color, 4X4 change to 6X6 color, and 6X6 change to old 2X2 <span style='color: green;'>color</span></li><p></p><li>To make the output, you have to...change the color of center <span style='color: blue;'>black</span> 2x2 grid to that of <span style='color: blue;'>5X5</span> grid color, <span style='color: blue;'>5X5</span> change to 6X6 color, and 6X6 change to old 2X2 color.</li><p></p><li>To make the output, you have to...change the color of center <span style='color: purple;'>black</span> 2x2 grid to that of 4X4 grid color, 4X4 change to <span style='color: purple;'>7X7</span> color, and <span style='color: purple;'>7X7</span> change to old 2X2 color.</li><p></p></ul>
 </div>
 
 </body>

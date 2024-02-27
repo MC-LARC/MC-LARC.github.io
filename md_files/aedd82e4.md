@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... copy the input grid. Any shapes which only contain two single squares should be colored blue.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... mirror the input grid. Any shapes which only contain one single square should be colored blue.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... copy the input grid. Any shapes which only contain one single square should be colored blue.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... copy the input grid. Any shapes which only contain one single square should be colored red.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... rotate the input grid. Any shapes which only contain one single square should be colored blue.</li>
-    </ul>
+    <ul><li>To make the output, you have to... clone the input grid. Any figures containing one square must be colored in blue.</li><p><p><li>To make the output, you have to... <span style='color: red;'>duplicate</span> the input grid. Any <span style='color: red;'>shapes</span> <span style='color: red;'>which</span> <span style='color: red;'>only</span> <span style='color: red;'>contain</span> one <span style='color: red;'>single</span> square <span style='color: red;'>should</span> be colored <span style='color: red;'>red.</span></li><p></p><li>To make the output, you have to... <span style='color: green;'>copy</span> the input grid. Any <span style='color: green;'>shapes</span> <span style='color: green;'>which</span> <span style='color: green;'>only</span> <span style='color: green;'>contain</span> one <span style='color: green;'>single</span> square <span style='color: green;'>should</span> be colored blue.</li><p></p><li>To make the output, you have to... <span style='color: blue;'>replicate</span> the input grid. Any <span style='color: blue;'>shapes</span> <span style='color: blue;'>consisting</span> <span style='color: blue;'>of</span> <span style='color: blue;'>three</span> <span style='color: blue;'>single</span> <span style='color: blue;'>squares</span> <span style='color: blue;'>should</span> be colored in <span style='color: blue;'>green.</span></li><p></p><li>To make the output, you have to... <span style='color: purple;'>input</span> the <span style='color: purple;'>grid</span> <span style='color: purple;'>copy.</span> Any <span style='color: purple;'>shapes</span> <span style='color: purple;'>which</span> <span style='color: purple;'>include</span> one <span style='color: purple;'>solo</span> square <span style='color: purple;'>should</span> be colored in <span style='color: purple;'>purple.</span></li><p></p></ul>
 </div>
 
 </body>

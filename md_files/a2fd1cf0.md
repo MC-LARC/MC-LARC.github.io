@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...create a road of pink squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a road of light blue squares between the red and green squares. The road should go in a diagonal from the green square to the red square.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a road of light blue squares between the green and blue squares. The road should travel up or down from the blue square and left or right from the green square until the two meet.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a road of light blue squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a road of light blue squares between the yellow and gray squares. The road should travel up or down from the gray square and left or right from the yellow square until the two meet.</li>
-    </ul>
+    <ul><li>To make the output, you have to...create a road of light blue squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li><p><p><li>To make the output, you have <span style='color: red;'>to...build</span> a <span style='color: red;'>bridge</span> of light blue squares between the red and green squares. The <span style='color: red;'>bridge</span> should <span style='color: red;'>start</span> up or down from the green square and left or right from the red square until the two meet.</li><p></p><li>To make the output, you have to...create a road of <span style='color: green;'>yellow</span> squares between the red and green squares. The road should travel up or down from the green square and left or right from the red square until the two meet.</li><p></p><li>To make the output, you have to...create a <span style='color: blue;'>river</span> of light blue squares between the red and green squares. The <span style='color: blue;'>river</span> should <span style='color: blue;'>flow</span> up or down from the green square and left or right from the red square until the two meet.</li><p></p><li>To make the output, you have to...create a road of light blue squares between the red and green <span style='color: purple;'>rectangles.</span> The road should travel up or down from the green <span style='color: purple;'>rectangle</span> and left or right from the red <span style='color: purple;'>rectangle</span> until the two meet.</li><p></p></ul>
 </div>
 
 </body>

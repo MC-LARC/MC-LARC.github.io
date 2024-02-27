@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...follow the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with blue.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...change the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with black.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...follow the colored pattern and put them on all the corners in reverse. Then fill in the middle 4 squares with black.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...follow the colored pattern and put them on all the sides exactly how the pattern is placed. Then fill in the middle 4 squares with green.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...follow the colored pattern and put them on all the corners exactly how the pattern is placed. Then fill in the middle 4 squares with black.</li>
-    </ul>
+    <ul><li>To make the output, you have to...follow the neutral pattern and put them on all the corners exactly how the pattern is placed. Then fill in the center 4 squares with black.</li><p><p><li>To make the output, you have to...follow the <span style='color: red;'>colored</span> pattern and put them on all the corners exactly how the pattern is placed. Then fill in the <span style='color: red;'>middle</span> 4 squares with black.</li><p></p><li>To make the output, you have to...follow the <span style='color: green;'>colorless</span> pattern and put them on all the corners exactly how the pattern is placed. Then fill in the <span style='color: green;'>middle</span> 4 <span style='color: green;'>rectangles</span> with black.</li><p></p><li>To make the output, you have to...follow the <span style='color: blue;'>colored</span> pattern and put them on all the corners exactly how the pattern is placed. Then fill in the <span style='color: blue;'>middle</span> 4 squares with <span style='color: blue;'>gray.</span></li><p></p><li>To make the output, you have to...follow the <span style='color: purple;'>colored</span> pattern and put them on all the <span style='color: purple;'>sides</span> exactly how the pattern is placed. Then fill in the <span style='color: purple;'>middle</span> 4 squares with black.</li><p></p></ul>
 </div>
 
 </body>

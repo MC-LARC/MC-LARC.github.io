@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... continue the pattern of black squares vertical and continue the brown squares horizontal to reach the edge of the grid. On the square that black and brown squares crosses, color that one gray.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... continue the pattern of red squares horizontal and continue the blue squares vertical to reach the edge of the grid. On the square that blue and red squares crosses, color that one yellow.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... continue the pattern of green squares horizontal and continue the pink squares vertical to reach the edge of the grid. On the square that green and pink squares crosses, color that one yellow. </li>
-        <p></p>
-        
-        <li>To make the output, you have to... stop the pattern of red squares halfway and continue the blue squares vertical to reach the edge of the grid. On the square that blue and red squares crosses, color that one yellow.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... continue the pattern of blue squares horizontal and continue the red squares vertical, not reaching the edge of the grid. On the square that blue and red squares crosses, color that one green.</li>
-    </ul>
+    <ul><li>To make the output, you have to... continue the pattern of red squares horizontal and continue the brown squares vertical to reach the edge of the grid. On the square that brown and red squares crosses, color that one pink.</li><p><p><li>To make the output, you have to... continue the pattern of red squares <span style='color: red;'>vertical</span> and continue the <span style='color: red;'>blue</span> squares <span style='color: red;'>horizontal</span> to reach the edge of the grid. On the square that <span style='color: red;'>blue</span> and red squares crosses, color that one <span style='color: red;'>green.</span></li><p></p><li>To make the output, you have to... continue the pattern of <span style='color: green;'>blue</span> squares horizontal and continue the <span style='color: green;'>green</span> squares vertical to reach the edge of the grid. On the square that <span style='color: green;'>green</span> and red squares crosses, color that one <span style='color: green;'>yellow.</span></li><p></p><li>To make the output, you have to... continue the pattern of <span style='color: blue;'>black</span> squares horizontal and continue the <span style='color: blue;'>pink</span> squares vertical to reach the edge of the grid. On the square that <span style='color: blue;'>pink</span> and red squares crosses, color that one <span style='color: blue;'>light</span> <span style='color: blue;'>blue.</span></li><p></p><li>To make the output, you have to... continue the pattern of red squares horizontal and continue the <span style='color: purple;'>blue</span> squares vertical to reach the edge of the grid. On the square that <span style='color: purple;'>blue</span> and red squares crosses, color that one <span style='color: purple;'>yellow.</span></li><p></p></ul>
 </div>
 
 </body>

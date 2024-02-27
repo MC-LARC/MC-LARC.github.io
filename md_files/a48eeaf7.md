@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...move the circles until they touch the red square on the same line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...rotate the blocks until they touch the red square on the same line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the blocks until they touch the blue square on the same line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the blocks until they touch the green square on the same line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the blocks until they touch the red square on the same line.</li>
-    </ul>
+    <ul><li>To make the output, you have to...move the circles until they touch the red square on the same line.</li><p><p><li>To make the output, you have to...move the <span style='color: red;'>blocks</span> <span style='color: red;'>on</span> <span style='color: red;'>the</span> <span style='color: red;'>red</span> <span style='color: red;'>square</span> until they touch <span style='color: red;'>each</span> <span style='color: red;'>other</span> on the same line.</li><p></p><li>To make the output, you have to...move the <span style='color: green;'>blocks</span> until they touch the <span style='color: green;'>blue</span> square on the same line.</li><p></p><li>To make the output, you have to...move the <span style='color: blue;'>blocks</span> until they touch the red <span style='color: blue;'>circle</span> on the same line.</li><p></p><li>To make the output, you have to...move the <span style='color: purple;'>blocks</span> until they touch the red square on the same line.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... erase red part and expose the intact underneath surface.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... fill the outside of both shapes with red sacrificing the original color on the boundary.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... fill the inside of both shapes with red leaving a border the same color as original.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... fill the inside of both shapes with blue, totally missing the border.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... fill the inside of first shape with red and second shape with green also missing a border.</li>
-    </ul>
+    <ul><li>To make the output, you have to... fill the inside of both shapes with green leaving a border the same color as original. </li><p><p><li>To make the output, you have to... <span style='color: red;'>leave</span> the inside of both shapes <span style='color: red;'>empty</span> <span style='color: red;'>and</span> <span style='color: red;'>draw</span> a border the same color as original.</li><p></p><li>To make the output, you have to... fill the inside of both shapes with <span style='color: green;'>red</span> leaving a border the same color as original.</li><p></p><li>To make the output, you have to... fill the <span style='color: blue;'>outside</span> of both shapes with <span style='color: blue;'>red</span> leaving a border the same color as original.</li><p></p><li>To make the output, you have to... fill the inside of both shapes with <span style='color: purple;'>red</span> leaving a border <span style='color: purple;'>of</span> <span style='color: purple;'>a</span> <span style='color: purple;'>different</span> <span style='color: purple;'>color.</span></li><p></p></ul>
 </div>
 
 </body>

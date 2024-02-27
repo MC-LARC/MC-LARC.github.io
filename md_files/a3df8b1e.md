@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...draw a green dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a green dot one to the left and one up until you reach the other side, repeat until you reach the top.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a red dot one to the left and one down from the original one, follow that pattern until you reach the side, then draw a red dot one to the right and one down until you reach the other side, repeat until you reach the bottom.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a blue dot one to the left and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the right and one up until you reach the other side, repeat until you reach the top.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a yellow dot one to the right and one down from the original one, follow that pattern until you reach the side, then draw a yellow dot one to the left and one down until you reach the other side, repeat until you reach the bottom.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a blue dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the left and one up until you reach the other side, repeat until you reach the top.</li>
-    </ul>
+    <ul><li>To make the output, you have to...draw a blue dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the left and one up until you reach the other side, repeat until you reach the top.</li><p><p><li>To make the output, you have to...draw a blue dot one to the right and <span style='color: red;'>two</span> up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the left and one up until you reach the other side, repeat until you reach the top.</li><p></p><li>To make the output, you have to...draw a <span style='color: green;'>red</span> dot one to the right and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the left and one up until you reach the other side, repeat until you reach the top.</li><p></p><li>To make the output, you have to...draw a blue dot one to the <span style='color: blue;'>left</span> and one up from the original one, follow that pattern until you reach the side, then draw a blue dot one to the <span style='color: blue;'>right</span> and one up until you reach the other side, repeat until you reach the <span style='color: blue;'>bottom.</span></li><p></p><li>To make the output, you have to...draw a blue dot <span style='color: purple;'>two</span> to the right and one up from the original one, follow that pattern until you reach the side, then draw a blue dot <span style='color: purple;'>two</span> to the left and one up until you reach the other side, repeat until you reach the top.</li><p></p></ul>
 </div>
 
 </body>

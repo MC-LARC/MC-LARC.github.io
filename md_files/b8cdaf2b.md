@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...create a diagonal line from the top to the sides with the most majority color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a straight line from the top to the bottom with the less majority color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a diagonal line from the sides to the top with the less majority color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the entire grid with the less majority color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...create a diagonal line from the top to the sides with the less majority color.</li>
-    </ul>
+    <ul><li>To make the output, you have to...create a diagonal line from the top to the sides with the less majority color.</li><p><p><li>To make the output, you have to...create a <span style='color: red;'>vertical</span> line from the top to the <span style='color: red;'>bottom</span> with the less majority color.</li><p></p><li>To make the output, you have to...create a <span style='color: green;'>horizontal</span> line from <span style='color: green;'>side</span> to <span style='color: green;'>side</span> with the less majority color.</li><p></p><li>To make the output, you have to...create a diagonal line from the <span style='color: blue;'>bottom</span> to the sides with the less majority color.</li><p></p><li>To make the output, you have to...create a <span style='color: purple;'>zigzag</span> line from the top to the sides with the less majority color.</li><p></p></ul>
 </div>
 
 </body>

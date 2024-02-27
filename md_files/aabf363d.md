@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...make the box at the top right corner black and the colored object at the center the color of the box at the top right corner.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...color all the boxes in the center and the bottom left corner brown.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the box at the bottom left corner black and the colored object at the center the color of the box at the bottom left corner</li>
-        <p></p>
-        
-        <li>To make the output, you have to...draw a line from the bottom left corner to the center in the color of the bottom left box.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make the box at the center black and the colored object at the bottom left corner the color of the box in the center.</li>
-    </ul>
+    <ul><li>To make the output, you have to...make the box at the bottom left corner blue and the colored object at the center the color of the box at the bottom left corner.</li><p><p><li>To make the output, you have to...make the box <span style='color: red;'>in</span> the <span style='color: red;'>top</span> left corner <span style='color: red;'>black</span> and the colored object <span style='color: red;'>in</span> the <span style='color: red;'>corner</span> the color of the box at the bottom left corner.</li><p></p><li>To make the output, you have to...make the box at the <span style='color: green;'>top</span> <span style='color: green;'>right</span> corner <span style='color: green;'>black</span> and the colored object at the center the color of the box at the bottom left corner.</li><p></p><li>To make the output, you have to...make the box at the bottom left corner <span style='color: blue;'>black</span> and the colored object at the center the color of the box at the bottom left <span style='color: blue;'>corner</span></li><p></p><li>To make the output, you have to...make the box at the bottom <span style='color: purple;'>right</span> corner <span style='color: purple;'>black</span> and the colored object at the center the color of the box at the <span style='color: purple;'>top</span> left corner.</li><p></p></ul>
 </div>
 
 </body>
