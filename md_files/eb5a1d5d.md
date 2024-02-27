@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... put outside box color in 1x1, center box color in 3x3, then 5x5, then 7x7 and so on.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... start with triangle shape, put center box color in 1x1, outside box color in 3x3, then 5x5, then 7x7 and so on.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... put center box color in 1x1, circle color in 3x3, then 5x5, then 7x7 and so on.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... put center box color in 1x1, outside box color in 4x4, then 6x6, then 8x8 and so on.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... put center box color in 1x1, outside box color in 3x3, then 5x5, then 7x7 and so on.</li>
-    </ul>
+    <ul><li>To make the output, you have to... put center box color in 1x1, then outside box color in 2x2, then 4x4, then 6x6 and so on.</li><p><p><li>To make the output, you have to... put center box color in 1x1, outside box color in <span style='color: red;'>3x3,</span> then <span style='color: red;'>5x5,</span> then <span style='color: red;'>7x7</span> and so on.</li><p></p><li>To make the output, you have to... put <span style='color: green;'>outside</span> <span style='color: green;'>box</span> <span style='color: green;'>color</span> <span style='color: green;'>in</span> <span style='color: green;'>1x1,</span> center box color in <span style='color: green;'>3x3,</span> then <span style='color: green;'>5x5,</span> then <span style='color: green;'>7x7</span> and so on.</li><p></p><li>To make the output, you have to... put center box color in <span style='color: blue;'>2x2,</span> outside box color in <span style='color: blue;'>3x3,</span> then <span style='color: blue;'>5x5,</span> then <span style='color: blue;'>7x7</span> and so on.</li><p></p><li>To make the output, you have to... put <span style='color: purple;'>outside</span> box color in 1x1, then <span style='color: purple;'>center</span> box color in 4x4, then <span style='color: purple;'>6x6,</span> <span style='color: purple;'>then</span> <span style='color: purple;'>8x8</span> and so on.</li><p></p></ul>
 </div>
 
 </body>

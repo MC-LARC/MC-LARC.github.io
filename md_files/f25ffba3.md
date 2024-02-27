@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...rotate the pattern 90 degrees to the right.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...reflect the pattern sideways like it was up against a mirror.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...reflect the pattern upside down like it was up against a mirror.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...scale the pattern down to half its size.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...flip the pattern along the diagonal axis.</li>
-    </ul>
+    <ul><li>To make the output, you have to...rotate the pattern 180 degrees like it was on a turntable.</li><p><p><li>To make the output, you have <span style='color: red;'>to...distort</span> the pattern like it was <span style='color: red;'>in</span> a <span style='color: red;'>fun</span> <span style='color: red;'>house</span> <span style='color: red;'>mirror.</span></li><p></p><li>To make the output, you have <span style='color: green;'>to...translate</span> the pattern <span style='color: green;'>to</span> <span style='color: green;'>the</span> <span style='color: green;'>right</span> like it was on a <span style='color: green;'>conveyor</span> <span style='color: green;'>belt.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...reflect</span> the pattern <span style='color: blue;'>upside</span> <span style='color: blue;'>down</span> like it was <span style='color: blue;'>up</span> <span style='color: blue;'>against</span> a <span style='color: blue;'>mirror.</span></li><p></p><li>To make the output, you have <span style='color: purple;'>to...scale</span> <span style='color: purple;'>up</span> the pattern like it was <span style='color: purple;'>under</span> a <span style='color: purple;'>magnifying</span> <span style='color: purple;'>glass.</span></li><p></p></ul>
 </div>
 
 </body>

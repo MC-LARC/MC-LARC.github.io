@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...order the color boxes. seek a large number of the color box.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...disorder the color boxes. seek a large number of the color box.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...order the color boxes. avoid a large number of the black box.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...order the color boxes. avoid a large number of the color box.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...disorder the color boxes. avoid a small number of the color box.</li>
-    </ul>
+    <ul><li>To make the output, you have to...order the color boxes. gather a large number of the color box.</li><p><p><li>To make the output, you have to...order the color boxes. <span style='color: red;'>avoid</span> a large number of the color box.</li><p></p><li>To make the output, you have <span style='color: green;'>to...scatter</span> the color boxes. <span style='color: green;'>prevent</span> a large <span style='color: green;'>accumulation</span> of the color box.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...jumble</span> the color boxes. <span style='color: blue;'>evade</span> a <span style='color: blue;'>massive</span> <span style='color: blue;'>quantity</span> of the color box.</li><p></p><li>To make the output, you have <span style='color: purple;'>to...arrange</span> the color boxes. <span style='color: purple;'>collect</span> <span style='color: purple;'>an</span> <span style='color: purple;'>extensive</span> <span style='color: purple;'>collection</span> of the color box.</li><p></p></ul>
 </div>
 
 </body>

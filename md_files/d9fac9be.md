@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...rotate the different colored center block from the input grid and make it the only colored block.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...invert colors of the different colored center block from the input grid and make it the only colored block. </li>
-        <p></p>
-        
-        <li>To make the output, you have to...zoom into the different colored center block from the input grid and make it the only colored block.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...move the different colored center block from the input grid to the corner and make it the only colored block.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...zoom out from the same colored center block of the input grid and make it the only colored block.</li>
-    </ul>
+    <ul><li>To make the output, you have to...zoom into the similar colored center block from the input grid and make it the only colored block.</li><p><p><li>To make the output, you have to...zoom <span style='color: red;'>out</span> <span style='color: red;'>of</span> the <span style='color: red;'>different</span> colored center block from the input grid and make it the only colored block.</li><p></p><li>To make the output, you have to...zoom into the <span style='color: green;'>different</span> colored center block from the input grid and make it the <span style='color: green;'>multiple</span> colored <span style='color: green;'>blocks.</span></li><p></p><li>To make the output, you have to...zoom into the similar colored <span style='color: blue;'>side</span> block from the input grid and make it the only colored block.</li><p></p><li>To make the output, you have to...zoom into the <span style='color: purple;'>different</span> colored center block from the input grid and make it the only colored block.</li><p></p></ul>
 </div>
 
 </body>

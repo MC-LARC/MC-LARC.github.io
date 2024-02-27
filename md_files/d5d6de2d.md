@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...black out the holes of the boxes with green, then fill in the outlines of the boxes.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...black in the outlines of the boxes with green, then fill out the holes of the boxes.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill in the holes of the boxes with green, then black out the outlines of the boxes.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill in the holes of the boxes with black, then green out the outlines of the boxes.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill in the outlines of the boxes with green, then black out the holes of the boxes.</li>
-    </ul>
+    <ul><li>To make the output, you have to...fill in the holes of the circles with green, then black out the outlines of the circles.</li><p><p><li>To make the output, you have to...fill in the holes of the <span style='color: red;'>boxes</span> with green, then black out the outlines of the <span style='color: red;'>boxes.</span></li><p></p><li>To make the output, you have to...fill in the <span style='color: green;'>outlines</span> of the <span style='color: green;'>boxes</span> with green, then black out the <span style='color: green;'>holes</span> of the <span style='color: green;'>boxes.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...green</span> <span style='color: blue;'>out</span> the holes of the <span style='color: blue;'>boxes,</span> then <span style='color: blue;'>fill</span> <span style='color: blue;'>in</span> the outlines of the <span style='color: blue;'>boxes</span> <span style='color: blue;'>with</span> <span style='color: blue;'>black.</span></li><p></p><li>To make the output, you have to...fill in the holes of the <span style='color: purple;'>boxes</span> with <span style='color: purple;'>black,</span> then <span style='color: purple;'>green</span> out the outlines of the <span style='color: purple;'>boxes.</span></li><p></p></ul>
 </div>
 
 </body>

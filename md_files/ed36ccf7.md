@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...turn the pattern in the input grid clockwise.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...flip the pattern in the input grid diagonally.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...reverse the pattern in the input grid horizontally.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...turn the pattern in the input grid counter-clockwise.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...invert the pattern in the input grid vertically.</li>
-    </ul>
+    <ul><li>To make the output, you have to...turn the pattern in the input grid clockwise.</li><p><p><li>To make the output, you have <span style='color: red;'>to...flip</span> the pattern in the input grid <span style='color: red;'>horizontally.</span></li><p></p><li>To make the output, you have <span style='color: green;'>to...mirror</span> the pattern in the input <span style='color: green;'>grid,</span> <span style='color: green;'>left</span> <span style='color: green;'>to</span> <span style='color: green;'>right.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...invert</span> the pattern in the input <span style='color: blue;'>grid.</span></li><p></p><li>To make the output, you have to...turn the pattern in the input grid <span style='color: purple;'>counter-clockwise.</span></li><p></p></ul>
 </div>
 
 </body>

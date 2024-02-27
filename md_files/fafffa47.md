@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the yellow pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and yellow squares with black color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the green pattern to the 3x3 grid. Then, copy the blue pattern on top of the green pattern. After that, fill in the black squares with red color and fill in all the green and blue squares with black color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... first, create a 3x3 grid and flood fill it with green color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the green squares with red color and fill in all the brown and blue squares with black color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... first, create a 4x4 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li>
-    </ul>
+    <ul><li>To make the output, you have to... first, create a 4x4 grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li><p><p><li>To make the output, you have to... first, create a <span style='color: red;'>3x3</span> grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the <span style='color: red;'>brown</span> squares with red color and fill in all the <span style='color: red;'>black</span> and blue squares with black color.</li><p></p><li>To make the output, you have to... first, create a <span style='color: green;'>3x3</span> grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with <span style='color: green;'>green</span> color.</li><p></p><li>To make the output, you have to... first, create a <span style='color: blue;'>3x3</span> grid and flood fill it with black color. Next, copy the brown pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li><p></p><li>To make the output, you have to... first, create a <span style='color: purple;'>3x3</span> grid and flood fill it with black color. Next, copy the <span style='color: purple;'>gray</span> pattern to the 3x3 grid. Then, copy the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li><p></p></ul>
 </div>
 
 </body>

@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to... triple the entire grid, then fill in the solid color to exactly match the square pattern. Finally result should be entirely square patterned.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...duplicate the entire grid, then fill in the solid color to exactly match dot pattern. Finally result should be entirely dot patterned.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...duplicate the entire grid, then fill in the solid color to exactly match the checker pattern. Finally result should be entirely checker patterned.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... duplicate the entire grid, then fill in the solid color to exactly match the stripe pattern. Finally result should be entirely stripe patterned.</li>
-        <p></p>
-        
-        <li>To make the output, you have to... duplicate the entire grid, then remove the solid color to exactly match the checker pattern. Finally result should be entirely checker patterned.</li>
-    </ul>
+    <ul><li>To make the output, you have to...duplicate the entire grid, then fill the solid color to exactly match the dotted pattern. Finally result should be entirely checker patterned.</li><p><p><li>To make the output, you have to...duplicate the entire grid, then fill <span style='color: red;'>in</span> the <span style='color: red;'>different</span> color to exactly match the <span style='color: red;'>checker</span> pattern. Finally result should be entirely checker patterned.</li><p></p><li>To make the output, you have to...duplicate the entire grid, then fill <span style='color: green;'>in</span> the solid color to exactly match the <span style='color: green;'>checker</span> pattern. Finally result should be entirely checker patterned.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...leave</span> the <span style='color: blue;'>grid</span> <span style='color: blue;'>empty,</span> then fill <span style='color: blue;'>in</span> the solid color to exactly match the <span style='color: blue;'>checker</span> pattern. Finally result should be entirely checker patterned.</li><p></p><li>To make the output, you have to...duplicate the entire grid, then fill the solid color to exactly match the <span style='color: purple;'>herringbone</span> pattern. Finally result should be entirely checker patterned.</li><p></p></ul>
 </div>
 
 </body>

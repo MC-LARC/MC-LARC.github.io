@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...look for the colored grid with the smallest number of colored squares and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...look for the colored grid with the largest number of white squares and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...look for the colored grid with the smallest number of white squares and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...look for the grid with the most variation of colors and use that color.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...look for the colored grid with the largest number of colored squares and use that color.</li>
-    </ul>
+    <ul><li>To make the output, you have to...look for the colored grid with equal number of colored squares and use that color.</li><p><p><li>To make the output, you have to...look for the colored grid with <span style='color: red;'>the</span> <span style='color: red;'>largest</span> number of colored squares and use that color.</li><p></p><li>To make the output, you have to...look for the colored grid with <span style='color: green;'>the</span> <span style='color: green;'>largest</span> number of <span style='color: green;'>uncolored</span> squares and use that color.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...ignore</span> the colored grid with <span style='color: blue;'>the</span> <span style='color: blue;'>largest</span> number of colored squares and use <span style='color: blue;'>the</span> <span style='color: blue;'>second</span> <span style='color: blue;'>largest</span> color.</li><p></p><li>To make the output, you have to...look for the colored grid with <span style='color: purple;'>the</span> <span style='color: purple;'>smallest</span> number of colored squares and use that color.</li><p></p></ul>
 </div>
 
 </body>

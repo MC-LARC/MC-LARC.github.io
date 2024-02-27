@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the first row.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the third row.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the whole grid part with all the colors.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the blue area with the colors corresponding with the colored block in the first row.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...fill the gray area with the colors corresponding with the colored block in the first column.</li>
-    </ul>
+    <ul><li>To make the output, you have to...leave the gray area blank and fill the other spaces with the colors corresponding with the colored block in the first row.</li><p><p><li>To make the output, you have <span style='color: red;'>to...fill</span> the gray area with the colors corresponding with the colored block in the first row.</li><p></p><li>To make the output, you have <span style='color: green;'>to...fill</span> the <span style='color: green;'>white</span> area with the colors corresponding with the colored block in the first row.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...fill</span> the gray area with <span style='color: blue;'>a</span> <span style='color: blue;'>single</span> <span style='color: blue;'>color</span> <span style='color: blue;'>that</span> <span style='color: blue;'>isn't</span> <span style='color: blue;'>present</span> <span style='color: blue;'>in</span> the colored block <span style='color: blue;'>of</span> the first row.</li><p></p><li>To make the output, you have <span style='color: purple;'>to...fill</span> the gray area with the colors corresponding with the colored block in the <span style='color: purple;'>last</span> row.</li><p></p></ul>
 </div>
 
 </body>

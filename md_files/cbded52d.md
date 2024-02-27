@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...make each across and down row identical, not matching the middle block in each row to the end blocks.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make each across and down row identical, matching the middle block in each row to the end blocks.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...not make each across and down row identical, matching the middle block in each row to the end blocks.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make each across and down row different, matching the middle block in each row to the end blocks.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...make each across and down row identical, matching the middle block in each column to the end blocks.</li>
-    </ul>
+    <ul><li>To make the output, you have to...make each across and down row identical, matching the middle block in each column to the top blocks.</li><p><p><li>To make the output, you have to...make each across and down row <span style='color: red;'>the</span> <span style='color: red;'>same,</span> matching the <span style='color: red;'>end</span> block in each <span style='color: red;'>row</span> to the <span style='color: red;'>middle</span> blocks.</li><p></p><li>To make the output, you have to...make each across and down row identical, matching the middle block in each <span style='color: green;'>row</span> to the <span style='color: green;'>end</span> blocks.</li><p></p><li>To make the output, you have to...make each across and down row <span style='color: blue;'>different,</span> matching the middle block in each <span style='color: blue;'>row</span> to the <span style='color: blue;'>end</span> blocks.</li><p></p><li>To make the output, you have to...make each across and down row <span style='color: purple;'>similar,</span> matching the <span style='color: purple;'>start</span> block in each <span style='color: purple;'>row</span> to the <span style='color: purple;'>end</span> blocks.</li><p></p></ul>
 </div>
 
 </body>

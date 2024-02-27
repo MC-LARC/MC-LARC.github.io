@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...copy the output grid. Make diagonal lines from the dots of x color to touch the closest lines of y color. The point of touch should be the x color. If the dot of y color is between 2 lines of y color you should make one line of y color going through the dot of y color and disconnect the lines of x colors. Encase each dot of y color (point of touch) on the line of x color with a circle of x color. It should be a circle of x color with the center of y color on the line of x color. Done.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the input grid. Make perpendicular lines from the dots of y color to touch the closest lines of x color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should make one lines of y color going through the dot of y color and connecting the lines of x colors. Surround each dot of y color (point of touch) on the line of x color with a square of x color. It should be a square of x color with the center of y color on the line of x color. Done.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...mirror the input grid. Make intersecting lines from the dots of x color to touch the surrounding lines of y color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should draw an arc of y color going through the dot of y color and connect with the lines of x colors. Encase each dot of y color (point of touch) on the line of x color with a square of y color. It should be a square of y color with the center of x color on the line of x color. Done.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...invert the input grid. Make horizontal lines from the dots of y color to touch the furthest lines of x color. The point of touch should be the y color. If the dot of y color is between 2 lines of x color you should make different lines of x color going through the dot of y color and connecting the lines of x colors. Surround each dot of y color (point of touch) on the line of x color with a circle of y color. It should be a circle of y color with the center of x color on the line of x color. Done.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...copy the output grid. Make parallel lines from the dots of x color to touch the furthest lines of y color. The point of touch should be the x color. If the dot of y color is between 2 lines of x color, you should make two lines of x color going through the dot of x color and connecting the lines of y colors. Surround each dot of x color (point of touch) on the line of y color with a circle of y color. It should be a circle of y color with the center of x color on the line of y color. Done.</li>
-    </ul>
+    <ul><li>To make the output, you have to...copy the input grid. Make perpendicular lines from the dots of y color to touch the closest lines of x color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should make one lines of y color going through the dot of y color and connecting the lines of x colors. Surround each dot of y color (point of touch) on the line of x color with a square of x color. It should be a square of x color with the center of y color on the line of x color. Done.</li><p><p><li>To make the output, you have to...copy the input grid. Make <span style='color: red;'>parallel</span> lines from the dots of <span style='color: red;'>x</span> color to touch the closest lines of <span style='color: red;'>y</span> color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should make <span style='color: red;'>two</span> lines of y color going through the dot of y color and connecting the lines of x colors. <span style='color: red;'>Don't</span> <span style='color: red;'>surround</span> each dot of y color (point of touch) on the line of x color with a square of x color. Done.</li><p></p><li>To make the output, you have to...copy the input grid. Make perpendicular lines from the dots of <span style='color: green;'>x</span> color to touch the closest lines of <span style='color: green;'>y</span> color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should make one <span style='color: green;'>line</span> of y color going through the dot of y color and connecting the <span style='color: green;'>dotted</span> lines of x colors. Surround each dot of y color (point of touch) on the line of x color with a <span style='color: green;'>triangle</span> of x color. Done.</li><p></p><li>To make the output, you have to...copy the input grid. Make <span style='color: blue;'>parallel</span> lines from the dots of y color to touch the closest lines of x color. The point of touch should be the y color. If the dot of y color is between 2 lines of y color you should make one <span style='color: blue;'>line</span> of y color going through the dot of y color and connecting the lines of x <span style='color: blue;'>color.</span> Surround each dot of y color (point of touch) on the line of x color with a <span style='color: blue;'>rectangle</span> of x color. Done.</li><p></p><li>To make the output, you have to...copy the input grid. Make perpendicular lines from the dots of <span style='color: purple;'>x</span> color to touch the closest lines of <span style='color: purple;'>y</span> color. The point of touch should be the <span style='color: purple;'>x</span> color. If the dot of y color is between 2 lines of y color you should make one lines of y color going through the dot of y color and connecting the lines of x <span style='color: purple;'>color.</span> Surround each dot of y color (point of touch) on the line of x color with a <span style='color: purple;'>circle</span> of x color. Done.</li><p></p></ul>
 </div>
 
 </body>

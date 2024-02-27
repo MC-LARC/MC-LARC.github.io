@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...halve the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...rotate the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...skew the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...flip the pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...double pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 2x10.</li>
-    </ul>
+    <ul><li>To make the output, you have to...keep pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 1x5.</li><p><p><li>To make the output, you have <span style='color: red;'>to...double</span> pattern and fit the resulting pattern to scale. If it's 1x5 the result should be <span style='color: red;'>2x10.</span></li><p></p><li>To make the output, you have <span style='color: green;'>to...double</span> pattern and fit the resulting pattern to scale. If it's 1x5 the result should be 1x5.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...triple</span> pattern and fit the resulting pattern to scale. If it's 1x5 the result should be <span style='color: blue;'>3x15.</span></li><p></p><li>To make the output, you have <span style='color: purple;'>to...halve</span> pattern and fit the resulting pattern to scale. If it's 1x5 the result should be <span style='color: purple;'>0.5x2.5.</span></li><p></p></ul>
 </div>
 
 </body>

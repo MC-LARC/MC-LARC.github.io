@@ -1,5 +1,6 @@
 
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown to HTML</title>
 </head>
+
 <body>
 
 <div style="width: 50%; float: left;">
@@ -31,22 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-
-    <ul>
-        <li>To make the output, you have to...check the blue grid which is at the same row and same line. draw a connected light blue grid between the blue grid at the same row and line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...check the black grid which is in a different row and line. draw a connected light blue grid between the black grid in a different row and line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...check the brown grid which is at the same row and same line. draw a connected gray grid between the brown grid at the same row and line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...check the gray grid which is in a different row and line. draw a connected blue grid between the gray grid in a different row and line.</li>
-        <p></p>
-        
-        <li>To make the output, you have to...check the yellow grid which is at the same row and same line. draw a connected red grid between the yellow grid at the same row and line.</li>
-    </ul>
+    <ul><li>To make the output, you have to...check the yellow grid which is at the same row and same line. draw a connected light blue grid between the yellow grid at the same row and line.</li><p><p><li>To make the output, you have to...check the <span style='color: red;'>blue</span> grid which is at the same row and same line. draw a <span style='color: red;'>disconnected</span> light blue grid between the <span style='color: red;'>blue</span> grid at the same row and line.</li><p></p><li>To make the output, you have to...check the <span style='color: green;'>blue</span> grid which is at the <span style='color: green;'>different</span> row and <span style='color: green;'>different</span> line. draw a connected light blue grid between the <span style='color: green;'>blue</span> grid at <span style='color: green;'>different</span> row and line.</li><p></p><li>To make the output, you have to...check the <span style='color: blue;'>blue</span> grid which is at the same row and same line. draw a connected <span style='color: blue;'>pink</span> grid between the <span style='color: blue;'>blue</span> grid at the same row and line.</li><p></p><li>To make the output, you have to...check the <span style='color: purple;'>blue</span> grid which is at the same row and same line. draw a connected light blue grid between the <span style='color: purple;'>blue</span> grid at the same row and line.</li><p></p></ul>
 </div>
 
 </body>
