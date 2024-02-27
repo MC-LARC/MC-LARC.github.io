@@ -33,7 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-    <ul><li>To make the output, you have to...turn the pattern in the input grid clockwise.</li><p><p><li>To make the output, you have <span style='color: red;'>to...flip</span> the pattern in the input grid <span style='color: red;'>horizontally.</span></li><p></p><li>To make the output, you have <span style='color: green;'>to...mirror</span> the pattern in the input <span style='color: green;'>grid,</span> <span style='color: green;'>left</span> <span style='color: green;'>to</span> <span style='color: green;'>right.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...invert</span> the pattern in the input <span style='color: blue;'>grid.</span></li><p></p><li>To make the output, you have to...turn the pattern in the input grid <span style='color: purple;'>counter-clockwise.</span></li><p></p></ul>
+    <ul><li>To make the output, you have to...turn the pattern in the input grid clockwise.</li><p><p><li>To make the output, you have <span style='color: red;'>to...flip</span> the pattern in the input grid <span style='color: red;'>horizontally.</span></li><p></p><li>To make the output, you have <span style='color: green;'>to...mirror</span> the pattern in the input <span style='color: green;'>grid,</span> <span style='color: green;'>left</span> <span style='color: green;'>to</span> <span style='color: green;'>right.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...invert</span> the pattern in the input <span style='color: blue;'>grid.</span></li><p></p><li>To make the output, you have to...turn the pattern in the input grid <span style='color: pink;'>counter-clockwise.</span></li><p></p></ul>
 </div>
 
 </body>
