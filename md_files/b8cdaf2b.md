@@ -33,7 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-    <ul><li>To make the output, you have to...create a diagonal line from the top to the sides with the less majority color.</li><p><p><li>To make the output, you have to...create a <span style='color: red;'>vertical</span> line from the top to the <span style='color: red;'>bottom</span> with the less majority color.</li><p></p><li>To make the output, you have to...create a <span style='color: green;'>horizontal</span> line from <span style='color: green;'>side</span> to <span style='color: green;'>side</span> with the less majority color.</li><p></p><li>To make the output, you have to...create a diagonal line from the <span style='color: blue;'>bottom</span> to the sides with the less majority color.</li><p></p><li>To make the output, you have to...create a <span style='color: pink;'>zigzag</span> line from the top to the sides with the less majority color.</li><p></p></ul>
+    <ul><li>To make the output, you have to...create a diagonal line from the top to the sides with the less majority color.</li><p><p><li>To make the output, you have to...create a diagonal line from the top to the sides with the <span style='color: red;'>purple</span> color.</li><p></p><li>To make the output, you have to...create a diagonal line from the top to the sides with the <span style='color: green;'>more</span> majority color.</li><p></p><li>To make the output, you have to...create a <span style='color: blue;'>vertical</span> line from the top to the <span style='color: blue;'>bottom</span> with the less majority color.</li><p></p><li>To make the output, you have to...create a diagonal line from the <span style='color: pink;'>bottom</span> to the sides with the less majority color.</li><p></p></ul>
 </div>
 
 </body>
