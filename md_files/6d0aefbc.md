@@ -33,7 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-    <ul><li>To make the output, you have to...copy the grid and reflect it on the other half.</li><p><p><li>To make the output, you have to...copy the <span style='color: red;'>sphere</span> and reflect it on the other half.</li><p></p><li>To make the output, you have to...copy the grid and <span style='color: green;'>rotate</span> it on the other half.</li><p></p><li>To make the output, you have <span style='color: blue;'>to...move</span> the grid <span style='color: blue;'>to</span> the other half.</li><p></p><li>To make the output, you have <span style='color: pink;'>to...move</span> the grid and reflect it on the other half.</li><p></p></ul>
+    <ul><li>To make the output, you have to...print out the grid and reflect it on the other half.</li><p><p><li>To make the output, you have <span style='color: red;'>to...copy</span> the grid and reflect it on the other half.</li><p></p><li>To make the output, you have <span style='color: green;'>to...recreate</span> the grid and reflect it on the other <span style='color: green;'>quarter.</span></li><p></p><li>To make the output, you have <span style='color: blue;'>to...duplicate</span> the grid and <span style='color: blue;'>rotate</span> it on the other half.</li><p></p><li>To make the output, you have <span style='color: pink;'>to...mimic</span> the grid and <span style='color: pink;'>bounce</span> it on the other half.</li><p></p></ul>
 </div>
 
 </body>

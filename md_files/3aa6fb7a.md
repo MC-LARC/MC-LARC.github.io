@@ -33,7 +33,7 @@
     <br><br>
     
     <h2>MC-LARC options</h2>
-    <ul><li>To make the output, you have to...fill in the missing corners with a red square.</li><p><p><li>To make the output, you have to...fill in the missing <span style='color: red;'>center</span> with a <span style='color: red;'>blue</span> square.</li><p></p><li>To make the output, you have to...fill in the missing <span style='color: green;'>sides</span> with a <span style='color: green;'>blue</span> square.</li><p></p><li>To make the output, you have to...fill in the missing corners with a <span style='color: blue;'>green</span> square.</li><p></p><li>To make the output, you have to...fill in the missing corners with a <span style='color: pink;'>blue</span> square.</li><p></p></ul>
+    <ul><li>To make the output, you have to...fill in the missing corners with a red square.</li><p><p><li>To make the output, you have to...fill in the missing corners with a <span style='color: red;'>green</span> square.</li><p></p><li>To make the output, you have to...fill in the missing <span style='color: green;'>edges</span> with a <span style='color: green;'>blue</span> square.</li><p></p><li>To make the output, you have to...fill in the missing <span style='color: blue;'>sides</span> with a <span style='color: blue;'>blue</span> square.</li><p></p><li>To make the output, you have to...fill in the missing corners with a <span style='color: pink;'>blue</span> square.</li><p></p></ul>
 </div>
 
 </body>
