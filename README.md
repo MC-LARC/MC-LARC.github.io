@@ -22,11 +22,8 @@ The column structure is as follows:
 ---
 ### 2. shuffled_MC-LARC_description.csv
 This file includes five choices for each 'description_output' from the first file, serving as the correct answer.
-
 The choices are randomly shuffled, and by checking the last column, you can determine which choice is the correct answer.
-
-Similar to the first file,
-the first two columns represent task_id and task_name.
+Similar to the first file, the first two columns represent task_id and task_name.
 
 The column structure is as follows:
 - task_id
