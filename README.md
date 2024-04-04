@@ -8,7 +8,7 @@ web page link: https://mc-larc.github.io/
 In this folder, there are two files.
 
 ---
-### 1. refined_refined_LARC_Input_description_and_Output_description.csv
+### 1. MC-LARC_Input_description_and_Output_description.csv
 This file contains 'input description' and 'output description' for the ARC 400 training dataset.
 This dataset was created based on LARC [1].
 However, it was not directly used LARC dataset; Through the refinement process, the quality was improved.
