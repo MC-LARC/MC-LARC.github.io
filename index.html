@@ -25,8 +25,18 @@
             transform: scale(1.05);
             transition: transform 0.2s;
         }
-
-            .thumbnail-container {
+        #file-list img:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: transform 0.2s;
+        }
+        #content img {
+            cursor: default;
+            transform: none;
+            transition: none;
+        }
+        
+        .thumbnail-container {
             display: flex;
             flex-direction: column;
             align-items: center;
