@@ -1,14 +1,13 @@
 # MC-LARC.github.io
 
 
-[<a href="https://your-paper-link.com" style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">
+[<a href="https://openreview.net/forum?id=8ed7ZGhBGJ#discussion" style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">
   PAPER
 </a>]
 
-[<a href="https://your-project-page.com" style="background-color: #008CBA; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">
+[<a href="https://mc-larc.github.io/" style="background-color: #008CBA; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 4px;">
   PROJECT PAGE
 </a>]
-
 
 
 
