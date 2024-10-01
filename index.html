@@ -20,16 +20,17 @@
     <div id="affiliation">
         <p>Gwangju Institute of Science and Technology</p>
     </div>
-    <div id="links">
-        <a href="https://openreview.net/forum?id=8ed7ZGhBGJ#discussion">Paper</a>
-        <a href="https://github.com/GIST-DSLab/MC-LARC">Code</a>
-        <a href="https://github.com/MC-LARC/MC-LARC.github.io/tree/main/dataset">Dataset</a>
+    <div id="links-and-button">
+        <div id="links">
+            <a href="https://openreview.net/forum?id=8ed7ZGhBGJ#discussion">Paper</a>
+            <a href="https://github.com/GIST-DSLab/MC-LARC">Code</a>
+            <a href="https://github.com/MC-LARC/MC-LARC.github.io/tree/main/dataset">Dataset</a>
+            
+            <button id="view-all-btn" onclick="window.location.href='visualization.html'">Whole Visualizations</button>
+        </div>
     </div>
-
-    <button id="view-all-btn" onclick="window.location.href='visualization.html'">Whole Visualizations</button>
-
     <div id="file-list">
-        <h1>MC-LARC Dataset Visualizations</h1>
+        <h1>MC-LARC Examples (Click)</h1>
     </div>
 
     <hr>
@@ -78,39 +79,33 @@
                     <img src="./images/paper_figure/MC-LARC_example.png" id="paper-figure" class="no-style" alt="MC-LARC_example">
                 </div>
                 <div class="text-content">
-                    <p>example</p>
+                    <p>MC-LARC is an enhanced dataset that builds upon the original LARC (Language-Annotated Reasoning Corpus) by addressing its issues and introducing new answer options. The creation process involved two main steps: refinement of existing LARC data and generation of new options.</p>
+                    <p>First, experts refined LARC by fixing inconsistent expressions and insufficient explanations. This step addressed problems such as inconsistent color terminology and lack of crucial problem-solving details. Then, using ChatGPT4, they generated incorrect answer choices based on the refined descriptions. This process involved applying specific constraints to ensure the new options were relevant and challenging.</p>
+                    <p>When creating incorrect options, several rules were followed. These included using vocabulary relevant to ARC problems, making options similar in length to the correct answer, and using the same opening sentence format. These constraints helped prevent the generation of irrelevant options or those that would make the correct answer too easy to identify.</p>
+                    <p>As a result, MC-LARC offers more consistent and informative content than the original LARC, with increased similarity between correct and incorrect options. This improvement allows users to focus on key concepts needed for problem-solving, making it harder to select the right answer based solely on format or length. The refined dataset provides a more robust tool for testing and developing AI reasoning capabilities.</p>
                 </div>
             </div>
 
             <h2>Test LLM using MC-LARC</h2>
             <div class="image-text-container">
-                <div class="image-content">
-                    <img src="./images/paper_figure/experiment.png" id="paper-figure" class="no-style" alt="experiment">
-                </div>
                 <div class="text-content">
-                    <p> example</p>
+                    <p>In our experiment with MC-LARC, we used ChatGPT4V to solve 400 tasks, asking it 5 times per problem. We also asked the model to explain its reasoning for each option selection. This approach allowed us to analyze the correlation between answer accuracy and reasoning validity, as well as investigate the model's problem-solving process in both image-present and image-absent conditions.</p>
                 </div>
-            </div>
-            
-            <h2>Results</h2>
-            <div class="image-text-container">
-                <div class="image-content">
-                    <img src="./images/paper_figure/--.png" id="paper-figure" class="no-style" alt="Results table">
+                <div class="full-width-image">
+                    <img src="./images/paper_figure/___.png" id="paper-figure" class="no-style" alt="table for reliability">
+                    <img src="./images/paper_figure/LLM_explanation_example.png" id="paper-figure" class="no-style" alt="LLM_explanation_example">
                 </div>
-                <div class="text-content">
-                    <p> example</p>
-                </div>
+                <p class="centered-text">The results showed that ChatGPT4V achieved about 76% accuracy on MC-LARC tasks, significantly higher than the typical 10% accuracy of LLMs on ARC tasks. We found a strong correlation between answer accuracy and reasoning validity, with negligible instances of correct answers with incorrect explanations or vice versa. In image-absent conditions, the model solved problems by analyzing option consistency and ARC domain compatibility. Reliability tests using KR-20, Cronbach's Alpha, and ANOVA analysis confirmed MC-LARC as a highly consistent and reliable evaluation metric. These findings indicate that MC-LARC effectively evaluates comprehension of ARC images and reduces errors common in direct ARC task solving by LLMs.</p>
             </div>
 
             <h2>Shortcut Problem</h2>
             <div class="image-text-container">
-                <div class="image-content">
-                    <img src="./images/paper_figure/LLM_explanation_example.png" id="paper-figure" class="no-style" alt="LLM_explanation_example">
+                <p class="centered-text">We conducted experiments using ChatGPT4V to solve MC-LARC tasks both with and without accompanying ARC images. The model was asked to solve 400 tasks five times each and provide explanations for its choices. We also compared the model's performance to human performance and analyzed its problem-solving approach in image-absent conditions.</p>
+                <div class="full-width-image">
+                    <img src="./images/paper_figure/___.png" id="paper-figure" class="no-style" alt="result table with and without image">
                     <img src="./images/paper_figure/LLM_solving_methodology.png" id="paper-figure" class="no-style" alt="LLM_solving_methodology">
                 </div>
-                <div class="text-content">
-                    <p>example</p>
-                </div>
+                <p class="centered-text">Results showed that ChatGPT4V achieved 76.05% accuracy with images and 64.61% without images, compared to human accuracy of 90.75% with images. The high accuracy in image-absent conditions revealed that the LLM was using shortcuts to solve MC-LARC, such as selecting options with repeated expressions and eliminating contradictory ones. This unexpected performance highlighted issues in the option generation process, including an imbalance in word repetition between correct and incorrect options, and the inclusion of contradictory expressions due to lack of context. These findings emphasize the need to improve the choice generation process to fairly evaluate reasoning ability and prevent shortcut solutions.</p>         
             </div>
 
             <h2>To Mitigate Shortcut Problem: Self-feedback Method</h2>
@@ -118,18 +113,18 @@
                 <div class="full-width-image">
                     <img src="./images/paper_figure/self-feedback.png" id="paper-figure-8" class="no-style" alt="self-feedback">
                 </div>
+                <p class="centered-text">We conducted experiments to evaluate the effectiveness of our self-feedback framework in improving MC-LARC. We compared LLM performance on the original and refined versions of MC-LARC, both with and without accompanying images. The experiment involved measuring the accuracy and confidence intervals of LLM responses in these different conditions.</p>
                 <div class="image-content">
-
                     <img src="./images/paper_figure/--.png" id="paper-figure" class="no-style" alt="Results table">
                 </div>
                 <div class="text-content">
-                    <p class="centered-text">example</p>
+                    <p>The results showed a significant improvement in preventing shortcut solutions. In the image-absent condition, LLM accuracy decreased from 64.61% to 43.75% after refinement, indicating fewer available shortcuts. However, accuracy in the image-present condition also decreased from 76.05% to 62.50%. This suggests that while the refinement process successfully reduced shortcuts, it also increased the overall difficulty of the task by making options more similar. The widened accuracy gap between image-present and image-absent conditions after refinement indicates improved option quality and reduced reliance on contextual cues. These findings demonstrate the effectiveness of our self-feedback framework in enhancing MC-LARC's ability to assess genuine reasoning skills.</p>
                 </div>
             </div>
                 
 
             <h2>Conclusion</h2>
-            <p class="centered-text">These findings have several important implications. Firstly, they offer valuable insights into the appropriate methods for evaluating inferential reasoning, demonstrating the potential of using multiple-choice questions for this purpose. Secondly, by identifying the constraints to consider when using LLMs to synthesize multiple-choice questions, this research proposes a framework for the development of more sophisticated and automated high-quality description generators.</p>
+            <p class="centered-text">To address limitations in assessing inferential reasoning, we developed MC-LARC, a multiple-choice dataset enhancing the original ARC. This format improved analysis of problem-solving logic and supported reasoning abilities. However, experiments revealed LLMs could solve problems without images by finding shortcuts, highlighting the need for regulation in LLM-generated questions. We introduced a self-feedback framework using LLMs to generate proper descriptions and mitigate shortcuts. Our research provides insights into evaluating inferential reasoning with multiple-choice questions and proposes a framework for developing sophisticated, automated high-quality description generators, considering necessary constraints when using LLMs for question synthesis.</p>
         </div>
     </div>
 

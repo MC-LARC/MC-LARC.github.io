@@ -40,11 +40,12 @@ img:hover {
 
 .thumbnail-container img {
     width: 200px;
-    height: 140px;
+    height: 100px;
     object-fit: contain;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: 5px;
+    background-color: #ffffff;
 }
 
 .thumbnail-container p {
@@ -123,10 +124,18 @@ h2 {
     text-decoration: underline;
 }
 
+#links-and-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 #links {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0;  /* Remove bottom margin */
+    margin-right: 20px;  /* Add some space between links and button */
 }
 
 #links a {
@@ -151,7 +160,7 @@ h2 {
 }
 
 #view-all-btn {
-    display: block;
+    display: inline-block;
     margin: 0 auto;
     padding: 10px 20px;
     background-color: #1367a7;
@@ -159,7 +168,7 @@ h2 {
     border: none;
     border-radius: 30px;
     font-size: 16px;
-    margin-top: 20px;
+    margin: 15px;
     cursor: pointer;
     transition: background-color 0.2s;
 }
@@ -225,16 +234,30 @@ h2 {
 
 .image-content {
     float: left;
-    width: 40%;
+    width: 50%;
     margin: 0 20px 10px 0;
     margin-bottom: 20px;
     display: block;
 }
 
+.image-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .full-width-image {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto 20px;
     text-align: center;
+}
+
+.full-width-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 @media (max-width: 768px) {
@@ -250,5 +273,5 @@ h2 {
 }
 
 #paper-figure-8 {
-    width: 70%;
+    width: 100%;
 }

@@ -82,7 +82,7 @@ var allFileList = [
             'fcb5c309.html', 'fcc82909.html', 'feca6190.html', 'ff28f65a.html', 'ff805c23.html'
 ];
 
-var indexFileList = allFileList.slice(0, 5);
+var indexFileList = allFileList.slice(0, 4);
 
 $(document).ready(function() {
     var currentPage = window.location.pathname.split("/").pop();
