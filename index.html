@@ -250,84 +250,74 @@
 
 
 
-        fileList.forEach(function(filename) {
-            var imgName = filename.split('.html')[0] + '.png';
-            var imgSrc = './images/thumbnails/' + imgName;
-            var text = imgName.replace('.png', ''); // .png 확장자 제거
-            $('#file-list').append('<div class="thumbnail-container"><img src="' + imgSrc + '" data-mdfile="' + filename + '"><p>' + text + '</p></div>');
-        });
+    fileList.forEach(function(filename) {
+        var imgName = filename.split('.html')[0] + '.png';
+        var imgSrc = './images/thumbnails/' + imgName;
+        var text = imgName.replace('.png', ''); // Remove .png extension
+        $('#file-list').append('<div class="thumbnail-container"><img src="' + imgSrc + '" data-file="' + filename + '"><p>' + text + '</p></div>');
+    });
 
-        $('#file-list img').click(function() {
-            var filename = $(this).attr('data-mdfile');
-            $('#file-list').hide();
-            $('#navigation').show();
-            loadMarkdown(filename);
-        });
+    $('#file-list img').click(function() {
+        var filename = $(this).attr('data-file');
+        $('#file-list').hide();
+        $('#navigation').show();
+        loadHTMLFile(filename); // Load HTML instead of Markdown
+    });
 
-        function loadMarkdown(filename) {
-            $.ajax({
-                url: './md_files/' + filename,
-                dataType: 'text',
-                success: function(data) {
-                    var html = converter.makeHtml(data);
-                    var $html = $(html);
-                    $html.find('img').addClass('content-image');
-                    $('#content').html($html);
-                    $('#content').attr('data-currentfile', filename);
-                    // Prettify JSON
-                    try {
-                        var jsonStr = $('#content').text();
-                        var jsonObj = JSON.parse(jsonStr);
-                        $('#content').jsonView(jsonObj);
-                    } catch(e) {}
-                }
-            });
+    function loadHTMLFile(filename) {
+        $.ajax({
+            url: './html_files/' + filename,
+            dataType: 'html', // Load as HTML
+            success: function(data) {
+                $('#content').html(data);
+                $('#content').attr('data-currentfile', filename);
+            }
+        });
+    }
+
+    $('#previous').click(function() {
+        var currentFile = $('#content').attr('data-currentfile');
+        var index = fileList.indexOf(currentFile);
+        if (index > 0) {
+            loadHTMLFile(fileList[index - 1]);
         }
+    });
 
+    $('#next').click(function() {
+        var currentFile = $('#content').attr('data-currentfile');
+        var index = fileList.indexOf(currentFile);
+        if (index < fileList.length - 1) {
+            loadHTMLFile(fileList[index + 1]);
+        }
+    });
 
-        $('#previous').click(function() {
-            var currentFile = $('#content').attr('data-currentfile');
-            var index = fileList.indexOf(currentFile);
-            if (index > 0) {
-                loadMarkdown(fileList[index - 1]);
-            }
-        });
+    $('#back').click(function() {
+        $('#file-list').show();
+        $('#navigation').hide();
+        $('#content').empty();
+    });
 
-        $('#next').click(function() {
-            var currentFile = $('#content').attr('data-currentfile');
-            var index = fileList.indexOf(currentFile);
-            if (index < fileList.length - 1) {
-                loadMarkdown(fileList[index + 1]);
-            }
-        });
+    $('#file-list img').click(function() {
+        var filename = $(this).attr('data-file');
+        $('#file-list').hide();
+        $('#navigation').show();
+        $('#title').hide();
+        $('#authors').hide();
+        $('#links').hide();
+        $('#affiliation').hide();
+        loadHTMLFile(filename);
+    });
 
-        $('#back').click(function() {
-            $('#file-list').show();
-            $('#navigation').hide();
-            $('#content').empty();
-        });
-
-        $('#file-list img').click(function() {
-            var filename = $(this).attr('data-mdfile');
-            $('#file-list').hide();
-            $('#navigation').show();
-            $('#title').hide();
-            $('#authors').hide();
-            $('#links').hide();
-            $('#affiliation').hide();
-            loadMarkdown(filename);
-        });
-
-        $('#back').click(function() {
-            $('#file-list').show();
-            $('#navigation').hide();
-            $('#content').empty();
-            $('#title').show();
-            $('#authors').show();
-            $('#links').show();
-            $('#affiliation').show();
-        });
-    </script>
+    $('#back').click(function() {
+        $('#file-list').show();
+        $('#navigation').hide();
+        $('#content').empty();
+        $('#title').show();
+        $('#authors').show();
+        $('#links').show();
+        $('#affiliation').show();
+    });
+</script>
     </script>
 </body>
 </html>
