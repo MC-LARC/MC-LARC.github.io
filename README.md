@@ -8,7 +8,7 @@
   ·
   <a href="https://sundong.kim/"><strong>Sundong Kim&dagger;</strong></a>
   <br>
-  **EMNLP Findings 2024**
+  <b>EMNLP Findings 2024</b>
 </p>
 
 <p align="center">
