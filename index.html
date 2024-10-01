@@ -248,11 +248,10 @@
             'fcb5c309.html', 'fcc82909.html', 'feca6190.html', 'ff28f65a.html', 'ff805c23.html'
 ];
 
-        
 
 
         fileList.forEach(function(filename) {
-            var imgName = filename.split('.md')[0] + '.png';
+            var imgName = filename.split('.html')[0] + '.png';
             var imgSrc = './images/thumbnails/' + imgName;
             var text = imgName.replace('.png', ''); // .png 확장자 제거
             $('#file-list').append('<div class="thumbnail-container"><img src="' + imgSrc + '" data-mdfile="' + filename + '"><p>' + text + '</p></div>');
