@@ -6,7 +6,7 @@
   ·
   <a href=""><strong>Klea Lena Kovačec</strong></a>
   ·
-  <a href="https://sundong.kim/"><strong>Sundong Kim</strong></a>
+  <a href="https://sundong.kim/"><strong>Sundong Kim†</strong></a>
   <br>
   **EMNLP Findings 2024**
 </p>
