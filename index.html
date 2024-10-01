@@ -248,12 +248,7 @@
             $('#navigation').show();
             loadMarkdown(filename);
         });
-        
-        $(document).ready(function() {
-            // 처음 페이지 로드 시 상태 저장
-            history.replaceState({page: 'home'}, 'MC-LARC', window.location.pathname);
-        });
-    
+
         function loadMarkdown(filename) {
             $.ajax({
                 url: './md_files/' + filename,
@@ -264,20 +259,17 @@
                     $html.find('img').addClass('content-image');
                     $('#content').html($html);
                     $('#content').attr('data-currentfile', filename);
-    
                     // Prettify JSON
                     try {
                         var jsonStr = $('#content').text();
                         var jsonObj = JSON.parse(jsonStr);
                         $('#content').jsonView(jsonObj);
-                    } catch (e) {}
-    
-                    // Markdown 파일 로드 시 URL 상태 저장
-                    history.pushState({page: 'markdown', file: filename}, '', '?file=' + filename);
+                    } catch(e) {}
                 }
             });
         }
-    
+
+
         $('#previous').click(function() {
             var currentFile = $('#content').attr('data-currentfile');
             var index = fileList.indexOf(currentFile);
@@ -285,7 +277,7 @@
                 loadMarkdown(fileList[index - 1]);
             }
         });
-    
+
         $('#next').click(function() {
             var currentFile = $('#content').attr('data-currentfile');
             var index = fileList.indexOf(currentFile);
@@ -293,32 +285,12 @@
                 loadMarkdown(fileList[index + 1]);
             }
         });
-    
+
         $('#back').click(function() {
             $('#file-list').show();
             $('#navigation').hide();
             $('#content').empty();
-            $('#title').show();
-            $('#authors').show();
-            $('#links').show();
-    
-            // 뒤로가기 시 상태를 홈으로 변경
-            history.pushState({page: 'home'}, 'MC-LARC', window.location.pathname);
         });
-    
-        // popstate 이벤트로 브라우저 뒤로 가기 처리
-        window.onpopstate = function(event) {
-            if (event.state && event.state.page === 'home') {
-                $('#file-list').show();
-                $('#navigation').hide();
-                $('#content').empty();
-                $('#title').show();
-                $('#authors').show();
-                $('#links').show();
-            } else if (event.state && event.state.page === 'markdown') {
-                loadMarkdown(event.state.file);
-            }
-        };
 
         $('#file-list img').click(function() {
             var filename = $(this).attr('data-mdfile');
@@ -328,6 +300,15 @@
             $('#authors').hide();
             $('#links').hide();
             loadMarkdown(filename);
+        });
+
+        $('#back').click(function() {
+            $('#file-list').show();
+            $('#navigation').hide();
+            $('#content').empty();
+            $('#title').show();
+            $('#authors').show();
+            $('#links').show();
         });
     </script>
     </script>
