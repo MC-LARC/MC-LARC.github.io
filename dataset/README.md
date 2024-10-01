@@ -14,6 +14,9 @@ The column structure is as follows:
 - description_input
 - description_output
 
+| task_id | task_name | description_input | description_output |
+|---------|-----------|-------------------|--------------------|
+
 ---
 ### 2. shuffled_MC-LARC_description.csv
 This file includes five choices for each **description_output** from the first file, serving as the correct answer. </br>
