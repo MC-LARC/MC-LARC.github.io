@@ -54,7 +54,7 @@
         }
         .thumbnail-container p {
             font-size: 18px;
-            font-family: 'Arial', sans-serif;
+            font-family: "Font Awesome 5 Brands";
             margin: 0;
             font-weight: bold;
         }
@@ -100,13 +100,17 @@
         }
         h2 {
             font-size: 28px;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            font-family: "Font Awesome 5 Brands";
+            margin-top: 60px;
+            margin-bottom: 20px;
             text-align: center;
         }
         .centered-text {
-            text-align: center;
-            font-size: 24px
+            text-align: justify;
+            font-family: "Font Awesome 5 Brands";
+            font-size: 20px;
+            margin: 0 250px;
+            text-indent: 40px;
         }
         #authors {
             text-align: center;
@@ -127,12 +131,6 @@
             margin-bottom: 20px;
         }
         #links a {
-/*             margin: 5px;
-            padding: 10px;
-            font-size: 24px;
-            color: #1367a7;
-            text-decoration: none; */
-
             display: inline-block;
             padding: 10px 20px;
             background-color: black;
@@ -144,9 +142,6 @@
             transition: transform 0.2s;
         }
         #links a:hover {
-/*             color: #208799;
-            text-decoration: underline; */
-
             transform: scale(1.05);
         }
         #affiliation {
@@ -178,6 +173,25 @@
             background-color: gray;
             margin: 20px 100px;
         }
+
+        #paper-figure {
+            display: block;
+            margin: 40px auto;
+            max-width: 40%;
+            height: auto;
+        }
+
+        .no-style {
+            all: unset;
+            width: auto;
+        }
+
+        .no-style:hover {
+            transform: none; 
+            transition: none; 
+            cursor: default; 
+        }
+        
     </style>
 </head>
 <body>
@@ -208,19 +222,57 @@
     <hr>
 
     <h2>Abstract</h2>
-    <p class="centered-text">Here is the abstract content.</p>
+    <p class="centered-text">As the reasoning abilities of artificial intelligence gain more attention, generating reliable benchmarks to evaluate reasoning capabilities is becoming increasingly important. 
+        The Abstract and Reasoning Corpus (ARC) is one of the introduced reasoning benchmarks, providing challenging problems that artificial intelligence has yet to solve. 
+        While ARC has been recognized for assessing reasoning abilities, it has a limitation in that its evaluation method through generation fails to consider other aspects of assessment. 
+        Bloom's Taxonomy, widely known in education, argues that good evaluation methods should evaluate the six stages of <i>Remember</i>, <i>Understand</i>, <i>Apply</i>, <i>Analyze</i>, <i>Evaluate</i>, and <i>Create</i> in a step-by-step manner. 
+        To make ARC, which primarily evaluates the <i>Create</i> stage, suitable for assessing stages like <i>Understand</i> and <i>Apply</i>, we developed MC-LARC. 
+        This new multiple-choice format fits well in evaluating large language models (LLMs) across different cognitive stages. 
+        We evaluated the analogical reasoning abilities of ChatGPT4V with MC-LARC, confirming that 1) a multiple-choice format can support the language model's reasoning capabilities and 2) facilitate evidence analysis. 
+        However, we noticed LLMs relying on shortcuts when tackling MC-LARC. 
+        To address the shortcut problem, we propose a self-feedback framework in which the LLMs autonomously identifies issues and generates augmented options to resolve them.</p>
 
-    <h2>Introduction</h2>
-    <p class="centered-text">Here is the abstract content.</p>
+    <h2>Motivation</h2>
+    <p class="centered-text">example</p>
 
-    <h2>Experiment</h2>
-    <p class="centered-text">Here is the abstract content.</p>
+    <img src="./images/paper_figure/bloom's_taxonomy.png" id="paper-figure" class="no-style" alt="bloom's_taxonomy">
+    
+    
+    <h2>MC-LARC: Generation to Selection</h2>
+    <p class="centered-text">example</p>
+
+    <img src="./images/paper_figure/refinement.png" id="paper-figure" class="no-style" alt="refinement">
+
+    <img src="./images/paper_figure/MC-LARC_example.png" id="paper-figure" class="no-style" alt="MC-LARC_example">
+
+    <h2>Test LLM using MC-LARC </h2>
+    <p class="centered-text">example</p>
+
+    <img src="./images/paper_figure/experiment.png" id="paper-figure" class="no-style" alt="experiment">
+
 
     <h2>Results</h2>
-    <p class="centered-text">Here is the abstract content.</p>
+    <p class="centered-text">example</p>
+
+    <img src="./images/paper_figure/--.png" id="paper-figure" class="no-style" alt="Results table">
+
+    <h2>Shortcut Problem</h2>
+    <p class="centered-text">example</p>
+
+    <img src="./images/paper_figure/LLM_explanation_example.png" id="paper-figure" class="no-style" alt="LLM_explanation_example">
+
+    <img src="./images/paper_figure/LLM_solving_methodology.png" id="paper-figure" class="no-style" alt="LLM_solving_methodology">
+
+    <h2>To Mitigate Shortcut Problem: Self-feedback Method</h2>
+    <p class="centered-text">example</p>
+
+    <img src="./images/paper_figure/self-feedback.png" id="paper-figure" class="no-style" alt="self-feedback">
+
+    <img src="./images/paper_figure/--.png" id="paper-figure" class="no-style" alt="Results table">
+
 
     <h2>Conclusion</h2>
-    <p class="centered-text">Here is the abstract content.</p>
+    <p class="centered-text">example</p>
 
 
     <script>
