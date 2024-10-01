@@ -265,8 +265,6 @@
 
     $('#file-list img').click(function() {
         var filename = $(this).attr('data-file');
-        $('#file-list').hide();
-        $('#navigation').show();
         loadHTMLFile(filename); // Load HTML instead of Markdown
     });
 

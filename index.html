@@ -98,6 +98,15 @@
         #title h1 {
             font-size: 36px;
         }
+        h2 {
+            font-size: 28px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .centered-text {
+            text-align: center;
+        }
         #authors {
             text-align: center;
             font-size: 24px;
@@ -161,6 +170,13 @@
         #view-all-btn:hover {
             background-color: #208799;
         }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: gray;
+            margin: 20px 100px;
+        }
     </style>
 </head>
 <body>
@@ -188,6 +204,23 @@
 
     <div id="content"></div>
 
+    <hr>
+
+    <h2>Abstract</h2>
+    <p class="centered-text">Here is the abstract content.</p>
+
+    <h2>Introduction</h2>
+    <p class="centered-text">Here is the abstract content.</p>
+
+    <h2>Experiment</h2>
+    <p class="centered-text">Here is the abstract content.</p>
+
+    <h2>Results</h2>
+    <p class="centered-text">Here is the abstract content.</p>
+
+    <h2>Conclusion</h2>
+    <p class="centered-text">Here is the abstract content.</p>
+
 
     <script>
         var converter = new showdown.Converter();
@@ -204,8 +237,6 @@
 
     $('#file-list img').click(function() {
         var filename = $(this).attr('data-file');
-        $('#file-list').hide();
-        $('#navigation').show();
         loadHTMLFile(filename); // Load HTML instead of Markdown
     });
 
