@@ -8,7 +8,7 @@
   ·
   <a href="https://sundong.kim/"><strong>Sundong Kim</strong></a>
   <br>
-  ECCV 2024
+  EMNLP Findings 2024
 </p>
 
 <p align="center">
