@@ -106,3 +106,28 @@ $(document).ready(function() {
 function loadHTMLFile(filename) {
     window.location.href = './tasks/' + filename;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const options = document.querySelectorAll('.task-option');
+    const correctOptionNumber = "5";
+
+    options.forEach(option => {
+        option.addEventListener('click', function() {
+            // Remove selection from all options
+            options.forEach(opt => {
+                opt.classList.remove('selected', 'task-correct', 'task-incorrect');
+            });
+
+            // Add selection to clicked option
+            this.classList.add('selected');
+
+            // Check if the selected option is correct
+            if (this.dataset.option === correctOptionNumber) {
+                this.classList.add('task-correct');
+            } else {
+                this.classList.add('task-incorrect');
+                document.querySelector(`.task-option[data-option="${correctOptionNumber}"]`).classList.add('task-correct');
+            }
+        });
+    });
+});
