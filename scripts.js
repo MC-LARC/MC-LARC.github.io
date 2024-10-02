@@ -109,8 +109,7 @@ function loadHTMLFile(filename) {
 
 document.addEventListener('DOMContentLoaded', function() {
     const options = document.querySelectorAll('.task-option');
-    const correctOptionNumber = "5";
-
+    
     options.forEach(option => {
         option.addEventListener('click', function() {
             // Remove selection from all options
@@ -122,11 +121,11 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('selected');
 
             // Check if the selected option is correct
-            if (this.dataset.option === correctOptionNumber) {
+            if (this.dataset.correct === "true") {
                 this.classList.add('task-correct');
             } else {
                 this.classList.add('task-incorrect');
-                document.querySelector(`.task-option[data-option="${correctOptionNumber}"]`).classList.add('task-correct');
+                document.querySelector('.task-option[data-correct="true"]').classList.add('task-correct');
             }
         });
     });
