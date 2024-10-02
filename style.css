@@ -138,6 +138,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 #links {
@@ -145,6 +146,7 @@ h2 {
     justify-content: center;
     margin-bottom: 0;  /* Remove bottom margin */
     margin-right: 7.5px;  /* Add some space between links and button */
+    flex-wrap: wrap;
 }
 
 #links a {
@@ -157,6 +159,8 @@ h2 {
     font-size: 20px;
     margin: 15px;
     transition: transform 0.2s;
+    min-width: 100px; /* Set a minimum width */
+    text-align: center;
 }
 
 #links a:hover {
@@ -180,6 +184,16 @@ h2 {
     margin: 7.5px;
     cursor: pointer;
     transition: background-color 0.2s;
+    min-width: 150px; /* Set a minimum width */
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    #links a, #view-all-btn {
+        font-size: 16px; /* Reduce font size on mobile */
+        padding: 8px 16px; /* Reduce padding on mobile */
+        min-width: 80px; /* Adjust minimum width on mobile */
+    }
 }
 
 #view-all-btn:hover {
