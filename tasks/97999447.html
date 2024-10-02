@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 97999447</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/97999447.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 97999447</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/97999447.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...one or more single pixels with various colors on a black grid.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to...copy the input grid. Then, to the left of the first colored block, place a gray block. After the gray block, continue to the left and place a block of the original color. Continue the pattern of original color followed by gray until you reach the left side. Do this with each original colored block.</li><p></p><li>To make the output, you have to...duplicate the input grid. Next, to the right of each first colored block, insert a gray block. Following the gray block, keep adding the original color to the right. Repeat the pattern of original color followed by gray until you reach the edge. Repeat this for each colored block.</li><p></p><li>To make the output, you have to...copy the input grid. Now, to the right of the initial colored block, insert a yellow block. Position the original color next to the yellow block and continue this yellow-original color pattern to the right. Apply this process to each original colored block.</li><p></p><li>To make the output, you have to...replicate the input grid. Then, below the initial colored block, place a gray block. From the gray block, continue positioning the original color below in an alternating pattern. Follow this method downwards until you hit the bottom. Repeat for each colored block.</li><p></p><li>To make the output, you have to...copy the input grid. Then, to the right of every first colored block, place a red block. After that, insert the original color next to the red block. Maintain the alternating pattern of red and original color going rightwards until the edge. Do this for each colored block.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...one or more single pixels with various colors on a black grid.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...copy the input grid. Then, to the left of the first colored block, place a gray block. After the gray block, continue to the left and place a block of the original color. Continue the pattern of original color followed by gray until you reach the left side. Do this with each original colored block.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-correct="true" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...duplicate the input grid. Next, to the right of each first colored block, insert a gray block. Following the gray block, keep adding the original color to the right. Repeat the pattern of original color followed by gray until you reach the edge. Repeat this for each colored block.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...copy the input grid. Now, to the right of the initial colored block, insert a yellow block. Position the original color next to the yellow block and continue this yellow-original color pattern to the right. Apply this process to each original colored block.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...replicate the input grid. Then, below the initial colored block, place a gray block. From the gray block, continue positioning the original color below in an alternating pattern. Follow this method downwards until you hit the bottom. Repeat for each colored block.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...copy the input grid. Then, to the right of every first colored block, place a red block. After that, insert the original color next to the red block. Maintain the alternating pattern of red and original color going rightwards until the edge. Do this for each colored block.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

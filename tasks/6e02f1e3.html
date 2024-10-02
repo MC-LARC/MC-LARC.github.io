@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 6e02f1e3</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/6e02f1e3.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 6e02f1e3</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/6e02f1e3.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a 3x3 grid that may have between 1 and 3 colors.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares at the top. If there are two colors, place a diagonal line of grey squares from top left to bottom right. If there are three colors, place a diagonal line of grey squares from bottom left to top right.</li><p></p><li>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares at the bottom. If there are two colors, place a diagonal line of grey squares from top right to bottom left. If there are three colors, place a diagonal line of grey squares from bottom right to top left.</li><p></p><li>To make the output, you have to place three black squares based on the number of colors in the input grid. If there is one color, put three black squares at the top. If there are two colors, place a horizontal line of black squares from left to right. If there are three colors, place a horizontal line of black squares from right to left.</li><p></p><li>To make the output, you have to place three blue squares based on the number of colors in the input grid. If there is one color, put three blue squares at the top. If there are two colors, place a vertical line of blue squares from top to bottom. If there are three colors, place a vertical line of blue squares from bottom to top.</li><p></p><li>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares on the left. If there are two colors, place a diagonal line of grey squares from bottom left to top right. If there are three colors, place a diagonal line of grey squares from top right to bottom left.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a 3x3 grid that may have between 1 and 3 colors.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares at the top. If there are two colors, place a diagonal line of grey squares from top left to bottom right. If there are three colors, place a diagonal line of grey squares from bottom left to top right.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares at the bottom. If there are two colors, place a diagonal line of grey squares from top right to bottom left. If there are three colors, place a diagonal line of grey squares from bottom right to top left.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to place three black squares based on the number of colors in the input grid. If there is one color, put three black squares at the top. If there are two colors, place a horizontal line of black squares from left to right. If there are three colors, place a horizontal line of black squares from right to left.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to place three blue squares based on the number of colors in the input grid. If there is one color, put three blue squares at the top. If there are two colors, place a vertical line of blue squares from top to bottom. If there are three colors, place a vertical line of blue squares from bottom to top.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to place three grey squares based on the number of colors in the input grid. If there is one color, put three grey squares on the left. If there are two colors, place a diagonal line of grey squares from bottom left to top right. If there are three colors, place a diagonal line of grey squares from top right to bottom left.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

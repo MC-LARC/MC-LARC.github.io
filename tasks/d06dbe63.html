@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task d06dbe63</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/d06dbe63.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task d06dbe63</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/d06dbe63.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a light blue square in a large balck grid.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to use just violet blocks place blocks on the left side of the red cube, add three up, then three to the right. Below the red cube place violet blocks, three down, then three to the left. Repeat this sequence to the grid's boundaries.</li><p></p><li>To make the output, you have to use just purple blocks set blocks at the right side of the yellow block, add three right, then three up. Above the yellow block set purple blocks, three up, then three to the right. Follow this sequence to the top edge of the grid.</li><p></p><li>To make the output, you have to use just grey blocks place blocks above the green box, add two up, then two to the right. Below the green box place grey blocks, two down, then two to the left. Follow this sequence to the edge of the grid.</li><p></p><li>To make the output, you have to use just black blocks add blocks to the bottom of the blue box, add two down, and then two to the left. Above the blue box add black blocks, two up and then two to the right. Repeat this pattern to the edge of the grid.</li><p></p><li>To make the output, you have to use just yellow blocks add blocks to the bottom of the blue box, add two down, and then two to the right. Below the blue box add yellow blocks, two down and then two to the left. Repeat this pattern to the edge of the grid.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a light blue square in a large balck grid.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use just violet blocks place blocks on the left side of the red cube, add three up, then three to the right. Below the red cube place violet blocks, three down, then three to the left. Repeat this sequence to the grid's boundaries.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use just purple blocks set blocks at the right side of the yellow block, add three right, then three up. Above the yellow block set purple blocks, three up, then three to the right. Follow this sequence to the top edge of the grid.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-correct="true" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use just grey blocks place blocks above the green box, add two up, then two to the right. Below the green box place grey blocks, two down, then two to the left. Follow this sequence to the edge of the grid.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use just black blocks add blocks to the bottom of the blue box, add two down, and then two to the left. Above the blue box add black blocks, two up and then two to the right. Repeat this pattern to the edge of the grid.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use just yellow blocks add blocks to the bottom of the blue box, add two down, and then two to the right. Below the blue box add yellow blocks, two down and then two to the left. Repeat this pattern to the edge of the grid.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 1190e5a7</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/1190e5a7.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 1190e5a7</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/1190e5a7.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a colored grid with vertical and horizontal lines.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to change the color of the grid squares to match the color of the input sections, and adjust the number and positions of the sections divided by lines horizontally and vertically according to the grid size.</li><p></p><li>To make the output, you have to change the color of the grid lines to a new color while leaving the sections unchanged, and then introduce new borders between each section.</li><p></p><li>To make the output, you have to keep the original color of the grid lines and add new colors based on the number of sections, without adjusting any of the positions.</li><p></p><li>To make the output, you have to adjust the number of sections by removing some horizontal and vertical lines, keeping the original grid colors as they are, without changing any positions or colors.</li><p></p><li>To make the output, you have to maintain the current section divisions and introduce diagonal lines of different colors, changing the shapes of the sections rather than altering the grid lines.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a colored grid with vertical and horizontal lines.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to change the color of the grid squares to match the color of the input sections, and adjust the number and positions of the sections divided by lines horizontally and vertically according to the grid size.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to change the color of the grid lines to a new color while leaving the sections unchanged, and then introduce new borders between each section.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to keep the original color of the grid lines and add new colors based on the number of sections, without adjusting any of the positions.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to adjust the number of sections by removing some horizontal and vertical lines, keeping the original grid colors as they are, without changing any positions or colors.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to maintain the current section divisions and introduce diagonal lines of different colors, changing the shapes of the sections rather than altering the grid lines.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task bd4472b8</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/bd4472b8.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task bd4472b8</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/bd4472b8.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a top row filled with pixels of various colors. And right below it, there is a gray line.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to start on the third row and make each row uniform in color, then repeat the pattern in sequential columns.</li><p></p><li>To make the output, you have to start on the third column and make each column a uniform color, then alternate the pattern in subsequent rows.</li><p></p><li>To make the output, you have to start on the first row and continue the pattern row by row, then reverse the order for the subsequent rows.</li><p></p><li>To make the output, you have to make each row different in color in a specific sequence, then reverse the entire sequence.</li><p></p><li>To make the output, you have to start on the second row and use the colors from the last row to fill in the colors uniformly, then repeat the same sequence.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a top row filled with pixels of various colors. And right below it, there is a gray line.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to start on the third row and make each row uniform in color, then repeat the pattern in sequential columns.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to start on the third column and make each column a uniform color, then alternate the pattern in subsequent rows.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to start on the first row and continue the pattern row by row, then reverse the order for the subsequent rows.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to make each row different in color in a specific sequence, then reverse the entire sequence.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to start on the second row and use the colors from the last row to fill in the colors uniformly, then repeat the same sequence.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 5c2c9af4</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/5c2c9af4.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 5c2c9af4</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/5c2c9af4.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see... three dots of one color in large black grid. They are alinged diagonally.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to remove the inner dots and form a single large rectangle with the remaining dots. Keep making this rectangle until you fill the entire background with one continuous shape. The amount of black space between each shape should vary randomly, unlike the first shape's width.</li><p></p><li>To make the output, you have to replace the dots with lines in a way that they form parallel lines across the entire black background. Do not create any shapes or follow any line sequence similar to the dots' original placement. The spacing between the lines can be irregular and need not match the initial dot spacing.</li><p></p><li>To make the output, you have to use the two outer dots to form a square around the dot in the middle, then continue making squares surrounding the last square you created until you can not make any more. And do not stop when you can not get an entire square inside the black background; even if you have enough room to make one line and the rest of the square would be outside of the black background, then make that line. The amount of black space between each box should be the same width as the first square you created.</li><p></p><li>To make the output, you have to let the inner dot stay in the middle and extend lines from it in all four directions until the black background is filled with a grid. Do not make any squares, only lines radiating from the center dot. The width of the lines can be different from the spacing of the first dot.</li><p></p><li>To make the output, you have to use the two outer dots to create a triangle with the dot in the middle and then create subsequent triangles surrounding the last triangle. Stop creating triangles when you can no longer fit an entire triangle inside the black background. The amount of black space between each triangle should be different from the first triangle's width.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see... three dots of one color in large black grid. They are alinged diagonally.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to remove the inner dots and form a single large rectangle with the remaining dots. Keep making this rectangle until you fill the entire background with one continuous shape. The amount of black space between each shape should vary randomly, unlike the first shape's width.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to replace the dots with lines in a way that they form parallel lines across the entire black background. Do not create any shapes or follow any line sequence similar to the dots' original placement. The spacing between the lines can be irregular and need not match the initial dot spacing.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-correct="true" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use the two outer dots to form a square around the dot in the middle, then continue making squares surrounding the last square you created until you can not make any more. And do not stop when you can not get an entire square inside the black background; even if you have enough room to make one line and the rest of the square would be outside of the black background, then make that line. The amount of black space between each box should be the same width as the first square you created.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to let the inner dot stay in the middle and extend lines from it in all four directions until the black background is filled with a grid. Do not make any squares, only lines radiating from the center dot. The width of the lines can be different from the spacing of the first dot.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to use the two outer dots to create a triangle with the dot in the middle and then create subsequent triangles surrounding the last triangle. Stop creating triangles when you can no longer fit an entire triangle inside the black background. The amount of black space between each triangle should be different from the first triangle's width.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

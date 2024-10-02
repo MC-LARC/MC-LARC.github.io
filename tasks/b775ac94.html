@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task b775ac94</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/b775ac94.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task b775ac94</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/b775ac94.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...colored squares positioned into patterns. One "fully formed" pattern will have a uniform color. Differently colored blocks will butt against this first pattern</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to reduce the dark squares into a structure that differs and contrasts from the original grouping of squares that create the part of the formed shape. The output will have a circular impression or one-quarter section of the circle. Four like-colored sections gathered will distort a completely asymmetrical circle, while three will result in a one-quarter section.</li><p></p><li>To make the output, you have to compress the bright squares into a pattern that contrasts and opposes the original set of squares that construct the initial structure. The output will resemble an arc or a single quadrant of the arc. Four identical colors assembled together will deform a fully asymmetrical arc, while three will create a one-quarter section.</li><p></p><li>To make the output, you have to minimize the colorful squares into a design that contrasts and opposes the original set of squares that create the semi-complete structure. The output will look like a hexagon or one-quarter section of it. Four identical sections grouped will disrupt a completely asymmetrical hexagon, while three will produce a one-quarter section.</li><p></p><li>To make the output, you have to expand the mixed color squares into a design that imitates and replicates the original set of squares that form the complete structure. The output will have a crystal appearance or half or three-quarters section of the crystal. Four varied colors clustered together will create a fully symmetrical crystal, while three will form a three-quarters section.</li><p></p><li>To make the output, you have to contract the uniform color squares into a pattern that opposes and contrasts the original group of squares that create the partial structure. The output will have an oval shape or one-quarter section of the oval. Four identical sections gathered disrupt a completely asymmetrical oval, while three will result in a one-quarter section.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...colored squares positioned into patterns. One "fully formed" pattern will have a uniform color. Differently colored blocks will butt against this first pattern</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to reduce the dark squares into a structure that differs and contrasts from the original grouping of squares that create the part of the formed shape. The output will have a circular impression or one-quarter section of the circle. Four like-colored sections gathered will distort a completely asymmetrical circle, while three will result in a one-quarter section.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to compress the bright squares into a pattern that contrasts and opposes the original set of squares that construct the initial structure. The output will resemble an arc or a single quadrant of the arc. Four identical colors assembled together will deform a fully asymmetrical arc, while three will create a one-quarter section.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to minimize the colorful squares into a design that contrasts and opposes the original set of squares that create the semi-complete structure. The output will look like a hexagon or one-quarter section of it. Four identical sections grouped will disrupt a completely asymmetrical hexagon, while three will produce a one-quarter section.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to expand the mixed color squares into a design that imitates and replicates the original set of squares that form the complete structure. The output will have a crystal appearance or half or three-quarters section of the crystal. Four varied colors clustered together will create a fully symmetrical crystal, while three will form a three-quarters section.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to contract the uniform color squares into a pattern that opposes and contrasts the original group of squares that create the partial structure. The output will have an oval shape or one-quarter section of the oval. Four identical sections gathered disrupt a completely asymmetrical oval, while three will result in a one-quarter section.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

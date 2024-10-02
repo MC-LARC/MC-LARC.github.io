@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 264363fd</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/264363fd.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 264363fd</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/264363fd.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...30x30 grid with colored background and several rectangles with some pixels of different color, and one pattern outside of objects.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to copy the shape located inside the boxes. Take note of the central square in the shape inside the box. Arrange the shape in the box, centered over the empty squares of contrasting colors. Identify the circles extending one space outward from the center of the shape. Extend the lines of matching color from these squares until they meet the shape's edges. Apply this process to all boxes with differently colored central squares within.</li><p></p><li>To make the output, you have to copy the shape you see outside of the boxes. Don't take note of the central square of the shape outside the box. Arrange the shape in the box, centered over the squares of matching color. Identify the squares extending outward from the center position. Use the same color as these squares to extend their lines until they meet the sides of the background area. Apply this process to all boxes with similar-colored squares inside.</li><p></p><li>To make the output, you have to copy the shape you see below the boxes. Take note of the edge square of the shape below the box. Place the shape outside the box, positioned below the differently colored squares. Identify the circles extending two spaces outward from the center of the shape. Use a different color as these squares and continue their lines until they do not meet the box's edges. Repeat this process for all boxes with differently colored squares inside.</li><p></p><li>To make the output, you have to copy the shape you see outside of the boxes. Notice the central square of the shape outside the box. Position the shape within the box, centered over the single squares of differing colors. Identify the squares extending two spaces outward from the shape's center. Using the matching color, extend the lines from these squares until they touch the sides of the colored box without entering the background. Apply this to all boxes with differently colored central squares.</li><p></p><li>To make the output, you have to erase the shape you see outside of the boxes. Notice the central square of the shape outside the box. Position the shape adjacent to the box, away from the single squares of differing colors. Identify the squares extending one space outward from the shape's center. Using a different color from these squares, extend their lines until they meet the box's sides. Apply this to all boxes with similarly colored central squares.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...30x30 grid with colored background and several rectangles with some pixels of different color, and one pattern outside of objects.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the shape located inside the boxes. Take note of the central square in the shape inside the box. Arrange the shape in the box, centered over the empty squares of contrasting colors. Identify the circles extending one space outward from the center of the shape. Extend the lines of matching color from these squares until they meet the shape's edges. Apply this process to all boxes with differently colored central squares within.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the shape you see outside of the boxes. Don't take note of the central square of the shape outside the box. Arrange the shape in the box, centered over the squares of matching color. Identify the squares extending outward from the center position. Use the same color as these squares to extend their lines until they meet the sides of the background area. Apply this process to all boxes with similar-colored squares inside.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the shape you see below the boxes. Take note of the edge square of the shape below the box. Place the shape outside the box, positioned below the differently colored squares. Identify the circles extending two spaces outward from the center of the shape. Use a different color as these squares and continue their lines until they do not meet the box's edges. Repeat this process for all boxes with differently colored squares inside.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the shape you see outside of the boxes. Notice the central square of the shape outside the box. Position the shape within the box, centered over the single squares of differing colors. Identify the squares extending two spaces outward from the shape's center. Using the matching color, extend the lines from these squares until they touch the sides of the colored box without entering the background. Apply this to all boxes with differently colored central squares.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to erase the shape you see outside of the boxes. Notice the central square of the shape outside the box. Position the shape adjacent to the box, away from the single squares of differing colors. Identify the squares extending one space outward from the shape's center. Using a different color from these squares, extend their lines until they meet the box's sides. Apply this to all boxes with similarly colored central squares.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

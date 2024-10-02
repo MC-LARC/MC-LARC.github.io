@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 05f2a901</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/05f2a901.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 05f2a901</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/05f2a901.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a light blue 2x2 square and a red shape.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to remove the blue 2x2 square, place it in the top-right corner, and replace the original spot with a red 2x2 square.</li><p></p><li>To make the output, you have to duplicate the red shape, creating four identical shapes, and position them in each corner of the grid.</li><p></p><li>To make the output, you have to rotate the red shape 90 degrees clockwise and place it in the center of the grid, leaving the blue 2x2 square as is.</li><p></p><li>To make the output, you have to keep the blue 2x2 square in the same spot. the red shape needs to move until it is touching the blue 2x2 square. You should move the red shape towards the blue 2x2 square either vertically or horizontally.</li><p></p><li>To make the output, you have to switch the positions of the blue 2x2 square and the red shape so that each one occupies the original position of the other.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a light blue 2x2 square and a red shape.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to remove the blue 2x2 square, place it in the top-right corner, and replace the original spot with a red 2x2 square.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to duplicate the red shape, creating four identical shapes, and position them in each corner of the grid.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to rotate the red shape 90 degrees clockwise and place it in the center of the grid, leaving the blue 2x2 square as is.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to keep the blue 2x2 square in the same spot. the red shape needs to move until it is touching the blue 2x2 square. You should move the red shape towards the blue 2x2 square either vertically or horizontally.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to switch the positions of the blue 2x2 square and the red shape so that each one occupies the original position of the other.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

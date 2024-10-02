@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 83302e8f</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/83302e8f.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 83302e8f</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/83302e8f.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see... an array of black squares separated by a partially broken grid of colored lines.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to...recolor from black to green for every black square that appears fully enclosed. For every square with broken edges, recolor from black to yellow. Leave boundary lines as they are.</li><p></p><li>To make the output, you have to...recolor from black to brown for every black square that shows complete borders. For every square with partial borders, recolor from black to pink. Leave boundary lines in their original state.</li><p></p><li>To make the output, you have to...recolor from black to red for every black square that has uninterrupted borders. For every square with disconnected borders, recolor from black to blue. Leave border lines unchanged.</li><p></p><li>To make the output, you have to...recolor from black to green for every black square that has complete edges. For every square lacking borders, recolor from black to yellow. Leave boundary lines in the original color.</li><p></p><li>To make the output, you have to...recolor from black to green for every black square that has no edges. For every square with broken edges, recolor from black to yellow. Change boundary lines to blue.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see... an array of black squares separated by a partially broken grid of colored lines.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...recolor from black to green for every black square that appears fully enclosed. For every square with broken edges, recolor from black to yellow. Leave boundary lines as they are.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...recolor from black to brown for every black square that shows complete borders. For every square with partial borders, recolor from black to pink. Leave boundary lines in their original state.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...recolor from black to red for every black square that has uninterrupted borders. For every square with disconnected borders, recolor from black to blue. Leave border lines unchanged.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...recolor from black to green for every black square that has complete edges. For every square lacking borders, recolor from black to yellow. Leave boundary lines in the original color.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...recolor from black to green for every black square that has no edges. For every square with broken edges, recolor from black to yellow. Change boundary lines to blue.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

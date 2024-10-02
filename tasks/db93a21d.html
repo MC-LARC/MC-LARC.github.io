@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task db93a21d</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/db93a21d.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task db93a21d</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/db93a21d.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...brown rectangles of various sizes on a black background.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to put a yellow border around each blue square. The thickness of the yellow border should equal one fourth of the thickness of the blue square. Fill the black squares below the yellow and blue squares with a vertical line of brown squares. The brown squares should be in the same vertical row as the blue square and should be the same width as the blue square. If the brown line should intersect with a yellow box, then the yellow box should disappear. Color over any yellow.</li><p></p><li>To make the output, you have to put a green border around each orange square. The thickness of the green border should equal one half of the thickness of the orange square. Fill the black squares below the orange and green squares with a vertical line of pink squares. The pink squares should be in the same vertical row as the orange square and should be the same width as the orange square. If the pink line should intersect with a green box, then the green box should stay. Don't color over any green.</li><p></p><li>To make the output, you have to put a blue border around each yellow square. The thickness of the blue border should equal double the thickness of the yellow square. Leave the black squares below the yellow and blue squares empty. The yellow squares should be in the same vertical row as the yellow square and should be the same width as the yellow square. If the yellow line should intersect with a blue box, then the blue box should disappear. Don’t color over any blue.</li><p></p><li>To make the output, you have to put a green border around each red square. The thickness of the green border should equal one half of the thickness of the red square. Fill the black squares below the red and green squares with a vertical line of blue squares. The blue squares should be in the same vertical row as the red square and should be the same width as the red square. If the blue line should intersect with a green box, then the green box should stay. Don't color over any green.</li><p></p><li>To make the output, you have to put a red border around each orange square. The thickness of the red border should equal one third of the thickness of the orange square. Erase the black squares below the orange and red squares with a horizontal line of green squares. The green squares should be in the same vertical row as the orange square and should be the same width as the orange square. If the green line should intersect with a red box, then the red box should stay. Color over any red.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...brown rectangles of various sizes on a black background.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to put a yellow border around each blue square. The thickness of the yellow border should equal one fourth of the thickness of the blue square. Fill the black squares below the yellow and blue squares with a vertical line of brown squares. The brown squares should be in the same vertical row as the blue square and should be the same width as the blue square. If the brown line should intersect with a yellow box, then the yellow box should disappear. Color over any yellow.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to put a green border around each orange square. The thickness of the green border should equal one half of the thickness of the orange square. Fill the black squares below the orange and green squares with a vertical line of pink squares. The pink squares should be in the same vertical row as the orange square and should be the same width as the orange square. If the pink line should intersect with a green box, then the green box should stay. Don't color over any green.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to put a blue border around each yellow square. The thickness of the blue border should equal double the thickness of the yellow square. Leave the black squares below the yellow and blue squares empty. The yellow squares should be in the same vertical row as the yellow square and should be the same width as the yellow square. If the yellow line should intersect with a blue box, then the blue box should disappear. Don’t color over any blue.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to put a green border around each red square. The thickness of the green border should equal one half of the thickness of the red square. Fill the black squares below the red and green squares with a vertical line of blue squares. The blue squares should be in the same vertical row as the red square and should be the same width as the red square. If the blue line should intersect with a green box, then the green box should stay. Don't color over any green.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to put a red border around each orange square. The thickness of the red border should equal one third of the thickness of the orange square. Erase the black squares below the orange and red squares with a horizontal line of green squares. The green squares should be in the same vertical row as the orange square and should be the same width as the orange square. If the green line should intersect with a red box, then the red box should stay. Color over any red.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

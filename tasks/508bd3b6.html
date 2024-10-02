@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 508bd3b6</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/508bd3b6.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 508bd3b6</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/508bd3b6.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...several red bars on either the top, bottom, left or right side. And there are two or three light blue pixels that are aligned diagonally.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to fill the pixels with green color diagonally progressing through the light blue pixels. When encountering the red portion, consider it as a mirror and reflect the direction of the green pixel progression as if it were reflecting off the mirror.</li><p></p><li>To make the output, you have to fill the pixels with red color diagonally progressing through the light blue pixels. When encountering the blue portion, treat it as a wall and stop the red pixel progression entirely.</li><p></p><li>To make the output, you have to fill the pixels with green color horizontally progressing through the pink pixels. When encountering the red portion, treat it as a gap and continue the direction of the green pixel progression unchanged.</li><p></p><li>To make the output, you have to fill the pixels with yellow color vertically progressing through the light blue pixels. When encountering the blue portion, consider it an obstacle and reverse the direction of the yellow pixel progression vertically.</li><p></p><li>To make the output, you have to fill the pixels with brown color diagonally progressing through the light blue pixels. When encountering the red portion, consider it as a mirror and continue the brown pixel progression without reflection.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...several red bars on either the top, bottom, left or right side. And there are two or three light blue pixels that are aligned diagonally.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to fill the pixels with green color diagonally progressing through the light blue pixels. When encountering the red portion, consider it as a mirror and reflect the direction of the green pixel progression as if it were reflecting off the mirror.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to fill the pixels with red color diagonally progressing through the light blue pixels. When encountering the blue portion, treat it as a wall and stop the red pixel progression entirely.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to fill the pixels with green color horizontally progressing through the pink pixels. When encountering the red portion, treat it as a gap and continue the direction of the green pixel progression unchanged.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to fill the pixels with yellow color vertically progressing through the light blue pixels. When encountering the blue portion, consider it an obstacle and reverse the direction of the yellow pixel progression vertically.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to fill the pixels with brown color diagonally progressing through the light blue pixels. When encountering the red portion, consider it as a mirror and continue the brown pixel progression without reflection.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

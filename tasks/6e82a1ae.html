@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 6e82a1ae</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/6e82a1ae.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 6e82a1ae</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/6e82a1ae.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...various gray blocks composed of 2, 3, or 4 gray pixels, each in different shapes.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to...change a group of 2 blocks from gray to black, change a group of 3 blocks from gray to blue, change a group of 4 blocks from gray to green.</li><p></p><li>To make the output, you have to...draw a group of 2 blocks in orange, draw a group of 3 blocks in pink, draw a group of 4 blocks in brown.</li><p></p><li>To make the output, you have to...alter a group of 2 blocks to brown, alter a group of 3 blocks to yellow, alter a group of 4 blocks to orange.</li><p></p><li>To make the output, you have to...make a group of 2 blocks turn green, make a group of 3 blocks turn red, make a group of 4 blocks turn blue.</li><p></p><li>To make the output, you have to...form a group of 2 blocks into yellow, form a group of 3 blocks into light blue, form a group of 4 blocks into pink.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...various gray blocks composed of 2, 3, or 4 gray pixels, each in different shapes.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...change a group of 2 blocks from gray to black, change a group of 3 blocks from gray to blue, change a group of 4 blocks from gray to green.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...draw a group of 2 blocks in orange, draw a group of 3 blocks in pink, draw a group of 4 blocks in brown.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...alter a group of 2 blocks to brown, alter a group of 3 blocks to yellow, alter a group of 4 blocks to orange.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make a group of 2 blocks turn green, make a group of 3 blocks turn red, make a group of 4 blocks turn blue.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...form a group of 2 blocks into yellow, form a group of 3 blocks into light blue, form a group of 4 blocks into pink.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

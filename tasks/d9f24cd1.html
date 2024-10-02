@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task d9f24cd1</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/d9f24cd1.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task d9f24cd1</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/d9f24cd1.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...single red pixels attached to the bottom and single gray pixels in the center.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to move the red squares to the bottom-left, forming horizontal lines. The red pixel changes direction when it meets a grey square and continues to the top-right.</li><p></p><li>To make the output, you have to extend the red squares upward to form vertical lines. The red pixel changes direction when it meets a grey square and continues to the right.</li><p></p><li>To make the output, you have to move the red squares to the right to form horizontal lines. The red pixel changes direction when it meets a grey square and continues horizontally to the left.</li><p></p><li>To make the output, you have to create diagonal lines from the red squares going down-right. The red pixel changes direction when it meets a grey square, moving up-right to continue diagonally.</li><p></p><li>To make the output, you have to extend the red squares downward to form vertical lines. The red pixel changes direction when it meets a grey square and continues downward to the left.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...single red pixels attached to the bottom and single gray pixels in the center.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to move the red squares to the bottom-left, forming horizontal lines. The red pixel changes direction when it meets a grey square and continues to the top-right.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-correct="true" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to extend the red squares upward to form vertical lines. The red pixel changes direction when it meets a grey square and continues to the right.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to move the red squares to the right to form horizontal lines. The red pixel changes direction when it meets a grey square and continues horizontally to the left.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create diagonal lines from the red squares going down-right. The red pixel changes direction when it meets a grey square, moving up-right to continue diagonally.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to extend the red squares downward to form vertical lines. The red pixel changes direction when it meets a grey square and continues downward to the left.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 47c1f68c</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/47c1f68c.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 47c1f68c</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/47c1f68c.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see... A colored cross that divides the grid eqaully into 4 smaller sections. In the top left smaller grid you should see a shape with different color.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to copy the contents of the object located in the top-left corner and apply the same pattern to the remaining parts using the vertical and horizontal grid lines. Afterward, eliminate the vertical and horizontal lines and combine the quarter-sections.</li><p></p><li>To make the output, you have to copy the contents of the object located in the bottom-left corner and apply the reflections according to diagonal grid lines. Then, eliminate the diagonal lines and combine the sections.</li><p></p><li>To make the output, you have to replicate the pattern from the object in the top-right corner across the grid using vertical and horizontal lines that divide it into quarters. Then, add more vertical and horizontal lines and combine the sections.</li><p></p><li>To make the output, you have to copy the object located in the top-left corner throughout the entire grid without utilizing the vertical and horizontal dividing lines. Then, remove the lines and combine the sections.</li><p></p><li>To make the output, you have to reflect the object from the top-left corner to the opposite corner based on the vertical and horizontal lines, and then leave the lines intact while separating the sections.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see... A colored cross that divides the grid eqaully into 4 smaller sections. In the top left smaller grid you should see a shape with different color.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-correct="true" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the contents of the object located in the top-left corner and apply the same pattern to the remaining parts using the vertical and horizontal grid lines. Afterward, eliminate the vertical and horizontal lines and combine the quarter-sections.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the contents of the object located in the bottom-left corner and apply the reflections according to diagonal grid lines. Then, eliminate the diagonal lines and combine the sections.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to replicate the pattern from the object in the top-right corner across the grid using vertical and horizontal lines that divide it into quarters. Then, add more vertical and horizontal lines and combine the sections.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the object located in the top-left corner throughout the entire grid without utilizing the vertical and horizontal dividing lines. Then, remove the lines and combine the sections.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to reflect the object from the top-left corner to the opposite corner based on the vertical and horizontal lines, and then leave the lines intact while separating the sections.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

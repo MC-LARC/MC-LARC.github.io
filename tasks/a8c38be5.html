@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task a8c38be5</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/a8c38be5.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task a8c38be5</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/a8c38be5.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a black grid with nine 3x3 shapes with gray and other colors. Each 3x3 shapes contain some pattern at the up, down, left, right part, and four corners. And the last one is empty with only gray pixels.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to...make sure the background is completely yellow. Arrange the colors and shapes in the opposite positions. The corners go to the center, the t-shape to the middle left, the upside-down t-shape to the middle right, and the sideways t-shapes to the middle top and bottom with the short side against the left and right. Change the colors for each.</li><p></p><li>To make the output, you have to...make sure the background is all black. Arrange the colors and shapes incorrectly. The corners go to the opposite corners, the t-shape to the bottom middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the left and right sides rotated so that the long side is against the bottom and top. Change the colors for each.</li><p></p><li>To make the output, you have to...make sure the background is all gray. Arrange the shapes as they are. The corners go to the corners, the t-shape to the top middle, the upside-down t-shape to the bottom middle, and the sideways t-shapes to the middle left and right, with the long side against the left and right sides. Keep the same colors.</li><p></p><li>To make the output, you have to...make sure the background is all blue. Place different colors and shapes randomly. The corners go near the corners, the t-shape goes near the middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the top and bottom with the long side against the top and right. Keep the same colors.</li><p></p><li>To make the output, you have to...keep the background all black. Arrange the colors and shapes as they are. The corners go to the middle, the t-shape to the bottom middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the left and right flipped vertically. Keep the same colors.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a black grid with nine 3x3 shapes with gray and other colors. Each 3x3 shapes contain some pattern at the up, down, left, right part, and four corners. And the last one is empty with only gray pixels.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make sure the background is completely yellow. Arrange the colors and shapes in the opposite positions. The corners go to the center, the t-shape to the middle left, the upside-down t-shape to the middle right, and the sideways t-shapes to the middle top and bottom with the short side against the left and right. Change the colors for each.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make sure the background is all black. Arrange the colors and shapes incorrectly. The corners go to the opposite corners, the t-shape to the bottom middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the left and right sides rotated so that the long side is against the bottom and top. Change the colors for each.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-correct="true" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make sure the background is all gray. Arrange the shapes as they are. The corners go to the corners, the t-shape to the top middle, the upside-down t-shape to the bottom middle, and the sideways t-shapes to the middle left and right, with the long side against the left and right sides. Keep the same colors.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make sure the background is all blue. Place different colors and shapes randomly. The corners go near the corners, the t-shape goes near the middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the top and bottom with the long side against the top and right. Keep the same colors.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...keep the background all black. Arrange the colors and shapes as they are. The corners go to the middle, the t-shape to the bottom middle, the upside-down t-shape to the top middle, and the sideways t-shapes to the left and right flipped vertically. Keep the same colors.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task fafffa47</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/fafffa47.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task fafffa47</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/fafffa47.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to create a 3x3 matrix and fill it with green color. Next, transfer the purple pattern to the 3x3 matrix. Then, overlay the gray pattern on top of the purple pattern. After that, fill in the green squares with turquoise color and fill in all the purple and gray squares with green color.</li><p></p><li>To make the output, you have to create a 3x3 matrix and fill it with white color. Next, transfer the red pattern to the 3x3 matrix. Then, overlay the green pattern on top of the red pattern. After that, fill in the white squares with black color and fill in all the red and green squares with white color.</li><p></p><li>To make the output, you have to create a 3x3 matrix and fill it with black color. Next, transfer the brown pattern to the 3x3 matrix. Then, overlay the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</li><p></p><li>To make the output, you have to create a 3x3 matrix and fill it with yellow color. Next, transfer the orange pattern to the 3x3 matrix. Then, overlay the light blue pattern on top of the orange pattern. After that, fill in the yellow squares with gray color and fill in all the orange and light blue squares with yellow color.</li><p></p><li>To make the output, you have to create a 3x3 matrix and fill it with red color. Next, transfer the yellow pattern to the 3x3 matrix. Then, overlay the black pattern on top of the yellow pattern. After that, fill in the red squares with light blue color and fill in all the yellow and black squares with red color.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...6x3 grid with brown and blue pixels. The upper 3x3 grid contains a random pattern composed of brown pixels, while the lower 3x3 grid contains a random pattern composed of blue pixels.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create a 3x3 matrix and fill it with green color. Next, transfer the purple pattern to the 3x3 matrix. Then, overlay the gray pattern on top of the purple pattern. After that, fill in the green squares with turquoise color and fill in all the purple and gray squares with green color.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create a 3x3 matrix and fill it with white color. Next, transfer the red pattern to the 3x3 matrix. Then, overlay the green pattern on top of the red pattern. After that, fill in the white squares with black color and fill in all the red and green squares with white color.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-correct="true" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create a 3x3 matrix and fill it with black color. Next, transfer the brown pattern to the 3x3 matrix. Then, overlay the blue pattern on top of the brown pattern. After that, fill in the black squares with red color and fill in all the brown and blue squares with black color.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create a 3x3 matrix and fill it with yellow color. Next, transfer the orange pattern to the 3x3 matrix. Then, overlay the light blue pattern on top of the orange pattern. After that, fill in the yellow squares with gray color and fill in all the orange and light blue squares with yellow color.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to create a 3x3 matrix and fill it with red color. Next, transfer the yellow pattern to the 3x3 matrix. Then, overlay the black pattern on top of the yellow pattern. After that, fill in the red squares with light blue color and fill in all the yellow and black squares with red color.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

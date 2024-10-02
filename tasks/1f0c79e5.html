@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 1f0c79e5</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/1f0c79e5.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 1f0c79e5</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/1f0c79e5.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...a 2x2 square pattern with at least one red color square.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to...shrink the pattern in the direction opposite to a red square located on the grid. If multiple corners have a red square, compress all to the center by the square's width. The pattern should move down one and over one by two widths.</li><p></p><li>To make the output, you have to...reduce the size of the pattern opposite to the red square on the grid. For multiple red squares, reduce all to the center by the square's width. The pattern should move down one and left one by two widths.</li><p></p><li>To make the output, you have to...reduce the pattern in the direction of a red square on the grid. If multiple corners contain red, reduce all to the edge by the square's width. The pattern should move down one and over one by two widths.</li><p></p><li>To make the output, you have to...extend the pattern in the direction of a red square on the grid. If multiple corners contain red squares, extend all to the edge by the square's width. The pattern should move up one and over one by two widths.</li><p></p><li>To make the output, you have to...contract the pattern in the direction of a green square on the grid. For multiple green squares, extend all to the center by the square's width. The pattern should move down one and over one by two widths.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...a 2x2 square pattern with at least one red color square.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...shrink the pattern in the direction opposite to a red square located on the grid. If multiple corners have a red square, compress all to the center by the square's width. The pattern should move down one and over one by two widths.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...reduce the size of the pattern opposite to the red square on the grid. For multiple red squares, reduce all to the center by the square's width. The pattern should move down one and left one by two widths.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...reduce the pattern in the direction of a red square on the grid. If multiple corners contain red, reduce all to the edge by the square's width. The pattern should move down one and over one by two widths.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-correct="true" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...extend the pattern in the direction of a red square on the grid. If multiple corners contain red squares, extend all to the edge by the square's width. The pattern should move up one and over one by two widths.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...contract the pattern in the direction of a green square on the grid. For multiple green squares, extend all to the center by the square's width. The pattern should move down one and over one by two widths.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

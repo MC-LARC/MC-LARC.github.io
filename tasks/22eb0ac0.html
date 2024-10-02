@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 22eb0ac0</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/22eb0ac0.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 22eb0ac0</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/22eb0ac0.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...several single pixels on both sides which are arranged with one space in between them. The pixels on both sides are facing each other horizontally.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to copy the input. If two blocks diagonally across from each other are the same color, fill in the rest of the grid diagonally with that color. Don't do anything with blocks diagonally across from each other that are different colors.</li><p></p><li>To make the output, you have to copy the input. If two blocks across from each other are the same color, fill in the rest of the row with that color. Don't do anything with blocks across from each other that are different colors.</li><p></p><li>To make the output, you have to copy the input. If a block at the top is the same color as one at the bottom, fill in the column with that color. Don't do anything with blocks that are different colors.</li><p></p><li>To make the output, you have to copy the input. If two blocks in the same row are the same color, fill in the column with that color. Don't do anything with blocks that are different colors.</li><p></p><li>To make the output, you have to copy the input. If two blocks across from each other are different colors, fill in the rest of the row with a new color. Don't do anything with blocks across from each other that are the same color.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...several single pixels on both sides which are arranged with one space in between them. The pixels on both sides are facing each other horizontally.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the input. If two blocks diagonally across from each other are the same color, fill in the rest of the grid diagonally with that color. Don't do anything with blocks diagonally across from each other that are different colors.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-correct="true" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the input. If two blocks across from each other are the same color, fill in the rest of the row with that color. Don't do anything with blocks across from each other that are different colors.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the input. If a block at the top is the same color as one at the bottom, fill in the column with that color. Don't do anything with blocks that are different colors.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the input. If two blocks in the same row are the same color, fill in the column with that color. Don't do anything with blocks that are different colors.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to copy the input. If two blocks across from each other are different colors, fill in the rest of the row with a new color. Don't do anything with blocks across from each other that are the same color.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>

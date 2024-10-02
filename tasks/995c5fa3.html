@@ -1,26 +1,60 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
 </head>
 <body>
-<div style="width: 50%; float: left;">
-    <h1>Task 995c5fa3</h1>
-    <h2>Task Demonstration Example</h2>
-    <img src="/images/tasks/995c5fa3.png" alt="Task Image" style="width: 80%; height: auto;">
+<div class="task-wrapper">
+<h1>Task 995c5fa3</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/995c5fa3.png"/>
 </div>
-<div style="width: 50%; float: left; padding-top: 65px;">
-    <h2>Input Image Explanation</h2>
-   <ul style="font-size: 18px; line-height: 1.6;">
-        <li>In the input, you should see...three 4x4 grey grids divide by black lines.</li>
-        <p></p>
-    </ul>
-    <br><br>
-    <h2>MC-LARC options</h2>
-   <ul style="font-size: 18px; line-height: 1.6;"><li>To make the output, you have to identify the shapes of multiple objects from the input grid and determine their specific colors. A large square is blue, an object with a circular center is orange, an object with indents on the sides is pink, and an object with a bottom indent is brown. Color each object from right to left, filling the output grid column by column from the top.</li><p></p><li>To make the output, you have to identify the shapes of several objects from the input grid and determine their assigned colors. A small square is black, an object with a central void is gray, an object with curved sides is orange, and an object with a top indent is pink. Color each object from left to right, filling the output grid row by row from the bottom.</li><p></p><li>To make the output, you have to identify the shapes of various objects from the input grid and determine their corresponding colors. A large square is red, an object with a central hole is light blue, an object with side indents is green, and an object with a bottom indent is yellow. Color each object from left to right, filling the output grid row by row from the top.</li><p></p><li>To make the output, you have to identify the shapes of different objects from the input grid and determine their designated colors. A large square is gray, an object with a central gap is red, an object with side notches is brown, and an object with a top indent is black. Color each object from left to right, filling the output grid column by column from the bottom.</li><p></p><li>To make the output, you have to identify the shapes of numerous objects from the input grid and determine their unique colors. A large square is yellow, an object with a hole in the center is green, an object with side curves is blue, and an object with a bottom indent is pink. Color each object from left to right, filling the output grid row by row from the top.</li><p></p></ul>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...three 4x4 grey grids divide by black lines.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to identify the shapes of multiple objects from the input grid and determine their specific colors. A large square is blue, an object with a circular center is orange, an object with indents on the sides is pink, and an object with a bottom indent is brown. Color each object from right to left, filling the output grid column by column from the top.</p>
+<div class="task-option-text">Option 1</div>
 </div>
+<div class="task-option" data-option="2">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to identify the shapes of several objects from the input grid and determine their assigned colors. A small square is black, an object with a central void is gray, an object with curved sides is orange, and an object with a top indent is pink. Color each object from left to right, filling the output grid row by row from the bottom.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-correct="true" data-option="3">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to identify the shapes of various objects from the input grid and determine their corresponding colors. A large square is red, an object with a central hole is light blue, an object with side indents is green, and an object with a bottom indent is yellow. Color each object from left to right, filling the output grid row by row from the top.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to identify the shapes of different objects from the input grid and determine their designated colors. A large square is gray, an object with a central gap is red, an object with side notches is brown, and an object with a top indent is black. Color each object from left to right, filling the output grid column by column from the bottom.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to identify the shapes of numerous objects from the input grid and determine their unique colors. A large square is yellow, an object with a hole in the center is green, an object with side curves is blue, and an object with a bottom indent is pink. Color each object from left to right, filling the output grid row by row from the top.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
 </body>
 </html>
