@@ -143,7 +143,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin-bottom: 0;  /* Remove bottom margin */
-    margin-right: 20px;  /* Add some space between links and button */
+    margin-right: 7.5px;  /* Add some space between links and button */
 }
 
 #links a {
@@ -176,7 +176,7 @@ h2 {
     border: none;
     border-radius: 30px;
     font-size: 20px;
-    margin: 15px;
+    margin: 7.5px;
     cursor: pointer;
     transition: background-color 0.2s;
 }
