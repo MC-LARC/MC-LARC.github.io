@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #edede9;
 }
 
 img {
@@ -111,7 +111,7 @@ img:hover {
 
 h2 {
     font-size: 28px;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -189,7 +189,10 @@ hr {
     border: none;
     height: 2px;
     background-color: gray;
-    margin: 20px 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .no-style {
@@ -213,8 +216,8 @@ h2 {
     margin: 0 auto;
     padding: 20px;
     font-family: "Font Awesome 5 Brands";
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); */
 }
 
 .content-wrapper {
@@ -227,6 +230,7 @@ h2 {
     text-align: justify;
     font-size: 20px;
     text-indent: 20px;
+    margin-bottom: 60px;
 }
 
 .image-text-container {
@@ -253,6 +257,7 @@ h2 {
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-bottom: 5px;
 }
 
 .full-width-image {
@@ -282,7 +287,4 @@ h2 {
 
 #paper-figure-8 {
     width: 100%;
-}
-
-cal-align: middle;
 }
