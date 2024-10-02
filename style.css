@@ -101,6 +101,14 @@ img:hover {
     font-size: 36px;
 }
 
+#title h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:black;
+}
+
 h2 {
     font-size: 28px;
     margin-top: 60px;
@@ -145,7 +153,7 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 20px;
     margin: 15px;
     transition: transform 0.2s;
 }
@@ -167,7 +175,7 @@ h2 {
     color: white;
     border: none;
     border-radius: 30px;
-    font-size: 16px;
+    font-size: 20px;
     margin: 15px;
     cursor: pointer;
     transition: background-color 0.2s;
