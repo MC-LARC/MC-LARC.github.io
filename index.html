@@ -39,25 +39,14 @@
     <div class="container">
         <h2>Abstract</h2>
         <div class="content-wrapper">
-            <p class="centered-text">As the reasoning abilities of artificial intelligence gain more attention, 
-                generating reliable benchmarks to evaluate reasoning capabilities is becoming increasingly important. 
-                The Abstract and Reasoning Corpus (ARC) is one of the introduced reasoning benchmarks, 
-                providing challenging problems that artificial intelligence has yet to solve.
-                While ARC has been recognized for assessing reasoning abilities, 
-                it has a limitation in that its evaluation method through generation fails to consider 
-                other aspects of assessment. Bloom's Taxonomy, widely known in education, 
-                argues that good evaluation methods should evaluate the six stages of 
-                <i>Remember</i>, <i>Understand</i>, <i>Apply</i>, <i>Analyze</i>, <i>Evaluate</i>, 
-                and <i>Create</i> in a step-by-step manner. 
-                To make ARC, which primarily evaluates the <i>Create</i> stage, suitable for assessing stages like 
-                <i>Understand</i> and <i>Apply</i>, we developed MC-LARC. 
-                This new multiple-choice format fits well in evaluating large language models (LLMs) 
-                across different cognitive stages. 
-                We evaluated the analogical reasoning abilities of ChatGPT4V with MC-LARC, 
-                confirming that 1) a multiple-choice format can support the language model's reasoning capabilities and 
-                2) facilitate evidence analysis. However, we noticed LLMs relying on shortcuts when tackling MC-LARC. 
-                To address the shortcut problem, we propose a self-feedback framework 
-                in which the LLMs autonomously identifies issues and generates augmented options to resolve them.</p>
+            <p class="centered-text">As artificial intelligence reasoning abilities gain prominence, generating reliable benchmarks becomes crucial.
+                The Abstract and Reasoning Corpus (ARC) offers challenging problems yet unsolved by AI.
+                While ARC effectively assesses reasoning, its generation-based evaluation overlooks other assessment aspects.
+                Bloom's Taxonomy suggests evaluating six cognitive stages: <i>Remember</i>, <i>Understand</i>, <i>Apply</i>, <i>Analyze</i>, <i>Evaluate</i>, and <i>Create</i>.
+                To extend ARC's focus beyond the <i>Create</i> stage, we developed MC-LARC, a multiple-choice format suitable for assessing stages like <i>Understand</i> and <i>Apply</i> in Large Language Models (LLMs).
+                Our evaluation of ChatGPT4V's analogical reasoning using MC-LARC confirmed that this format supports LLMs' reasoning capabilities and facilitates evidence analysis.
+                However, we observed LLMs using shortcuts in MC-LARC tasks.
+                To address this, we propose a self-feedback framework where LLMs identify issues and generate improved options.</p>
 
             <h2>MC-LARC: Generation to Selection</h2>
 
