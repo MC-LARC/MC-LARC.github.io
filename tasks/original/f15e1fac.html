@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="task-wrapper">
+<h1>Task f15e1fac</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/f15e1fac.png"/>
+</div>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...two pixels of different colors on the upper or lower rim, or on the right or left rim.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to... Start by counting the total number of blue squares on the input grid. Then, draw your lines diagonally across the red squares, skipping one square each time. Once you reach the end of the grid, backtrack to the beginning and repeat the process until all the blue squares have a corresponding line.</p>
+<div class="task-option-text">Option 1</div>
+</div>
+<div class="task-option" data-option="2" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to... Find the first blue square from the top and draw a vertical line downwards, stopping at the first red square you encounter. Then, rotate your grid 90 degrees to the left and draw another line from the new blue square position, stopping at the next red square. Continue this rotation and line drawing method until complete.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3" data-correct="true">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to... First, copy the input grid and leave it as it is. The blue squares act as a starting point for you to draw lines, so if the blue squares are on the left, you have to draw lines horizontally to the right and if the blue squares are at the top, you have to draw the line vertically down. Next, after copying the grid, draw lines from each blue squares and stop just before the grid with the first red square. Then you will start again to draw your second blue lines starting from the grid with the red square, however, you will have to move your line by one grid according to the position of your red square - if your red square is at the bottom, you will move the second line up by one grid, if your red square is at the right, you will have to move your second line left by one grid and if your red square is at the left, you will have to move your second line to the right by one grid. These second blue lines stop just before the grid with the second red square. You will then draw another set of blue lines with the same rule as the second line all the way to the end of the grid.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to... Begin by locating the blue square in the bottom right corner. From this point, draw a line horizontally to the left until you hit a red square. Then, go upwards one grid and draw another line to the right. Repeat this zig-zag pattern until you have covered the entire grid.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to... Draw a diagonal line from each blue square on the input grid until you reach the boundary of the grid. Once you run out of room in one direction, switch to the opposite direction and continue your line. Stop when you reach a red square and start a new line from that point, continuing until the entire grid has been filled with lines.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
+</body>
+</html>

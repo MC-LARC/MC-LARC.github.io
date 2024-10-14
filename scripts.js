@@ -84,15 +84,25 @@ var allFileList = [
 
 var indexFileList = allFileList.slice(0, 4);
 
-$(document).ready(function() {
+var currentVersion = 'self-feedback';
+
+function changeVersion(version) {
+    currentVersion = version;
+    loadVisualization();
+}
+
+function loadVisualization() {
+    $('#file-list').empty();
+    $('#version-title').text(`MC-LARC Dataset Visualizations (${currentVersion})`);
+
     var currentPage = window.location.pathname.split("/").pop();
-    var fileList = currentPage === 'visualization.html' ?  allFileList : indexFileList;
+    var fileList = currentPage === 'visualization.html' ? allFileList : indexFileList;
 
     fileList.forEach(function(filename) {
         var imgName = filename.split('.html')[0] + '.png';
-        var imgSrc = './images/thumbnails/' + imgName;
+        var imgSrc = `./images/thumbnails/${imgName}`;
         var text = imgName.replace('.png', '');
-        $('#file-list').append('<div class="thumbnail-container"><img src="' + imgSrc + '" data-file="' + filename + '"><p>' + text + '</p></div>');
+        $('#file-list').append(`<div class="thumbnail-container"><img src="${imgSrc}" data-file="${filename}"><p>${text}</p></div>`);
     });
 
     $('#file-list img').click(function() {
@@ -101,11 +111,20 @@ $(document).ready(function() {
     });
 
     $('#file-list').show();
-});
+}
 
 function loadHTMLFile(filename) {
-    window.location.href = './tasks/' + filename;
+    window.location.href = `tasks/${currentVersion}/${filename}`;
 }
+
+$(document).ready(function() {
+    var urlParams = new URLSearchParams(window.location.search);
+    var versionParam = urlParams.get('version');
+    if (versionParam) {
+        currentVersion = versionParam;
+    }
+    loadVisualization();
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     const options = document.querySelectorAll('.task-option');

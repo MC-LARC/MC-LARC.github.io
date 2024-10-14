@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="task-wrapper">
+<h1>Task 46f33fce</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/46f33fce.png"/>
+</div>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...two pixels of different colors on the upper or lower rim, or on the right or left rim.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...reduce colored 3x3 pixels to a 1x1 size. This process means the pixels in the downward, rightward, and diagonal right-downwards of the colored pixel must be filled to form a 1x1 crate. Afterward, while halving the overall grid size, the shrunken colored pixels should have transformed to 2x2 pixels. It's essential to maintain the initial positions for the 2x2 pixels from the previous ones.</p>
+<div class="task-option-text">Option 1</div>
+</div>
+<div class="task-option" data-option="2" data-correct="true">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...expand colored 1x1 pixels to a 2x2 size. In this process, the size should increase in the top-left direction, meaning the pixels in the upward, leftward, and upper-left diagonal directions of the colored pixel should be filled to create a 2x2 cube. Afterward, while doubling the entire grid size, the enlarged colored pixels should also be transformed into 4x4 pixels. It is essential to maintain the same positions for the 4x4 pixels as the previous ones.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...grow colored 1x1 pixels to a 2x2 structure. On the contrary, the size should increase in the bottom-right direction, meaning the pixels in the downward, rightward, and diagonal right-downwards of the colored pixel must be filled to form a 2x2 crate. Later, while doubling the overall grid size, the magnified colored pixels would still stay as 1x1 pixels. It's critical to change the initial positions for the 1x1 pixels from the previous ones.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...resize colored 1x1 pixels to a 2x2 shape. However, the size should decrease in the lower-right direction, meaning the pixels in the downward, rightward, and lower-right diagonal directions of the colored pixel should be cleared to create a 2x2 figure. Subsequently, while halving the entire grid size, the shrunken colored pixels should also be transformed into 1x1 pixels. It is necessary to alter the original positions for the 1x1 pixels from the previous ones.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...contract colored 2x2 pixels to a 1x1 size. This implies the pixels in the upward, leftward, and upper-left diagonal edges of the colored pixel should be removed to create a 1x1 cube. Then, the entire grid size has to be halved, the contracted colored pixels will stay as 1x1 pixels. It's mandatory to relocate the assigning positions for the 1x1 pixels from the initial ones.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
+</body>
+</html>

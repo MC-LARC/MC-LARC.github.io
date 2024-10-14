@@ -11,8 +11,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet" />
 </head>
 <body>
+    <div id="version-selector">
+        <button onclick="changeVersion('self-feedback')">Self-Feedback</button>
+        <button onclick="changeVersion('constraint')">Constraint</button>
+        <button onclick="changeVersion('original')">Original</button>
+    </div>
     <div id="file-list">
-        <h1>MC-LARC Dataset Visualizations</h1>
+        <h1 id="version-title">MC-LARC Dataset Visualizations</h1>
     </div>
     <div id="content"></div>
 

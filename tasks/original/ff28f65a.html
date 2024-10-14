@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="task-wrapper">
+<h1>Task ff28f65a</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/ff28f65a.png"/>
+</div>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...two pixels of different colors on the upper or lower rim, or on the right or left rim.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...generate a 6x6 black output grid. Count the number of 2x2 green squares found in the input. This number of squares will be filled in the output with light blue, filled out every fourth square starting at the bottom left. Any squares not filled with light blue should stay black.</p>
+<div class="task-option-text">Option 1</div>
+</div>
+<div class="task-option" data-option="2" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...establish a 4x4 red output grid. Figure out how many 3x3 gray squares there are in the input. That number of squares will be filled in the output with blue. Fill these blue squares every second square, starting from the top right corner. Any squares that aren't filled with blue should remain red.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...create a 5x5 green output grid. Then count the number of 2x2 blue squares in the input, and fill that number of squares in the output with yellow. Fill the output grid from top to bottom and left to right without skipping any squares. The squares not filled with yellow should become red.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...form a 3x3 brown output grid. Calculate how many 2x2 black squares are present in the input. The corresponding number of squares would be filled in the output with cyan, distributed on every third square starting from the top left. The squares that are not filled with cyan should turn pink.</p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5" data-correct="true">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...make a 5x5 black output grid. Then count how many 2x2 red squares there are in the input. That is how many squares you will fill in the output with dark blue (not light blue). You will fill in the blue squares every other square, starting in the top left (example: If there are 2 2x2 red squares in the input, you would fill in the top left and top right of your 3x3 output with dark blue. If there are 3 2x2 red squares in your input, you would fill in the top left, top right, and middle middle squares with dark blue. So, always alternate, even when you move to a lower row of your output - there should never be two blues in a row or a blue directly underneath of another one. Whatever squares you don't fill in with blue should stay black.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Markdown to HTML</title>
+<link href="/style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="task-wrapper">
+<h1>Task 8.90E+14</h1>
+<div class="task-content">
+<div class="task-image-section">
+<h2>Example</h2>
+<img alt="Task Image" id="taskImage" src="/images/tasks/8.90E+14.png"/>
+</div>
+<div class="task-text-section">
+<h2>Input Image Explanation</h2>
+<ul>
+<li>In the input, you should see...two pixels of different colors on the upper or lower rim, or on the right or left rim.</li>
+</ul>
+<h2>MC-LARC options</h2>
+<div class="task-option" data-option="1" data-correct="true">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...first, copy the input grid and leave it as it is. Then, count the black color grid inside the shape. Next, find another area in the large grid with the same number of black grid as in the first shape, however, it will only be black grid without the shape and the black grid might also be surrounded by black squares or have additional black squares around it. After you find the black grid, replicate the first shape with the black grid you find as the center. There should be two identical shapes in the output grid.</p>
+<div class="task-option-text">Option 1</div>
+</div>
+<div class="task-option" data-option="2" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...first, convert all other colored grids into black. Then, pick the first black grid you see as the center of a new shape. However, the new shape will have more black grids than the original and won't be an exact replica.</p>
+<div class="task-option-text">Option 2</div>
+</div>
+<div class="task-option" data-option="3" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...first, redraw the input grid in reverse order. After flipping the grid, count the number of blue squares within the shape. Copy the shape into a different part of the grid, ensuring that the new shape has fewer black squares.</p>
+<div class="task-option-text">Option 3</div>
+</div>
+<div class="task-option" data-option="4" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...first, remove all colors from the input grid and replace them with black. Then, select a random point in the grid and use it as the center to draw a new shape. Both shapes should have different black grid counts. </p>
+<div class="task-option-text">Option 4</div>
+</div>
+<div class="task-option" data-option="5" data-correct="false">
+<div class="custom-checkbox"></div>
+<p>To make the output, you have to...first, replace the input grid with an entirely black grid. Then, anywhere in the grid, create a new shape using the count of green squares in the original shape. The end result will not have two shapes with the same black grid count.</p>
+<div class="task-option-text">Option 5</div>
+</div>
+</div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet"/>
+<script src="/scripts.js"></script>
+</body>
+</html>
