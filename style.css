@@ -100,6 +100,7 @@ img {
 
 #title h1 {
     font-size: 36px;
+    color: black
 }
 
 #title h2 {
@@ -107,7 +108,6 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    color:black;
 }
 
 h2 {
@@ -141,28 +141,6 @@ h2 {
     flex-wrap: wrap;
 }
 
-#links {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;  /* Remove bottom margin */
-    margin-right: 7.5px;  /* Add some space between links and button */
-    flex-wrap: wrap;
-}
-
-#links a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-size: 20px;
-    margin: 15px;
-    transition: transform 0.2s;
-    min-width: 100px; /* Set a minimum width */
-    text-align: center;
-}
-
 .link-with-image {
     display: flex;
     align-items: center;
@@ -171,10 +149,31 @@ h2 {
     font-weight: bold;
 }
 
-.link-icon {
+#links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 7.5px;
+}
+
+#links a {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 15px;
+    transition: transform 0.2s;
+    min-width: 100px;
+}
+
+#links a svg {
     width: 24px;
     height: 24px;
-    margin-right: 8px;
+    margin-right: 10px;
 }
 
 #links a:hover {
@@ -190,7 +189,7 @@ h2 {
     display: inline-block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #1367a7;
+    background-color: #384B70;
     color: white;
     border: none;
     border-radius: 30px;

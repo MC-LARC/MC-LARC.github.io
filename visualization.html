@@ -9,16 +9,39 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery-jsonview/1.2.3/jquery.jsonview.min.css" rel="stylesheet" />
+    <style>
+        #version-selector {
+            margin: 20px 0;
+            text-align: center;
+        }
+        #version-select {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f8f8;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        #version-select:hover {
+            background-color: #e8e8e8;
+        }
+        #version-select option {
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <div id="version-selector">
-        <button onclick="changeVersion('self-feedback')">Self-Feedback</button>
-        <button onclick="changeVersion('constraint')">Constraint</button>
-        <button onclick="changeVersion('original')">Original</button>
+        <label for="version-select">Select Version:</label>
+        <select id="version-select" onchange="changeVersion(this.value)">
+            <option value="self-feedback">🔄 self-feedback</option>
+            <option value="constraint">👤 constraint</option>
+            <option value="original">🤖 origianal</option>
+        </select>
     </div>
-    <div id="file-list">
-        <h1 id="version-title">MC-LARC Dataset Visualizations</h1>
-    </div>
+    <h2 id="version-title"></h2>
+    <div id="file-list"></div>
     <div id="content"></div>
 
     <script src="scripts.js"></script>
