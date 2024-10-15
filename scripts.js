@@ -89,6 +89,11 @@ var currentVersion = 'self-feedback';
 function changeVersion(version) {
     currentVersion = version;
     loadVisualization();
+    
+    // URL 파라미터 업데이트
+    var newUrl = new URL(window.location.href);
+    newUrl.searchParams.set('version', version);
+    window.history.pushState({path: newUrl.href}, '', newUrl.href);
 }
 
 function loadVisualization() {
