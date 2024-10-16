@@ -18,7 +18,7 @@ If you have any questions about our dataset, please contact us at shindong97411@
 The metadata provides basic information about refined LARC and MC-LARC.
 
 ### 1. refined_LARC.csv
-This file contains *input description* and *output description* for the ARC 400 training dataset. </br>
+This file contains *"input description"* and *"output description"* for the ARC 400 training dataset. </br>
 
 | Field               | Description                                |
 |---------------------|--------------------------------------------|
@@ -33,7 +33,7 @@ However, the LARC dataset was not directly used; Through the refinement process,
 
 ---
 ### 2. shuffled_MC-LARC_description.csv
-This file includes five options for each *description_output* from the ['refined_LARC.csv'](dataset/refined_LARC.csv) file, serving as the correct answer. </br>
+This file includes five options for each *"description_output"* from the ['refined_LARC.csv'](dataset/refined_LARC.csv) file, serving as the correct answer. </br>
 The five options are randomly shuffled, and there is only one correct answer. You can find what is the correct answer by checking the last *answer* field. </br>
 
 | Field                         | Description                                |
