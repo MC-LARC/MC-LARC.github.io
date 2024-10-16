@@ -40,7 +40,7 @@ The five options are randomly shuffled, and there is only one correct answer. Yo
 |-------------------------------|--------------------------------------------|
 | task_id                       | Unique ID number of MC-LARC                |
 | task_name                     | Unique ID of ARC task                      |
-| shuffled_description (1 ~ 5)  | Shuffled description of the MC-LARC   |
+| shuffled_description (1 ~ 5)  | Shuffled description of the MC-LARC        |
 | answer                        | Description of the rule for an ARC task    |
 
 </br>
