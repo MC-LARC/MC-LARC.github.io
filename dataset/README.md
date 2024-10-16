@@ -3,9 +3,9 @@
 We provide the MC-LARC dataset, which is available in ['dataset'](dataset).
 
 MC-LARC has three versions:
-- ['dataset/MC-LARC_original_ver](**Original**): without constraints and methods.
-- **Constraints**: with constraints.
-- **Self-feedback**: with constraints and the self-feedback method.
+- ['Original'](dataset/MC-LARC_original_ver): without constraints and methods.
+- ['Constraints'](dataset/MC-LARC_constraints_ver): with constraints.
+- ['Self-feedback'](dataset/MC-LARC_self-feedback_ver): with constraints and the self-feedback method.
 
 If you have any questions about our dataset, please contact us at shindong97411@gmail.com.
 
