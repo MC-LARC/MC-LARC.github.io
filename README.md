@@ -4,7 +4,7 @@ MC-LARC
 
 
 <h3 align="center">
-From Generation to Selection: Findings Converting Analogical Problem-Solving into Multiple-Choice Questions
+</i>From Generation to Selection: Findings Converting Analogical Problem-Solving into Multiple-Choice Questions</i>
 </h3>
 
 <p align="center">
@@ -29,9 +29,6 @@ From Generation to Selection: Findings Converting Analogical Problem-Solving int
 ---
 
 This page is a repository of the MC-LARC project page for "From Generation to Selection: Findings Converting Analogical Problem-Solving into Multiple-Choice Questions".
-
----
-
 
 
 # Acknoledgement
