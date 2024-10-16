@@ -32,6 +32,6 @@ This page is a repository of the MC-LARC project page for "From Generation to Se
 
 
 # Acknoledgement
-This work was supported by the IITP (RS-2023-00216011, RS-2024-00445087, No.~2019-0-01842) and the NRF (RS-2024-00451162) grants funded by the Ministry of Science and ICT, Korea. Experiments were supported by the Accelerate Foundation Models Research Initiative, Microsoft.
+This work was supported by the IITP (RS-2023-00216011, RS-2024-00445087, No. 2019-0-01842) and the NRF (RS-2024-00451162) grants funded by the Ministry of Science and ICT, Korea. Experiments were supported by the Accelerate Foundation Models Research Initiative, Microsoft.
 
 ###### *This work was doen @ GIST Data Science Lab*
