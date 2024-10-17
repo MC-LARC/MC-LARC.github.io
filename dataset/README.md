@@ -32,7 +32,7 @@ However, the LARC dataset was not directly used; Through the refinement process,
 </br>
 
 ---
-### 2. shuffled_MC-LARC_description.csv
+### 2. MC-LARC.csv
 This file includes five options for each *"description_output"* from the ['refined_LARC.csv'](dataset/refined_LARC.csv) file, serving as the correct answer. </br>
 The five options are randomly shuffled, and there is only one correct answer. You can find what is the correct answer by checking the last *answer* field. </br>
 
