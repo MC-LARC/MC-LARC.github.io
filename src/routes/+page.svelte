@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+	import HeroSection from './components/HeroSection.svelte';
+	import Abstract from './components/Abstract.svelte';
+	import Ch1 from './components/Ch1.svelte';
+	import Ch2 from './components/Ch2.svelte';
+</script>
+
+<div class="container bg-black">
+	<HeroSection />
+	<Abstract />
+	<Ch1 />
+	<Ch2 />
+</div>

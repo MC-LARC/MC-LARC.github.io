@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+body {
+	background-color: black;
+}
+
+.lexend {
+	font-family: Lexend, sans-serif;
+}
+
+.montserrat {
+	font-family:
+		Montserrat Alternates,
+		sans-serif;
+}
