@@ -23,6 +23,11 @@
 			observer.observe(videoSection);
 		}
 
+		if (video) {
+			video.load();
+			video.currentTime = 0;
+		}
+
 		const handleScroll = () => {
 			const rect = videoSection.getBoundingClientRect();
 			const parentRect = videoSection.parentElement!.getBoundingClientRect();
@@ -34,7 +39,9 @@
 				);
 
 			if (video) {
-				video.currentTime = video.duration * scrollProgress;
+				requestAnimationFrame(() => {
+					video.currentTime = video.duration * scrollProgress;
+				});
 			}
 		};
 
