@@ -3,6 +3,7 @@
 	import Abstract from './components/Abstract.svelte';
 	import Ch1 from './components/Ch1.svelte';
 	import Ch2 from './components/Ch2.svelte';
+	import Ch3 from './components/Ch3.svelte';
 </script>
 
 <div class="container bg-black">
@@ -10,4 +11,5 @@
 	<Abstract />
 	<Ch1 />
 	<Ch2 />
+	<Ch3 />
 </div>

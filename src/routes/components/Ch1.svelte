@@ -11,6 +11,8 @@
 	import Ch1_MC_LARC_Q_3_before from '$lib/assets/ch1/Ch1_MC_LARC_Q/3_before.png';
 	import Ch1_MC_LARC_Q_3_after from '$lib/assets/ch1/Ch1_MC_LARC_Q/3_after.png';
 	import Ch1_MC_LARC_EX from '$lib/assets/ch1/Ch1_MC_LARC_EX.mp4';
+	import KeyframeVideo from '$lib/components/keyframeVideo/KeyframeVideo.svelte';
+	import { ArrowDown, ArrowDownCircle, Icon } from 'svelte-hero-icons';
 
 	interface Choice {
 		id: number;
@@ -109,5 +111,16 @@
 		The wrong answers are generated with ChatGPT4.
 	</p>
 
+	<div
+		class="lexend mt-8 flex w-full items-center justify-center gap-2 text-center text-xl italic text-gray-400"
+	>
+		<Icon src={ArrowDownCircle} class="h-6 w-6" solid micro />
+		Scroll to play
+	</div>
 	<ScrollVideo videoSrc={Ch1_MC_LARC_EX} />
+	<!-- <div class="h-20"></div> -->
+
+	<!-- <div>
+		<KeyframeVideo videoSrc={Ch1_MC_LARC_EX} keyframes={[0, 3, 6, 9, 12, 15]} />
+	</div> -->
 </section>
