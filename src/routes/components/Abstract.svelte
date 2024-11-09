@@ -5,7 +5,7 @@
 <section
 	class="flex flex-col items-center justify-center border-b-2 border-t-2 border-[#212121] bg-[#0E0E0E]"
 >
-	<SectionTitle>1. Abstract</SectionTitle>
+	<SectionTitle>4. Abstract</SectionTitle>
 
 	<p class="lexend px-8 pb-8 text-justify text-base font-light leading-7 text-white">
 		As artificial intelligence reasoning abilities gain prominence, generating reliable benchmarks

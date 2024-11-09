@@ -30,7 +30,9 @@
 	const datasetLink = 'https://mc-larc.github.io/download.html';
 </script>
 
-<section class="relative flex h-svh flex-col items-center justify-center bg-black px-6">
+<section
+	class="relative flex h-svh flex-col items-center justify-center border-b-2 border-t-2 border-[#212121] bg-[#0E0E0E] px-6"
+>
 	<h1 class="montserrat text-4xl font-extrabold text-white">MC-LARC</h1>
 	<h2 class="lexend mt-1 text-lg font-medium text-white">From Generation to Selection</h2>
 

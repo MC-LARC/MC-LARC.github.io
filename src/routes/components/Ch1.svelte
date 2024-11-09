@@ -12,7 +12,7 @@
 	import Ch1_MC_LARC_Q_3_after from '$lib/assets/ch1/Ch1_MC_LARC_Q/3_after.png';
 	import Ch1_MC_LARC_EX from '$lib/assets/ch1/Ch1_MC_LARC_EX.mp4';
 	import KeyframeVideo from '$lib/components/keyframeVideo/KeyframeVideo.svelte';
-	import { ArrowDown, ArrowDownCircle, Icon } from 'svelte-hero-icons';
+	import { ArrowDownCircle, Icon } from 'svelte-hero-icons';
 
 	interface Choice {
 		id: number;
@@ -51,24 +51,8 @@
 </script>
 
 <section class="flex flex-col items-center justify-center">
-	<SectionTitle>2. ARC vs MC-LARC</SectionTitle>
-
-	<h3 class="lexend mb-2 text-xl font-bold text-white">Original ARC</h3>
-
-	<img class="w-full px-3" src={Ch1_Conventional_Arc_1} alt="Ch1_Conventional_Arc_1" />
-	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
-		ARC (Abstraction and Reasoning Corpus) is a benchmark designed to test AI's abstract reasoning
-		capabilities. Each task consists of input-output pairs where AI must identify patterns and apply
-		them to new inputs.
-	</p>
-	<img class="mt-4 w-full px-3" src={Ch1_Conventional_Arc_2} alt="Ch1_Conventional_Arc_2" />
-	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
-		However, ARC is highly sensitive to even minor mistakes. A single pixel error in pattern
-		recognition can lead to complete task failure, making it challenging to achieve consistent
-		performance.
-	</p>
-
-	<h3 class="lexend mt-16 text-xl font-bold text-white">MC-LARC</h3>
+	<SectionTitle>1. ARC vs MC-LARC</SectionTitle>
+	<h3 class="lexend text-xl font-bold text-white">MC-LARC</h3>
 	<p class="lexend px-8 py-4 text-base font-light leading-7 text-white">
 		First, solve this multichoice question.
 	</p>
@@ -81,7 +65,6 @@
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_before} alt="Ch1_MC_LARC_Q_3_before" />
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_after} alt="Ch1_MC_LARC_Q_3_after" />
 	</div>
-
 	<div class="mt-8 flex w-full flex-col items-center gap-4 px-8">
 		<div class="flex w-full flex-col gap-3">
 			{#each choices as choice (choice.id)}
@@ -109,6 +92,21 @@
 		See? This is <b class="font-semibold">exactly as same as how MC-LARC works</b>.
 		<br />
 		The wrong answers are generated with ChatGPT4.
+	</p>
+
+	<h3 class="lexend mb-2 mt-14 text-xl font-bold text-white">Original ARC</h3>
+
+	<img class="w-full px-3" src={Ch1_Conventional_Arc_1} alt="Ch1_Conventional_Arc_1" />
+	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
+		ARC (Abstraction and Reasoning Corpus) is a benchmark designed to test AI's abstract reasoning
+		capabilities. Each task consists of input-output pairs where AI must identify patterns and apply
+		them to new inputs.
+	</p>
+	<img class="mt-4 w-full px-3" src={Ch1_Conventional_Arc_2} alt="Ch1_Conventional_Arc_2" />
+	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
+		However, ARC is highly sensitive to even minor mistakes. A single pixel error in pattern
+		recognition can lead to complete task failure, making it challenging to achieve consistent
+		performance.
 	</p>
 
 	<div

@@ -8,9 +8,9 @@
 </script>
 
 <section
-	class="flex flex-col items-center justify-center border-b-2 border-t-2 border-[#212121] bg-[#0E0E0E]"
+	class="flex flex-col items-center justify-center border-b-2 border-t-2 border-[#212121] bg-[#0E0E0E] pb-4"
 >
-	<SectionTitle>3. Shortcut Problem</SectionTitle>
+	<SectionTitle>2. Shortcut Problem</SectionTitle>
 
 	<img class="w-full px-3" src={Ch2_MC_LARC_Without_Image} alt="Ch2_MC_LARC_Without_Image" />
 
