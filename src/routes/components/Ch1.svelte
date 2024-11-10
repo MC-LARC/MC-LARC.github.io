@@ -1,6 +1,7 @@
 <script lang="ts">
 	import ScrollVideo from '$lib/components/scrollVideo/ScrollVideo.svelte';
 	import SectionTitle from '$lib/components/sectionTitle/SectionTitle.svelte';
+	import MultipleChoices from '$lib/components/multipleChoices/MultipleChoices.svelte';
 
 	import Ch1_Conventional_Arc_1 from '$lib/assets/ch1/Ch1_Conventional_Arc_1.png';
 	import Ch1_Conventional_Arc_2 from '$lib/assets/ch1/Ch1_Conventional_Arc_2.png';
@@ -13,41 +14,13 @@
 	import Ch1_MC_LARC_EX from '$lib/assets/ch1/Ch1_MC_LARC_EX.mp4';
 	import KeyframeVideo from '$lib/components/keyframeVideo/KeyframeVideo.svelte';
 	import { ArrowDownCircle, Icon } from 'svelte-hero-icons';
+	import Visualization from './Visualization.svelte';
 
-	interface Choice {
-		id: number;
-		text: string;
-		isCorrect: boolean;
-	}
-
-	let selectedAnswer: number | null = null;
-
-	const choices: Choice[] = [
-		{
-			id: 1,
-			text: 'Fill the empty spaces within the yellow pattern with green pixels.',
-			isCorrect: false
-		},
-		{
-			id: 2,
-			text: 'Fill the empty spaces outside the green pattern with yellow pixels.',
-			isCorrect: false
-		},
-		{
-			id: 3,
-			text: 'Fill the empty spaces within each green pattern with yellow pixels.',
-			isCorrect: true
-		}
+	const choices = [
+		'Fill the empty spaces within the yellow pattern with green pixels.',
+		'Fill the empty spaces outside the green pattern with yellow pixels.',
+		'Fill the empty spaces within each green pattern with yellow pixels.'
 	];
-
-	function handleAnswer(id: number): void {
-		selectedAnswer = id;
-	}
-
-	function getBackgroundColor(choice: Choice): string {
-		if (selectedAnswer !== choice.id) return 'bg-[#212121]';
-		return choice.isCorrect ? 'bg-green-900/50' : 'bg-red-900/50';
-	}
 </script>
 
 <section class="flex flex-col items-center justify-center">
@@ -65,27 +38,9 @@
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_before} alt="Ch1_MC_LARC_Q_3_before" />
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_after} alt="Ch1_MC_LARC_Q_3_after" />
 	</div>
-	<div class="mt-8 flex w-full flex-col items-center gap-4 px-8">
-		<div class="flex w-full flex-col gap-3">
-			{#each choices as choice (choice.id)}
-				<button
-					class="flex w-full items-center gap-3 rounded-lg p-4 text-left text-white {getBackgroundColor(
-						choice
-					)}"
-					on:click={() => handleAnswer(choice.id)}
-				>
-					<div
-						class="flex h-5 w-5 min-w-5 items-center justify-center rounded border-2 border-white"
-					>
-						{#if selectedAnswer === choice.id}
-							{choice.isCorrect ? '✓' : '✗'}
-						{/if}
-					</div>
 
-					<p class="lexend text-sm font-light text-white">{choice.text}</p>
-				</button>
-			{/each}
-		</div>
+	<div class="mt-4 w-full px-8">
+		<MultipleChoices {choices} answer={3} />
 	</div>
 
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
@@ -93,6 +48,8 @@
 		<br />
 		The wrong answers are generated with ChatGPT4.
 	</p>
+
+	<Visualization />
 
 	<h3 class="lexend mb-2 mt-14 text-xl font-bold text-white">Original ARC</h3>
 

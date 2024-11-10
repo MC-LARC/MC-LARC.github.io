@@ -63,9 +63,6 @@
 </div>
 
 <style>
-	.video-container {
-		position: relative;
-	}
 	.video {
 		width: 100%;
 		height: auto;
