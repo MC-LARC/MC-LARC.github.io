@@ -13,8 +13,7 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run",
 		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build",
-		"gh-pages": "npm run build && npx gh-pages -d build"
+		"build-storybook": "storybook build"
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3.2.2",
