@@ -5,6 +5,7 @@
 	import { Version } from '../versions';
 	import { onMount } from 'svelte';
 	import MultipleChoices from '$lib/components/multipleChoices/MultipleChoices.svelte';
+	import { ChevronLeft, ChevronRight, Icon } from 'svelte-hero-icons';
 
 	export let data: PageData;
 
@@ -12,6 +13,9 @@
 	let mcChoices: string[] = [];
 	let mcAnswer: number = 0;
 	let mounted = false;
+
+	let prevTaskId: string | null = null;
+	let nextTaskId: string | null = null;
 
 	// description 데이터 불러오기
 	async function loadDescription() {
@@ -51,12 +55,41 @@
 		}
 	}
 
+	// taskId 네비게이션 데이터 로드
+	async function loadTaskNavigation() {
+		if (!mounted) return;
+
+		const response = await fetch('/assets/choices/output.json');
+		const taskIds: string[] = await response.json();
+
+		const sortedTaskIds = [...taskIds].sort();
+		const currentIndex = sortedTaskIds.indexOf(data.taskId);
+
+		if (currentIndex > 0) {
+			prevTaskId = sortedTaskIds[currentIndex - 1];
+		} else {
+			prevTaskId = null;
+		}
+
+		if (currentIndex < sortedTaskIds.length - 1) {
+			nextTaskId = sortedTaskIds[currentIndex + 1];
+		} else {
+			nextTaskId = null;
+		}
+	}
+
 	onMount(async () => {
 		mounted = true;
 
-		await loadDescription();
-		await loadChoices();
+		await Promise.all([loadDescription(), loadChoices(), loadTaskNavigation()]);
 	});
+
+	// data.taskId가 변경될 때마다 네비게이션 데이터 다시 로드
+	$: {
+		if (data.taskId) {
+			loadTaskNavigation();
+		}
+	}
 
 	// data.version이 변경될 때마다 선택지 데이터 다시 불러오기
 	$: {
@@ -73,10 +106,49 @@
 	}
 
 	let multipleChoicesComponent: { reset: () => void };
+
+	// 이전/다음 태스크로 이동하는 함수
+	function navigateTask(taskId: string | null) {
+		if (taskId) {
+			goto(`/task/${data.version}/${taskId}`);
+		}
+	}
 </script>
 
 <Navbar title={data.taskId} link={`/task/${data.version}`} />
 <section class="flex flex-col items-center justify-center px-4 py-4">
+	<div class="mb-4 flex w-full justify-between">
+		{#if prevTaskId}
+			<button
+				class="lexend flex items-center gap-2 rounded-lg bg-neutral-800 py-2 pl-2 pr-4 text-sm text-white"
+				on:click={() => navigateTask(prevTaskId)}
+			>
+				<Icon src={ChevronLeft} class="h-5 w-5" micro />
+				<div class="flex flex-col items-center">
+					<p class="text-sm">Prev</p>
+					<p class="text-xs text-neutral-400">{prevTaskId}</p>
+				</div>
+			</button>
+		{:else}
+			<div></div>
+		{/if}
+
+		{#if nextTaskId}
+			<button
+				class="lexend flex items-center gap-2 rounded-lg bg-neutral-800 py-2 pl-4 pr-2 text-sm text-white"
+				on:click={() => navigateTask(nextTaskId)}
+			>
+				<div class="flex flex-col items-center">
+					<p class="text-sm">Next</p>
+					<p class="text-xs text-neutral-400">{nextTaskId}</p>
+				</div>
+				<Icon src={ChevronRight} class="h-5 w-5" micro />
+			</button>
+		{:else}
+			<div></div>
+		{/if}
+	</div>
+
 	<div class="flex w-full items-stretch overflow-hidden rounded-lg bg-neutral-800">
 		{#each versions as version}
 			<button
