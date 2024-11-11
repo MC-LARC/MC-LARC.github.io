@@ -62,6 +62,7 @@
 	$: {
 		if (data.version) {
 			loadChoices();
+			multipleChoicesComponent?.reset();
 		}
 	}
 
@@ -70,6 +71,8 @@
 	function handleVersionChange(version: keyof typeof Version) {
 		goto(`/task/${version}/${data.taskId}`);
 	}
+
+	let multipleChoicesComponent: { reset: () => void };
 </script>
 
 <Navbar title={data.taskId} link={`/task/${data.version}`} />
@@ -103,6 +106,6 @@
 
 	<!-- 선택지들 표시 -->
 	{#if mcChoices.length > 0}
-		<MultipleChoices choices={mcChoices} answer={2} />
+		<MultipleChoices choices={mcChoices} answer={mcAnswer} bind:this={multipleChoicesComponent} />
 	{/if}
 </section>

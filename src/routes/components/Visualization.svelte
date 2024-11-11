@@ -44,13 +44,7 @@
 	</p>
 
 	<div class="relative mt-8 w-full overflow-hidden">
-		<div
-			class="flex gap-4"
-			role="region"
-			style="transform: translateX({scrollPosition}px);"
-			on:mouseenter={() => (scrollPosition = scrollPosition)}
-			on:mouseleave={() => requestAnimationFrame(updateScroll)}
-		>
+		<div class="flex gap-4" role="region" style="transform: translateX({scrollPosition}px);">
 			{#each images as image}
 				<a href={`/task/${Version.Original.name}/${image}`} class="shrink-0">
 					<img

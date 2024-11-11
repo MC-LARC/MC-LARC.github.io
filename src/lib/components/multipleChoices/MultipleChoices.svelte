@@ -12,6 +12,11 @@
 		if (selectedAnswer !== index) return 'bg-[#212121]';
 		return index === answer - 1 ? 'bg-green-900/50' : 'bg-red-900/50';
 	}
+
+	// 답변 초기화 함수
+	export function reset(): void {
+		selectedAnswer = null;
+	}
 </script>
 
 <div class="flex w-full flex-col items-center gap-4">
