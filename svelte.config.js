@@ -15,7 +15,8 @@ const config = {
 			fallback: 'index.html'
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/mc-larc.github.io' : ''
+			// base: process.env.NODE_ENV === 'production' ? '/mc-larc.github.io' : ''
+			base: ''
 		}
 	}
 };
