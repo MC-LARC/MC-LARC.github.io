@@ -25,7 +25,7 @@
 		}
 	];
 
-	const paperLink = 'https://aclanthology.org/2024.findings-emnlp.392.pdf';
+	const paperLink = 'https://aclanthology.org/2024.findings-emnlp.392/';
 	const codeLink = 'https://github.com/GIST-DSLab/MC-LARC';
 	const datasetLink = '/download';
 </script>
