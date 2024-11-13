@@ -1,58 +1,38 @@
-<h1 align="center">
-MC-LARC
-</h1>
+# sv
 
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-<h3 align="center">
-  From Generation to Selection: Findings Converting Analogical Problem-Solving into Multiple-Choice Questions
-</h3>
+## Creating a project
 
-<p align="center">
-  <a href="https://scholar.google.com/citations?user=J5BIlf8AAAAJ&hl=en"><strong>Donghyeon Shin*</strong></a>
-  ·  
-  <a href="https://iamseungpil.github.io/"><strong>Seungpil Lee*</strong></a>
-  ·
-  <a href=""><strong>Klea Lena Kovačec</strong></a>
-  ·
-  <a href="https://sundong.kim/"><strong>Sundong Kim&dagger;</strong></a>
-  <br>
-  <b>EMNLP Findings 2024</b>
-</p>
+If you're seeing this, you've probably already done this step. Congrats!
 
-<p align="center">
-  <a href="https://mc-larc.github.io/"><strong><code>Project Page</code></strong></a>
-  <a href="https://openreview.net/forum?id=8ed7ZGhBGJ#discussion"><strong><code>Paper</code></strong></a>
-  <a href="https://github.com/GIST-DSLab/MC-LARC"><strong><code>Source Code</code></strong></a>
-  <a href="https://github.com/MC-LARC/MC-LARC.github.io/tree/main/dataset"><strong><code>Dataset</code></strong></a>
-</p>
+```bash
+# create a new project in the current directory
+npx sv create
 
----
-
-This page is a repository of the MC-LARC project page for "From Generation to Selection: Findings Converting Analogical Problem-Solving into Multiple-Choice Questions".
-
-If you have any questions about our dataset, please contact us at shindong97411@gmail.com.
-
-# Main Results
-
-- **MC-LARC's Effect**: MC-LARC, a multiple-choice version of ARC, increased LLM accuracy from 10% to 76%, focusing on *"Understand"* and *"Apply"* stages of Bloom's Taxonomy, making it easier to assess low level of reasoning abilities.
-
-- **LLM Shortcuts**: LLMs often used shortcuts, like eliminating options based on repeated expressions or format, rather than actual reasoning, which inflated performance, especially without images.
-
-- **Self-Feedback to Reduce Shortcuts**: A self-feedback framework was introduced, where LLMs refined the options after solving the questions, reducing shortcut use and improving the reliability of the evaluation process.
-
-# Citation
-If you find our paper helpful in your research, we would appreciate it if you could consider citing it.
-
-```BibTex
-@inproceedings{shin2024from,
-  title={From Generation to Selection Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
-  author={Shin, Donghyeon and Lee, Seungpil and Kovacec, Klea and Kim, Sundong},
-  year={2024}
-}
+# create a new project in my-app
+npx sv create my-app
 ```
 
-# Acknoledgement
-This work was supported by the IITP (RS-2023-00216011, RS-2024-00445087, No. 2019-0-01842) and the NRF (RS-2024-00451162) grants funded by the Ministry of Science and ICT, Korea. Experiments were supported by the Accelerate Foundation Models Research Initiative, Microsoft.
+## Developing
 
-###### *This work was doen @ GIST Data Science Lab*
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
