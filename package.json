@@ -16,7 +16,6 @@
 		"build-storybook": "storybook build",
 		"deploy": "npm run build && npx gh-pages -d build"
 	},
-	"homepage": "https://mc-larc.github.io/",
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3.2.2",
 		"@storybook/addon-essentials": "^8.4.2",
