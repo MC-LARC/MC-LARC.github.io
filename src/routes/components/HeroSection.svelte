@@ -27,7 +27,7 @@
 
 	const paperLink = 'https://sundong.kim/assets/pdf/2024_EMNLP_MCLARC.pdf';
 	const codeLink = 'https://github.com/GIST-DSLab/MC-LARC';
-	const datasetLink = 'https://mc-larc.github.io/download.html';
+	const datasetLink = 'https://mc-larc.github.io/download';
 </script>
 
 <section
