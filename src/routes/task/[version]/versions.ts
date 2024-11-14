@@ -2,16 +2,16 @@ export const Version = {
 	Original: {
 		name: 'original',
 		label: 'Original Dataset',
-		description: 'Without constraints and methods'
+		description: 'Without constraints and methods.'
 	},
 	Constraint: {
 		name: 'constraint',
-		label: 'With constraints',
-		description: 'Constraint'
+		label: 'Constraint Dataset',
+		description: 'With constraints'
 	},
 	SelfFeedback: {
 		name: 'self-feedback',
-		label: 'With constraints and the self-feedback method',
-		description: 'Self-Feedback'
+		label: 'Self-Feedback Dataset',
+		description: 'With constraints and self-feedback method'
 	}
 };
