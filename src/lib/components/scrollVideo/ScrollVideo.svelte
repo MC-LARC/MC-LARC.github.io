@@ -53,8 +53,8 @@
 	});
 </script>
 
-<div class="img-max relative h-[600vh]">
-	<div bind:this={videoSection} class="h-[100vh] w-full">
+<div class="relative flex h-[600vh] w-full justify-center bg-black">
+	<div bind:this={videoSection} class="img-max h-[100vh] w-full">
 		<video
 			bind:this={video}
 			class="h-full w-full object-contain"

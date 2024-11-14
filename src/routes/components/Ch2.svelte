@@ -32,7 +32,15 @@
 		</strong>
 	</p>
 
+	<div
+		class="pointer-events-none inset-0 h-40 w-full bg-gradient-to-b from-transparent to-[#000000]"
+	></div>
+
 	<ScrollVideo videoSrc={Ch2_Pattern} />
+
+	<div
+		class="pointer-events-none inset-0 h-40 w-full bg-gradient-to-t from-transparent to-[#000000]"
+	></div>
 
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		Models could solve the problem without the image by <u> finding word patterns </u> or based on sentence
