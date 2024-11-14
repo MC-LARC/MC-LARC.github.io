@@ -26,6 +26,10 @@
 		if (video) {
 			video.load();
 			video.currentTime = 0;
+
+			video.addEventListener('loadedmetadata', () => {
+				window.addEventListener('scroll', handleScroll);
+			});
 		}
 
 		const handleScroll = () => {
@@ -38,14 +42,13 @@
 					Math.min(1, (parentRect.bottom - rect.bottom) / (parentRect.height - rect.height))
 				);
 
-			if (video) {
+			if (video && video.duration && !isNaN(video.duration)) {
 				requestAnimationFrame(() => {
 					video.currentTime = video.duration * scrollProgress;
 				});
 			}
 		};
 
-		window.addEventListener('scroll', handleScroll);
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 			observer.disconnect();
