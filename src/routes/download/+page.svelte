@@ -151,7 +151,7 @@
 			<em>IJCAI Workshop on Analogical Abstraction in Cognition, Perception, and Language</em> (2024).
 		</p>
 		<p>
-			[4] Shin, Donghyeon, Lee, Seondong, et al. "From Generation to Selection: Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions."
+			[4] Shin, Donghyeon, Lee, Sundong, et al. "From Generation to Selection: Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions."
 			<em>EMNLP Findings</em> (2024).
 		</p>
 	</div>
