@@ -13,7 +13,7 @@
 	import Ch1_MC_LARC_Q_3_after from '$lib/assets/ch1/Ch1_MC_LARC_Q/3_after.png';
 	import Ch1_MC_LARC_EX from '$lib/assets/ch1/Ch1_MC_LARC_EX.mp4';
 	import KeyframeVideo from '$lib/components/keyframeVideo/KeyframeVideo.svelte';
-	import { ArrowDownCircle, Icon } from 'svelte-hero-icons';
+	import { ArrowDownCircle, ChevronRight, Icon } from 'svelte-hero-icons';
 	import Visualization from './Visualization.svelte';
 
 	const choices = [
@@ -32,13 +32,16 @@
 		2. Solve this multichoice questions.
 	</p>
 
-	<div class="img-max grid w-full grid-cols-2 grid-rows-3">
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_1_before} alt="Ch1_MC_LARC_Q_1_before" />
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_1_after} alt="Ch1_MC_LARC_Q_1_after" />
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_2_before} alt="Ch1_MC_LARC_Q_2_before" />
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_2_after} alt="Ch1_MC_LARC_Q_2_after" />
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_before} alt="Ch1_MC_LARC_Q_3_before" />
-		<img class="w-full px-3" src={Ch1_MC_LARC_Q_3_after} alt="Ch1_MC_LARC_Q_3_after" />
+	<div class="img-max grid w-full grid-cols-[1fr_auto_1fr] place-items-center text-white">
+		<img class="w-full" src={Ch1_MC_LARC_Q_1_before} alt="Ch1_MC_LARC_Q_1_before" />
+		<Icon src={ChevronRight} class="h-6 w-6" solid micro />
+		<img class="w-full" src={Ch1_MC_LARC_Q_1_after} alt="Ch1_MC_LARC_Q_1_after" />
+		<img class="w-full" src={Ch1_MC_LARC_Q_2_before} alt="Ch1_MC_LARC_Q_2_before" />
+		<Icon src={ChevronRight} class="h-6 w-6" solid micro />
+		<img class="w-full" src={Ch1_MC_LARC_Q_2_after} alt="Ch1_MC_LARC_Q_2_after" />
+		<img class="w-full" src={Ch1_MC_LARC_Q_3_before} alt="Ch1_MC_LARC_Q_3_before" />
+		<Icon src={ChevronRight} class="h-6 w-6" solid micro />
+		<img class="w-full" src={Ch1_MC_LARC_Q_3_after} alt="Ch1_MC_LARC_Q_3_after" />
 	</div>
 
 	<div class="mt-4 w-full px-8">
