@@ -1,3 +1,7 @@
+<script>
+	import { ChevronLeft, Icon } from 'svelte-hero-icons';
+</script>
+
 <title>MC-LARC Dataset Download</title>
 <link
 	rel="stylesheet"
@@ -5,9 +9,14 @@
 />
 
 <section>
-	<div class="container">
-		<h1 class="text-white">MC-LARC Dataset Download</h1>
-		<p class="text-white">Click the buttons below to download the MC-LARC datasets:</p>
+	<div class="container w-full">
+		<a href="/" class="lexend mb-10 flex items-center gap-2 text-white">
+			<Icon src={ChevronLeft} class="h-5 w-5" />
+			<div>Back to Home</div>
+		</a>
+
+		<h1 class="mb-1 text-2xl font-semibold text-white">MC-LARC Dataset Download</h1>
+		<p class="mb-2 text-white">Click the buttons below to download the MC-LARC datasets:</p>
 		<a href="/assets/choices/refined_larc.csv" download class="download-btn"
 			>Download refined LARC</a
 		>
