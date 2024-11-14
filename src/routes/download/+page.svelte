@@ -34,15 +34,15 @@
 	<div class="markdown-body">
 		<h1>Data Description</h1>
 		<p>
-			We provide the MC-LARC dataset and refined <a href="dataset/refined_larc.csv">LARC_dataset</a
-			>.
+			We provide the MC-LARC dataset and refined <a href="dataset/refined_larc.csv">LARC</a
+			> [3] dataset.
 		</p>
 		<p>MC-LARC has three versions:</p>
 		<ul>
-			<li><a href="dataset/original_mc_larc.csv">Original</a>: without constraints and methods.</li>
-			<li><a href="dataset/constraints_mc_larc.csv">Constraints</a>: with constraints.</li>
+			<li><a href="dataset/original_mc_larc.csv">Original</a> [2]: without constraints and methods.</li>
+			<li><a href="dataset/constraints_mc_larc.csv">Constraints</a> [3]: with constraints.</li>
 			<li>
-				<a href="dataset/self-feedback_mc_larc.csv">Self-feedback</a>: with constraints and the
+				<a href="dataset/self-feedback_mc_larc.csv">Self-feedback</a> [4]: with constraints and the
 				self-feedback method.
 			</li>
 		</ul>
@@ -100,7 +100,7 @@
 		<h3>2. MC-LARC csv files</h3>
 		<p>
 			This file includes five options for each <em>"description_output"</em> from the
-			<a href="dataset/refined_larc.csv">refined_LARC.csv</a> file, serving as the correct answer.
+			<a href="dataset/refined_larc.csv">refined_LARC.csv</a> [3] file, serving as the correct answer.
 		</p>
 		<p>
 			The five options are randomly shuffled, and there is only one correct answer. You can find
@@ -141,6 +141,18 @@
 			[1] Acquaviva, Sam, et al. "Communicating natural programs to humans and machines." <em
 				>Advances in Neural Information Processing Systems 35</em
 			> (2022): 3731-3743.
+		</p>
+		<p>
+			[2] Shin, Donghyun, et al. "MC-LARC Dataset for Evaluating the Reasoning Abilities of Large Language Models."
+			<em>Korea Software Congress</em> (2023).
+		</p>
+		<p>
+			[3] Shin, Donghyun, et al. "Regulation Using Large Language Models to Generate Synthetic Data for Evaluating Analogical Ability."
+			<em>IJCAI Workshop on Analogical Abstraction in Cognition, Perception, and Language</em> (2024).
+		</p>
+		<p>
+			[4] Shin, Donghyun, Lee, Seondong, et al. "From Generation to Selection: Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions."
+			<em>EMNLP Findings</em> (2024).
 		</p>
 	</div>
 </section>
