@@ -143,15 +143,15 @@
 			> (2022): 3731-3743.
 		</p>
 		<p>
-			[2] Shin, Donghyun, et al. "MC-LARC Dataset for Evaluating the Reasoning Abilities of Large Language Models."
+			[2] Shin, Donghyeon, et al. "MC-LARC Dataset for Evaluating the Reasoning Abilities of Large Language Models."
 			<em>Korea Software Congress</em> (2023).
 		</p>
 		<p>
-			[3] Shin, Donghyun, et al. "Regulation Using Large Language Models to Generate Synthetic Data for Evaluating Analogical Ability."
+			[3] Shin, Donghyeon, et al. "Regulation Using Large Language Models to Generate Synthetic Data for Evaluating Analogical Ability."
 			<em>IJCAI Workshop on Analogical Abstraction in Cognition, Perception, and Language</em> (2024).
 		</p>
 		<p>
-			[4] Shin, Donghyun, Lee, Seondong, et al. "From Generation to Selection: Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions."
+			[4] Shin, Donghyeon, Lee, Seondong, et al. "From Generation to Selection: Findings of Converting Analogical Problem-Solving into Multiple-Choice Questions."
 			<em>EMNLP Findings</em> (2024).
 		</p>
 	</div>
