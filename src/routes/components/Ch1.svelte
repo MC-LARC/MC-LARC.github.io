@@ -27,9 +27,9 @@
 	<SectionTitle>1. ARC vs MC-LARC</SectionTitle>
 	<h3 class="lexend text-xl font-bold text-white">MC-LARC</h3>
 	<p class="lexend px-8 py-4 text-base font-light leading-7 text-white">
-		First, let's find the rules for transforming left to right.
+		1. Let's find the rules for transforming left to right.
 		<br />
-		Second, solve this multichoice questions.
+		2. Solve this multichoice questions.
 	</p>
 
 	<div class="img-max grid w-full grid-cols-2 grid-rows-3">
