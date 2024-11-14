@@ -12,14 +12,18 @@
 >
 	<SectionTitle>2. Shortcut Problem</SectionTitle>
 
-	<img class="w-full px-3" src={Ch2_MC_LARC_Without_Image} alt="Ch2_MC_LARC_Without_Image" />
+	<img
+		class="img-max w-full px-3"
+		src={Ch2_MC_LARC_Without_Image}
+		alt="Ch2_MC_LARC_Without_Image"
+	/>
 
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		Imagine solving the previous question <u> without seeing the image. </u>
 		You'll probably think it's nonsense, since the choices are about the images.
 	</p>
 
-	<img class="w-full px-3" src={Ch2_Precision} alt="Ch2_Precision" />
+	<img class="img-max w-full px-3" src={Ch2_Precision} alt="Ch2_Precision" />
 
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		However, the nonsense occured while testing MC-LARC with the image removed. The benchmark should

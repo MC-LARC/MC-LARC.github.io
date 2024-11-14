@@ -15,3 +15,7 @@ body {
 		Montserrat Alternates,
 		sans-serif;
 }
+
+.img-max {
+	max-width: 450px;
+}

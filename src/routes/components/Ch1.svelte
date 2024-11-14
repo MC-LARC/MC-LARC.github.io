@@ -30,7 +30,7 @@
 		First, solve this multichoice question.
 	</p>
 
-	<div class="grid w-full grid-cols-2 grid-rows-3">
+	<div class="img-max grid w-full grid-cols-2 grid-rows-3">
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_1_before} alt="Ch1_MC_LARC_Q_1_before" />
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_1_after} alt="Ch1_MC_LARC_Q_1_after" />
 		<img class="w-full px-3" src={Ch1_MC_LARC_Q_2_before} alt="Ch1_MC_LARC_Q_2_before" />
@@ -53,13 +53,13 @@
 
 	<h3 class="lexend mb-2 mt-14 text-xl font-bold text-white">Original ARC</h3>
 
-	<img class="w-full px-3" src={Ch1_Conventional_Arc_1} alt="Ch1_Conventional_Arc_1" />
+	<img class="img-max w-full px-3" src={Ch1_Conventional_Arc_1} alt="Ch1_Conventional_Arc_1" />
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		ARC (Abstraction and Reasoning Corpus) is a benchmark designed to test AI's abstract reasoning
 		capabilities. Each task consists of input-output pairs where AI must identify patterns and apply
 		them to new inputs.
 	</p>
-	<img class="mt-4 w-full px-3" src={Ch1_Conventional_Arc_2} alt="Ch1_Conventional_Arc_2" />
+	<img class="img-max mt-4 w-full px-3" src={Ch1_Conventional_Arc_2} alt="Ch1_Conventional_Arc_2" />
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		However, ARC is highly sensitive to even minor mistakes. A single pixel error in pattern
 		recognition can lead to complete task failure, making it challenging to achieve consistent

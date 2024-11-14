@@ -14,7 +14,7 @@
 		First, we provide the model with choices <u>without images</u>.
 	</p>
 
-	<img class="w-full px-3 py-4" src={Ch3_Chat} alt="Ch3_Chat" />
+	<img class="img-max w-full px-3 py-4" src={Ch3_Chat} alt="Ch3_Chat" />
 
 	<p class="lexend w-full px-8 py-4 text-base font-light leading-7 text-white">
 		And then instruct the model to reconstruct the choices in a direction that prevents it from

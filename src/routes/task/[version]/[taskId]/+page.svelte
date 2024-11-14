@@ -173,7 +173,7 @@
 	<img
 		src={`/assets/tasks/${data.taskId}.png`}
 		alt={data.taskId}
-		class="mb-8 mt-4 w-full max-w-[400px] rounded-lg"
+		class="img-max mb-8 mt-4 w-full rounded-lg"
 	/>
 
 	<!-- 선택지들 표시 -->
